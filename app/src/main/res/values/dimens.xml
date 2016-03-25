@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="nav_drawer_width_limit">320dp</dimen>
+    <dimen name="nav_drawer_margin">56dp</dimen>
+    <dimen name="nav_drawer_textsize">14sp</dimen>
+    <dimen name="nav_drawer_textsize_sub">10sp</dimen>
+    <dimen name="nav_drawer_item_hor_pad">16dp</dimen>
+    <dimen name="nav_drawer_item_hor_pad_half">8dp</dimen>
+    <dimen name="nav_drawer_item_iconrightmargin">32dp</dimen>
+
+    <dimen name="pref_category_vert_padding">18dp</dimen>
+
+    <dimen name="menu_touchdelegate">8dp</dimen>
+    <dimen name="circle_view_border">1dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="drawer_item_minheight">48dp</dimen>
+
+    <dimen name="breadcrumb_height">42dp</dimen>
+    <dimen name="breadcrumb_padding_side">4dp</dimen>
+    <dimen name="breadcrumb_padding_leftside">12dp</dimen>
+    <dimen name="breadcrumb_fontsize">14sp</dimen>
+    <dimen name="breadcrumb_arrow_size">18dp</dimen>
+    <dimen name="breadcrumb_arrow_margin">8dp</dimen>
+    <dimen name="breadcrumb_layout_margin">60dp</dimen>
+    <dimen name="list_fab_offset">96dp</dimen>
+
+    <dimen name="content_inset">72dp</dimen>
+    <dimen name="recyclerview_side_padding">0dp</dimen>
+
+    <dimen name="empty_text_size">22sp</dimen>
+
+    <dimen name="title_textsize">16sp</dimen>
+    <dimen name="content_textsize">14sp</dimen>
+    <dimen name="subcontent_textsize">12sp</dimen>
+
+    <dimen name="fab_margin_ver">16dp</dimen>
+    <dimen name="fab_margin_hor">10dp</dimen>
+
+</resources>

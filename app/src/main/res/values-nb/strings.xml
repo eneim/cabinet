@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_as">Åpne som…</string>
+    <string name="copy">Kopier</string>
+    <string name="rename">Nytt navn</string>
+    <string name="delete">Slett</string>
+    <string name="share">Del</string>
+    <string name="selectAll">Velg Alle</string>
+    <string name="details">Detaljer</string>
+    <string name="no_files">Ingen filer</string>
+    <string name="storage">Lagring</string>
+    <string name="root">Root</string>
+    <string name="go_up">Gå opp</string>
+    <string name="x_files">%1$d filer</string>
+    <string name="done">Ferdig</string>
+    <string name="sort_modified">Sist endret</string>
+    <string name="modified_x">Endret %1$s</string>
+    <string name="new_folder">Ny mappe</string>
+    <string name="untitled">Uten navn</string>
+    <string name="moved_to">Flyttet til %1$s</string>
+    <string name="copied_to">Kopiert til %1$s</string>
+    <string name="no">Nei</string>
+    <string name="yes">Ja</string>
+    <string name="search">Søk</string>
+    <string name="sort_by">Sorter etter</string>
+    <string name="sort_name">Navn</string>
+    <string name="sort_size_lowhigh">Størrelse, liten til stor</string>
+    <string name="sort_size_highlow">Størrelse, stor til liten</string>
+    <string name="deleting">Sletter…</string>
+    <string name="moving">Flytter…</string>
+    <string name="copying">Kopierer…</string>
+    <string name="copy_x"><![CDATA[
+ <b>Kopier</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="search_files">Søk etter filer…</string>
+    <string name="thank_you">Tusen takk!</string>
+    <string name="later">Senere</string>
+    <string name="no_thanks">Nei takk</string>
+    <string name="file">Fil</string>
+    <string name="folder">Mappe</string>
+    <string name="text">Tekst</string>
+    <string name="image">Bilde</string>
+    <string name="audio">Lyd</string>
+    <string name="video">Video</string>
+    <string name="other">Annet</string>
+    <string name="settings">Innstillinger</string>
+    <string name="details_body_file"><![CDATA[
+ <b>Navn:</b>&nbsp;&nbsp;%1$s<br/>
+ <b>Filbane:</b>&nbsp;&nbsp;%2$s<br/>
+ <b>Størrelse:</b>&nbsp;&nbsp;%3$s<br/>
+ <b>Endret:</b>&nbsp;&nbsp;%4$s<br/>
+ <b>Tillatelser:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Ny Fil</string>
+    <string name="pick_a_file">Velg en fil…</string>
+    <string name="cabinet_text_editor">Cabinet Tekstbehandler</string>
+    <string name="save">Lagre</string>
+    <string name="loading">Laster inn…</string>
+    <string name="filter">Filter</string>
+    <string name="none">Ingen</string>
+    <string name="superuser_not_available">Superbruker ikke tilgjengelig</string>
+    <string name="filter_active">Aktivt filter: %1$s</string>
+    <string name="directory">Katalog</string>
+    <string name="connecting">Kobler til…</string>
+    <!-- Settings -->
+</resources>

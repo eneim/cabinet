@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet-archiefviewer</string>
+    <string name="open_as">Open als…</string>
+    <string name="bookmark">Bladwijzer</string>
+    <string name="copy">Kopiëren</string>
+    <string name="move">Verplaatsen</string>
+    <string name="rename">Naam wijzigen</string>
+    <string name="delete">Verwijderen</string>
+    <string name="share">Delen</string>
+    <string name="archive">Archiveren</string>
+    <string name="selectAll">Alles selecteren</string>
+    <string name="details">Eigenschappen</string>
+    <string name="no_files">Geen bestanden</string>
+    <string name="storage">Opslag</string>
+    <string name="internal_storage">Interne opslag</string>
+    <string name="root">Root</string>
+    <string name="go_up">Ga omhoog</string>
+    <string name="one_file">1 bestand</string>
+    <string name="x_files">%1$d bestanden</string>
+    <string name="x_dirs">%1$d mappen</string>
+    <string name="no_files_of_type"><![CDATA[
+Geen <b>%1$s</b> bestanden
+    ]]></string>
+    <string name="done">Klaar</string>
+    <string name="remove_bookmark">Bladwijzer verwijderen</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+Weet je zeker dat je je bladwijzer <b>%1$s</b> wilt verwijderen?
+    ]]></string>
+    <string name="sort_modified">Laatst aangepast</string>
+    <string name="modified_x">Aangepast %1$s</string>
+    <string name="navigation_drawer_open">Open navigatie paneel</string>
+    <string name="navigation_drawer_close">Sluit navigatie paneel</string>
+    <string name="new_folder">Nieuwe map</string>
+    <string name="untitled">Ongetiteld</string>
+    <string name="renamed_to">Naam gewijzigd naar %1$s</string>
+    <string name="moved_to">Verplaatst naar %1$s</string>
+    <string name="copied_to">Gekopieërd naar %1$s</string>
+    <string name="no">Nee</string>
+    <string name="yes">Ja</string>
+    <string name="search">Zoeken</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+Weet je zeker dat je <b>%1$s</b> wilt verwijderen?
+    ]]></string>
+    <string name="confirm_delete_xfiles">Weet je zeker dat je %1$d bestanden wilt verwijderen?</string>
+    <string name="sort_by">Sorteren op</string>
+    <string name="sort_name">Naam</string>
+    <string name="sort_extension">Extensie</string>
+    <string name="sort_size_lowhigh">Grootte, klein naar groot</string>
+    <string name="sort_size_highlow">Grootte, groot naar klein</string>
+    <string name="deleting">Verwijderen…</string>
+    <string name="extracting">Uitpakken…</string>
+    <string name="extracting_file"><![CDATA[
+<b>%1$s</b> uitpakken…
+    ]]></string>
+    <string name="archiving">Archiveren…</string>
+    <string name="moving">Verplaatsen…</string>
+    <string name="copying">kopiëren</string>
+    <string name="failed_delete_file">Het verwijderen van het volgende bestand is mislukt: %1$s</string>
+    <string name="failed_make_directory">Het maken van de volgende map is mislukt: %1$s</string>
+    <string name="failed_rename_file">Het hernoemen/verplaatsen van het volgende bestand is mislukt: %1$s</string>
+    <string name="failed_extract_file">Kan het volgende bestand niet uitpakken: %1$s</string>
+    <string name="failed_archive_files">Het archiveren van de volgende bestanden is mislukt: %1$s</string>
+    <string name="error">Probleem</string>
+    <string name="activity_not_found">Er is geen app gevonden om dit bestand te openen</string>
+    <string name="failed_copy_x_error">Kan %1$s niet kopiëren: %2$s</string>
+    <string name="failed_move_x_error">Kan %1$s niet verplaatsen: %2$s</string>
+    <string name="no_apps_for_sharing">Er zijn geen apps beschikbaar om dit bestandstype te delen</string>
+    <string name="copy_x"><![CDATA[
+<b>Kopieer:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[ <b>Verplaatsen:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Zoek bestanden…</string>
+    <string name="search_x"><![CDATA[
+<b>Zoek:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Ontwikkeling ondersteunen</string>
+    <string name="thank_you">Heel erg bedankt!</string>
+    <string name="rate">Beoordeel</string>
+    <string name="later">Later</string>
+    <string name="rate_desc">Wil je Cabinet beoordelen op Google Play? Goede beoordelingen worden gewaardeerd!</string>
+    <string name="sure">Zeker!</string>
+    <string name="no_thanks">Nee bedankt</string>
+    <string name="file">Bestand</string>
+    <string name="folder">Map</string>
+    <string name="text">Tekst</string>
+    <string name="image">Afbeelding</string>
+    <string name="audio">Geluid</string>
+    <string name="video">Video</string>
+    <string name="other">Overig</string>
+    <string name="hidden_files">Verborgen bestanden</string>
+    <string name="settings">Instellingen</string>
+    <string name="details_body_file"><![CDATA[
+        <b>Naam:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>Locatie:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>grootte:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>Aangepast:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>Rechten:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Nieuw bestand</string>
+    <string name="pick_a_file">Kies een bestand…</string>
+    <string name="cabinet_text_editor">Cabinet Tekst Verwerker</string>
+    <string name="save">Opslaan</string>
+    <string name="unsaved_changes">Niet opgeslagen aanpassingen</string>
+    <string name="unsaved_changes_desc">Je hebt niet opgeslagen aanpassingen, wil je deze opslaan voordat je het programma sluit?</string>
+    <string name="loading">Laden…</string>
+    <string name="unsupported_extension">Niet ondersteunde extensie</string>
+    <string name="unsupported_extension_desc">Je kan dit type bestand niet openen voor tekst bewerking.</string>
+    <string name="extract_to">Uitpakken naar…</string>
+    <string name="filter">Filter</string>
+    <string name="none">Geen</string>
+    <string name="archives">Archieven</string>
+    <string name="extension">Uitbreiding</string>
+    <string name="no_filter_files"><![CDATA[
+Geen bestanden voor filter: <b>%1$s</b>
+    ]]></string>
+    <string name="superuser_not_available">Superuser niet beschikbaar.</string>
+    <string name="filter_active">Filter actief:%1$s</string>
+    <string name="base_theme">Basisthema</string>
+    <string-array name="base_themes">
+        <item>Licht</item>
+        <item>Donker</item>
+        <item>Zwart (AMOLED)</item>
+    </string-array>
+    <string name="owner">Eigenaar</string>
+    <string name="group">Groep</string>
+    <string name="applying_permissions">Machtigingen toepassen…</string>
+    <string name="find_and_replace">Zoeken en vervangen</string>
+    <string name="find">Zoeken</string>
+    <string name="replace">Vervangen</string>
+    <string name="replace_all">Alles vervangen</string>
+    <string name="match_case">Identieke letters</string>
+    <string name="no_occurences">Geen exemplaren</string>
+    <string name="no_occurences_desc">Er zijn geen exemplaren volgens je zoekquery gevonden.</string>
+    <string name="text_editor_read_only">Alleen-lezen (vanwege bestandspermissies)</string>
+    <string name="slash_name_invalid">De naam mag geen / bevatten.</string>
+    <string name="directory">Map</string>
+    <string name="theming">Thema</string>
+    <string name="behavior">Gedrag</string>
+    <string name="changelog">Changelog</string>
+    <string name="folders_first">Mappen eerst</string>
+    <string name="grid_size">Rastergrootte</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Huidig pad</string>
+    <string name="one_file_x_folders">1 bestand, %1$d mappen</string>
+    <string name="x_files_one_folder">%1$d bestanden, 1 map</string>
+    <string name="one_file_one_folder">1 bestand, 1 map</string>
+    <string name="x_files_x_folders">%1$d bestanden, %2$d mappen</string>
+    <string name="empty">Leeg</string>
+    <string name="one_folder">1 map</string>
+    <string name="x_folders">%1$d mappen</string>
+    <string name="nickname">Bijnaam</string>
+    <string name="choose_destination">Bestemming kiezen…</string>
+    <string name="external_storage">Externe opslag</string>
+    <string name="sdcard_write_warning">Let op: Cabinet kan niet naar je SD-kaart schrijven. Je kunt hierdoor geen bestanden wijzigen tenzij je roottoegang hebt.</string>
+    <string name="dont_show_again">Niet meer tonen</string>
+    <string name="pick_ringtone">Audiobestand kiezen…</string>
+    <string name="not_audio_file">Je moet een audiobestand selecteren.</string>
+    <string name="cabinet_audio_preview">Cabinet-audiopreview</string>
+    <string name="add_homescreen_shortcut">Toevoegen aan Homescreen</string>
+    <string name="shortcut_added">Snelkppeling naar %1$s gemaakt!</string>
+    <string name="shortcut_nickname">Bijnaam snelkoppeling</string>
+    <string name="add">Toevoegen</string>
+    <string name="x_free_of_x">%1$s van %2$s vrij</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+Wil je de optie <b>Externe opslag toevoegen</b> verbergen? Je kunt dit in de instellingen weer ongedaan maken.
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+Wil je de bladwijzer <b>Root</b> verbergen? Je kunt dit in de instellingen weer ongedaan maken.
+    ]]></string>
+    <string name="helpandfeedback_title">Help en feedback</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>. een minimalistische, intuïtieve en stijlvolle bestandsbeheerder voor Android 4.0 en hoger.<br/><br/>
+        Ontworpen door <b>Aidan Follestad</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+        Veel dank aan <a href=\'https://github.com/plusCubed\'>Daniel Ciao</a> voor al zijn bijdragen.<br/><br/>
+        Vertaal Cabinet naar je eigen taal: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+        Meld fouten of stel functies voor: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">Archiefindeling</string>
+    <string name="auto_extract_prompt">Alleen ZIP-, TAR- en JAR-archieven kunnen worden weergegeven. Wil je
+ dit archief uitpakken?</string>
+    <string name="auto_extract">Automatisch uitpakken</string>
+    <string name="add_document_tree_path">Externe opslag toevoegen…</string>
+    <string name="external_storage_hint">Let op: je moet mogelijk \'SD-kaart weergeven\' in het overloopmenu selecteren.</string>
+    <string name="nav_drawer">Navigatelade</string>
+    <string name="save_to">Opslaan in…</string>
+    <string name="failed_open_plugin_file">Het openen van het volgende pluginbestand is mislukt: %1$s</string>
+    <string name="saved_x">%1$s opgeslagen</string>
+    <string name="failed_chmod_file">De chmod-bewerking van het volgende bestand is mislukt: %1$s</string>
+    <string name="failed_upload_plugin_archive">Het uploaden van het zojuist gemaakte pluginarchief is mislukt: %1$s</string>
+    <string name="connecting">Verbinden…</string>
+    <string name="downloading_file"><![CDATA[
+<b>%1$s</b> downloaden…
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+Kan <b>%1$s</b> niet lezen: %2$s
+    ]]></string>
+    <string name="switcher_add_account">Account toevoegen</string>
+    <string name="uninstall_plugin">Plugin verwijderen</string>
+    <string name="remove_account">Account verwijderen</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+Wil je <b>%1$s</b> verwijderen uit <b>%2$s</b>?
+    ]]></string>
+    <string name="contacting_plugin">Verbinding maken met plugin…</string>
+    <string name="switch_accounts">Accounts wisselen</string>
+    <string name="switching_to_x"><![CDATA[
+Overschakelen naar <b>%1$s</b>…
+    ]]></string>
+    <string name="plugin_settings">Plugin-instellingen</string>
+    <string name="account_settings">Accountinstellingen</string>
+    <string name="no_accounts">Geen accounts</string>
+    <string name="no_accounts_prompt"><![CDATA[
+Er zijn geen accounts toegevoegd voor <b>%1$s</b>. Wil je er een toevoegen?
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Laatste map onthouden</string>
+    <string name="remember_lastfolder_setting">Onthoudt de laatste map die open stond wanneer Cabinet start</string>
+    <string name="directory_count_list">Aantal mappen tonen</string>
+    <string name="directory_count_list_setting">Toon het aantal bestanden en mappen in mappen in lijsten</string>
+    <string name="directory_count_appbar">Aantal mappen app-balk</string>
+    <string name="directory_count_appbar_setting">Toon het aantal bestanden en mappen in de huidige map in de app balk</string>
+    <string name="collapsing_appbar">Samenvouwende app-balk</string>
+    <string name="collapsing_appbar_setting">Vouw de app balk samen wanneer je naar beneden scrollt</string>
+    <string name="show_root_bookmark">Root-bladwijzer weergeven</string>
+    <string name="show_root_bookmark_setting">Toon de Root bladwijzer bovenaan de navigatielade.</string>
+    <string name="show_add_external_bookmark">Externe opslag toevoegen weergeven</string>
+    <string name="show_add_external_bookmark_setting">Toon de optie \'Externe opslag toevoegen\' in de navigatielade.</string>
+    <string name="show_free_space">Vrije ruimte weergeven</string>
+    <string name="show_free_space_setting">Toon vrije ruimte binnen opslagapparaten in de navigatielade.</string>
+    <string name="colored_navbar">Gekleurde navigatiebalk</string>
+    <string name="colored_navbar_setting">Pas de hoofdkleur van het thema toe op de navigatiebalk.</string>
+    <string name="load_thumbnails">Laadt thumbnails</string>
+    <string name="load_thumbnails_setting">Toon thumbnails voor afbeeldingen, video\'s en APK\'s</string>
+    <string name="primary_color">Hoofdkleur</string>
+    <string name="primary_color_settingdesc">Pas een hoofdkleur toe</string>
+    <string name="accent_color">Accentkleur</string>
+    <string name="accent_color_settingdesc">Pas een accent thema kleur toe</string>
+    <string name="thumbnail_color">Kleur van miniatuur</string>
+    <string name="thumbnail_color_settingdesc">Pas een kleur toe op de bestand en map thumbnails</string>
+    <string name="only_available_api21">Deze functie is alleen beschikbaar voor Android Lollipop en hoger.</string>
+    <string name="symlink">Symlink</string>
+    <string name="back">Terug</string>
+    <string name="permission_needed">Toestemming Nodig</string>
+    <string name="permission_needed_desc">Cabinet heeft toestemming nodig voor toegang tot je telefoon\'s opslag om een bestandsbeheerder te kunnen zijn! Cabinet zal nu sluiten.</string>
+    <string name="remove">Verwijderen</string>
+</resources>

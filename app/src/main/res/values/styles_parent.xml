@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="_SelectorParent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="list_selector">@drawable/list_selector</item>
+        <item name="menu_selector">@drawable/menu_selector</item>
+
+        <item name="appbar_shadow">@drawable/appbar_shadow</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyActionModeStyle" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">@style/ActionModeTitle</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+    </style>
+
+    <!--suppress AndroidDomInspection -->
+    <style name="ActionModeTitle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingStart" tools:ignore="NewApi">2dp</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@string/font_fontFamily_medium</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="android:textStyle">@integer/font_textStyle_medium</item>
+    </style>
+
+    <style name="CabinetParent" parent="@style/_SelectorParent">
+        <item name="drawer_background">@color/drawer_background</item>
+        <item name="overflow">@drawable/ic_overflow_dark</item>
+        <item name="empty_image">@drawable/ic_empty_image</item>
+        <item name="empty_image_error">@drawable/ic_empty_error</item>
+        <item name="empty_text">@color/empty_text</item>
+        <item name="inset_divider">@color/md_divider_black</item>
+        <item name="inset_color">#40000000</item>
+        <item name="fastscroll_handle_pressed">@color/fastscroll_handle_pressed_lighttheme</item>
+        <item name="fab_overlay_color">#80000000</item>
+
+        <item name="nav_drawer_icontext">#000000</item>
+
+        <item name="colorAccent">#000</item>
+        <item name="actionModeStyle">@style/MyActionModeStyle</item>
+
+        <item name="android:buttonStyle">@style/ButtonCabinet</item>
+
+        <item name="actionModeCloseDrawable">@drawable/ic_cab_close</item>
+        <item name="mcab_popup_theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="mcab_contentinset_start">@dimen/content_inset</item>
+
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="_SelectorParentDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="list_selector">@drawable/list_selector_dark</item>
+        <item name="menu_selector">@drawable/menu_selector_dark</item>
+
+        <item name="appbar_shadow">@drawable/appbar_shadow</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CabinetDarkParent" parent="_SelectorParentDark">
+        <item name="android:windowBackground">@drawable/dark</item>
+
+        <item name="drawer_background">@color/dark_background</item>
+        <item name="overflow">@drawable/ic_overflow</item>
+        <item name="empty_image">@drawable/ic_empty_image_light</item>
+        <item name="empty_image_error">@drawable/ic_empty_error_light</item>
+        <item name="empty_text">@color/empty_text_dark</item>
+        <item name="inset_divider">@color/md_divider_white</item>
+        <item name="inset_color">#38ffffff</item>
+        <item name="fastscroll_handle_pressed">@color/fastscroll_handle_pressed_darktheme</item>
+        <item name="fab_overlay_color">#80ffffff</item>
+
+        <item name="nav_drawer_icontext">#FFFFFF</item>
+
+        <item name="colorAccent">#fff</item>
+        <item name="actionModeStyle">@style/MyActionModeStyle</item>
+
+        <item name="android:buttonStyle">@style/ButtonCabinetDark</item>
+
+        <item name="android:textColorAlertDialogListItem">?android:textColorSecondary</item>
+        <item name="textAppearanceLargePopupMenu">
+            @style/TextAppearance.AppCompat.Widget.PopupMenu.Large
+        </item>
+        <item name="textAppearanceSmallPopupMenu">
+            @style/TextAppearance.AppCompat.Widget.PopupMenu.Small
+        </item>
+
+        <item name="actionModeCloseDrawable">@drawable/ic_cab_close</item>
+        <item name="mcab_popup_theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="mcab_contentinset_start">@dimen/content_inset</item>
+
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="CabinetTrueBlackParent" parent="@style/CabinetDarkParent">
+        <item name="android:windowBackground">@drawable/black</item>
+    </style>
+
+</resources>

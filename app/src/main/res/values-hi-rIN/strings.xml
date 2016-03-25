@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_as">…से खोलें</string>
+    <string name="bookmark">बुकमार्क</string>
+    <string name="copy">कॉपी करे</string>
+    <string name="move">मूव करे</string>
+    <string name="rename">नाम बदलें</string>
+    <string name="delete">हटाएँ</string>
+    <string name="share">शेयर</string>
+    <string name="archive">संग्रह</string>
+    <string name="selectAll">सभी सेलेक्ट</string>
+    <string name="details">विवरण</string>
+    <string name="no_files">खाली</string>
+    <string name="go_up">उपर जाएँ</string>
+    <string name="one_file">1 फाइल</string>
+    <string name="x_files">%1$d फाइल्स</string>
+    <string name="done">ठीक</string>
+    <string name="remove_bookmark">बुकमार्क हटाए</string>
+    <string name="new_folder">नया फोल्डर</string>
+    <string name="no">नहीं</string>
+    <string name="yes">हाँ</string>
+    <string name="search">खोजें</string>
+    <string name="sort_name">नाम</string>
+    <!-- Settings -->
+</resources>

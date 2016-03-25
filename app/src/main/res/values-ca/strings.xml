@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Visor d\'Arxius Comprimits Cabinet</string>
+    <string name="open_as">Obrir amb…</string>
+    <string name="bookmark">Marcador</string>
+    <string name="copy">Copiar</string>
+    <string name="move">Moure</string>
+    <string name="rename">Renombrar</string>
+    <string name="delete">Esborrar</string>
+    <string name="share">Compartir</string>
+    <string name="archive">Comprimir</string>
+    <string name="selectAll">Seleccionar tot</string>
+    <string name="details">Detalls</string>
+    <string name="no_files">Sense fitxers</string>
+    <string name="storage">Emmagatzematge</string>
+    <string name="internal_storage">Emmagatzematge Intern</string>
+    <string name="root">Principal</string>
+    <string name="go_up">Pujar</string>
+    <string name="one_file">1 fitxer</string>
+    <string name="x_files">%1$d fitxers</string>
+    <string name="x_dirs">%1$d directoris</string>
+    <string name="no_files_of_type"><![CDATA[
+Cap fitxer <b>%1$s</b>
+    ]]></string>
+    <string name="done">Fet</string>
+    <string name="remove_bookmark">Eliminar Marcador</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+Estàs segur que vols eliminar el marcador <b>%1$s</b>?
+    ]]></string>
+    <string name="sort_modified">Última modificació</string>
+    <string name="modified_x">Modificat %1$s</string>
+    <string name="navigation_drawer_open">Obrir calaix de navegació</string>
+    <string name="navigation_drawer_close">Tancar calaix de navegació</string>
+    <string name="new_folder">Nova carpeta</string>
+    <string name="untitled">Sense títol</string>
+    <string name="renamed_to">Renombrat a %1$s</string>
+    <string name="moved_to">Mogut a %1$s</string>
+    <string name="copied_to">Copiat a %1$s</string>
+    <string name="no">No</string>
+    <string name="yes">Si</string>
+    <string name="search">Cercar</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+Segur que vols esborrar <b>%1$s</b>?
+    ]]></string>
+    <string name="confirm_delete_xfiles">Segur que vols esborrar %1$d fitxers?</string>
+    <string name="sort_by">Ordenar per</string>
+    <string name="sort_name">Nom</string>
+    <string name="sort_extension">Extensió</string>
+    <string name="sort_size_lowhigh">Mida, petit a gran</string>
+    <string name="sort_size_highlow">Mida, gran a petit</string>
+    <string name="deleting">Esborrant…</string>
+    <string name="extracting">Extreient…</string>
+    <string name="extracting_file"><![CDATA[
+Extraient <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">Arxivant…</string>
+    <string name="moving">Movent…</string>
+    <string name="copying">Copiant…</string>
+    <string name="failed_delete_file">Error en esborrar l\'arxiu %1$s</string>
+    <string name="failed_make_directory">Error en crear nova carpeta %1$s</string>
+    <string name="failed_rename_file">Error en renombrar/moure l\'arxiu %1$s</string>
+    <string name="failed_extract_file">Error en extreure l\'arxiu %1$s</string>
+    <string name="failed_archive_files">Error en comprimir el fitxer(s) %1$s</string>
+    <string name="error">Error</string>
+    <string name="activity_not_found">No s\'ha trobat cap aplicació per obrir aquest arxiu</string>
+    <string name="failed_copy_x_error">Error al copiar %1$s: %2$s</string>
+    <string name="failed_move_x_error">Error al moure %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">No hi ha aplicacions disponibles per compartir aquest tipus d\'arxiu</string>
+    <string name="copy_x"><![CDATA[
+ <b>Copiar:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[
+ <b>Moure:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="search_files">Cercar fitxers…</string>
+    <string name="search_x"><![CDATA[
+ <b>Cercar:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Recolzar Desenvolupament</string>
+    <string name="thank_you">Moltes gràcies!</string>
+    <string name="rate">Valorar</string>
+    <string name="later">Més tard</string>
+    <string name="rate_desc">Vols valorar Cabient a Google Play? Les bones valoracions són apreciades!</string>
+    <string name="sure">Segur!</string>
+    <string name="no_thanks">No gràcies</string>
+    <string name="file">Arxiu</string>
+    <string name="folder">Carpeta</string>
+    <string name="text">Text</string>
+    <string name="image">Imatge</string>
+    <string name="audio">Àudio</string>
+    <string name="video">Video</string>
+    <string name="other">Altre</string>
+    <string name="hidden_files">Fitxers Ocults</string>
+    <string name="settings">Configuració</string>
+    <string name="details_body_file"><![CDATA[
+        <b>Nom:</b>&nbsp;&nbsp;%1$s<br/><b>Ruta:</b>&nbsp;&nbsp;%2$s<br/><b>Mida:</b>&nbsp;&nbsp;%3$s<br/><b>Modificat:</b>&nbsp;&nbsp;%4$s<br/><b>Permisos:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Nou Arxiu</string>
+    <string name="pick_a_file">Escull un arxiu</string>
+    <string name="cabinet_text_editor">Editor de Text de Cabinet</string>
+    <string name="save">Desar</string>
+    <string name="unsaved_changes">Canvis no desats</string>
+    <string name="unsaved_changes_desc">Tens canvis no desats, vols desar-los abans de sortir?</string>
+    <string name="loading">Carregant…</string>
+    <string name="unsupported_extension">Extensió incompatible</string>
+    <string name="unsupported_extension_desc">No pots obirir aquest tipus d\'arxiu per editar text.</string>
+    <string name="extract_to">Extreure a…</string>
+    <string name="filter">Filtre</string>
+    <string name="none">Desactivat</string>
+    <string name="archives">Arxius</string>
+    <string name="extension">Extensió</string>
+    <string name="no_filter_files"><![CDATA[
+Cap fitxer pel filtre: <b>%1$s</b>
+    ]]></string>
+    <string name="superuser_not_available">Superusuari no disponible</string>
+    <string name="filter_active">Filtre actiu: %1$s</string>
+    <string name="base_theme">Tema Base</string>
+    <string-array name="base_themes">
+        <item>Clar</item>
+        <item>Fosc</item>
+        <item>Fosc (AMOLED)</item>
+    </string-array>
+    <string name="owner">Propietari</string>
+    <string name="group">Grup</string>
+    <string name="applying_permissions">Aplicant permisos…</string>
+    <string name="find_and_replace">Cercar i Reemplaçar</string>
+    <string name="find">Cercar</string>
+    <string name="replace">Reemplaçar</string>
+    <string name="replace_all">Reemplaçar Tot</string>
+    <string name="match_case">Concordar majúscules</string>
+    <string name="no_occurences">Cap Ocurrència</string>
+    <string name="no_occurences_desc">Cap ocurrència trobada.</string>
+    <string name="text_editor_read_only">Només lectura (degut a permisos del fitxer)</string>
+    <string name="slash_name_invalid">No pots incloure / en el nom.</string>
+    <string name="directory">Carpeta</string>
+    <string name="theming">Tema</string>
+    <string name="behavior">Comportament</string>
+    <string name="changelog">Llista de Canvis</string>
+    <string name="folders_first">Carpetes primer</string>
+    <string name="grid_size">Tamany Quadrícula</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Ruta Actual</string>
+    <string name="one_file_x_folders">1 arxiu, %1$d carpetes</string>
+    <string name="x_files_one_folder">%1$d arxius, 1 carpeta</string>
+    <string name="one_file_one_folder">1 arxiu, 1 carpeta</string>
+    <string name="x_files_x_folders">%1$d arxius, %2$d carpetes</string>
+    <string name="empty">Buit</string>
+    <string name="one_folder">1 carpeta</string>
+    <string name="x_folders">%1$d carpetes</string>
+    <string name="nickname">Sobrenom</string>
+    <string name="choose_destination">Escollir una destinació…</string>
+    <string name="external_storage">Emmagatzematge Extern</string>
+    <string name="sdcard_write_warning">Atenció: Cabinet no ha pogut adquirir accés d\'escriptura a la tarja SD, no es podran modificar arxius en ella a menys que tinguis accés arrel (root).</string>
+    <string name="dont_show_again">No mostrar més</string>
+    <string name="pick_ringtone">Escollir un arxiu d\'àudio…</string>
+    <string name="not_audio_file">Has de seleccionar un arxiu d\'àudio.</string>
+    <string name="cabinet_audio_preview">Vista Prèvia d\'Àudio de Cabinet</string>
+    <string name="add_homescreen_shortcut">Afegir a Pantalla d\'Inici</string>
+    <string name="shortcut_added">Drecera a %1$s creada!</string>
+    <string name="shortcut_nickname">Nom de la Drecera</string>
+    <string name="add">Afegir</string>
+    <string name="x_free_of_x">%1$s lliure de %2$s</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+Vols amagar l\'opció <b>Afegir emmagatzematge extern</b>? La pots tornar a fer visible des dels ajustos més tard.
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+Vols amagar el marcador <b>Arrel</b>? El pots tornar a fer visible des dels ajustos més tard.
+    ]]></string>
+    <string name="helpandfeedback_title">Ajuda &amp; Comentaris</string>
+    <string name="help_and_feedback_body"><![CDATA[<b>Cabinet %1$s</b>. Un gestor d\'arxius minimalista, intuitiu, atractiu per Android 4.0 i superior.<br/><br/>
+Dissenyat per <b>Aidan Follestad</b>.<br/>
+<a href=\'http://aidanfollestad.com\'>Pàgina Web</a>&nbsp;&nbsp;
+<a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+<a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+<a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+<a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>Traduir Cabinet al teu idioma natiu: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+Informar d\'errors o demanar noves opcions: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.]]></string>
+    <string name="archive_format">Format d\'Arxiu Comprimit</string>
+    <string name="auto_extract_prompt">Només arxius ZIP, TAR i JAR poden ser visualitzats.
+Vols extreure aquest arxiu?</string>
+    <string name="auto_extract">Auto Extreure</string>
+    <string name="add_document_tree_path">Afegir emmagatzematge extern…</string>
+    <string name="external_storage_hint">Nota: podria ser necessari seleccionar \'Mostrar Tarja SD\' a les opcions de menú.</string>
+    <string name="nav_drawer">Calaix de Navegació</string>
+    <string name="save_to">Desar a…</string>
+    <string name="failed_open_plugin_file">Error a l\'obrir aquest fitxer de complement: %1$s</string>
+    <string name="saved_x">Desat %1$s</string>
+    <string name="failed_chmod_file">Error al canviar els permisos d\'aquest fitxer: %1$s</string>
+    <string name="failed_upload_plugin_archive">Error al pujar el nou fitxer de complement creat: %1$s</string>
+    <string name="connecting">Connectant…</string>
+    <string name="downloading_file"><![CDATA[
+Descarregant <b>%1$s</b>…
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+Error al llegir <b>%1$s</b>: %2$s
+    ]]></string>
+    <string name="switcher_add_account">Afegir Compte</string>
+    <string name="uninstall_plugin">Desinstal·lar Complement</string>
+    <string name="remove_account">Eliminar Compte</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+Vols eliminar <b>%1$s</b> de <b>%2$s</b>?
+    ]]></string>
+    <string name="contacting_plugin">Contactant complement…</string>
+    <string name="switch_accounts">Canviar Comptes</string>
+    <string name="switching_to_x"><![CDATA[
+Canviant a <b>%1$s</b>…
+    ]]></string>
+    <string name="plugin_settings">Ajustos de Complement</string>
+    <string name="account_settings">Ajustos de Compte</string>
+    <string name="no_accounts">Sense Comptes</string>
+    <string name="no_accounts_prompt"><![CDATA[
+No s\'han afegit comptes per <b>%1$s</b>. Vols afegir un ara mateix?
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Recordar Darrera Carpeta</string>
+    <string name="remember_lastfolder_setting">Recordar la darrera carpeta que estava oberta quan Cabinet s\'inicia</string>
+    <string name="directory_count_list">Comptador de Carpetes de la Llista</string>
+    <string name="directory_count_list_setting">Mostrar el nombre de fitxers i carpetes dins carpetes en les llistes</string>
+    <string name="directory_count_appbar">Comptador de Directori de la Barra d\'Aplicació</string>
+    <string name="directory_count_appbar_setting">Mostrar el nombre de fitxers i carpetes dins la carpeta actual en la barra d\'aplicació</string>
+    <string name="collapsing_appbar">Barra d\'Aplicació Col·lapsable</string>
+    <string name="collapsing_appbar_setting">Plegar la barra d\'aplicació al desplaçar-se cap avall</string>
+    <string name="show_root_bookmark">Mostrar Marcador Arrel</string>
+    <string name="show_root_bookmark_setting">Mostar el marcador Arrel al principi del calaix de navegació</string>
+    <string name="show_add_external_bookmark">Mostrar Afegir Emmagatzematge Extern</string>
+    <string name="show_add_external_bookmark_setting">Mostrar l\'opció \'Afegir emmagatematge extern…\' al calaix de navegació</string>
+    <string name="show_free_space">Mostrar Espai Lliure</string>
+    <string name="show_free_space_setting">Mostrar l\'espai lliure en dispositius d\'emmagatzematge al calaix de navegació</string>
+    <string name="colored_navbar">Barra de Navegació Acolorida</string>
+    <string name="colored_navbar_setting">Aplicar el color primari del tema a la barra de navegació</string>
+    <string name="load_thumbnails">Carregar Vistes Prèvies</string>
+    <string name="load_thumbnails_setting">Mostrar vistes prèvies per imatges, vídeos i APKs</string>
+    <string name="primary_color">Color Primari</string>
+    <string name="primary_color_settingdesc">Aplicar un color primari de tema</string>
+    <string name="accent_color">Color d\'Accent</string>
+    <string name="accent_color_settingdesc">Aplicar un color d\'accent de tema</string>
+    <string name="thumbnail_color">Color Símbol de Vista Prèvia</string>
+    <string name="thumbnail_color_settingdesc">Aplicar un color als indicadors de fitxer i carpeta</string>
+    <string name="only_available_api21">Aquesta característica està només disponible en Android Lollipop i superior</string>
+    <string name="symlink">Symlink</string>
+    <string name="back">Enrere</string>
+    <string name="permission_needed">Permís requerit</string>
+    <string name="permission_needed_desc">Cabinet necessita permís d\'accés a l\'emmagatzematge del teu telèfon per poder ser un gestor de fitxers! Cabinet ara es tancarà.</string>
+    <string name="remove">Eliminar</string>
+</resources>

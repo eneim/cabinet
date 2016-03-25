@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/widget_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?list_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp"
+    tools:ignore="RtlSymmetry">
+
+    <com.afollestad.cabinet.views.SquareImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/textFrame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:maxLines="2"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/content_textsize"
+                tools:ignore="UnusedAttribute"
+                tools:text="Title" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/link"
+                    android:scaleX="-1"
+                    android:src="@drawable/ic_reply_black"
+                    android:paddingTop="2dp"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/symlink" />
+
+                <TextView
+                    android:id="@android:id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:textColor="?android:textColorSecondary"
+                    android:textSize="@dimen/subcontent_textsize"
+                    tools:ignore="UnusedAttribute"
+                    tools:text="Content" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:textColor="?android:textColorSecondary"
+                android:textSize="@dimen/subcontent_textsize"
+                android:visibility="gone"
+                tools:ignore="UnusedAttribute"
+                tools:text="Directory"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:background="?menu_selector"
+            android:padding="10dp"
+            android:src="?overflow"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

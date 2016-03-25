@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet Архив Преглед</string>
+    <string name="open_as">Отвори като</string>
+    <string name="bookmark">Указател</string>
+    <string name="copy">Копирай</string>
+    <string name="move">Премести/Изрежи</string>
+    <string name="rename">Редактирай</string>
+    <string name="delete">Изтрий</string>
+    <string name="share">Сподели</string>
+    <string name="archive">Архивирай</string>
+    <string name="selectAll">Избери всичко</string>
+    <string name="details">Детайли</string>
+    <string name="no_files">Няма файлове</string>
+    <string name="storage">Памет</string>
+    <string name="internal_storage">Вътрешна Памет</string>
+    <string name="root">Система</string>
+    <string name="go_up">Нагоре</string>
+    <string name="one_file">1 файл</string>
+    <string name="x_files">%1$d файла</string>
+    <string name="x_dirs">%1$d директории</string>
+    <string name="done">Приеми</string>
+    <string name="remove_bookmark">Премахни Указател</string>
+    <string name="sort_modified">Последна промяна</string>
+    <string name="modified_x">Променено %1$s</string>
+    <string name="navigation_drawer_open">Отвори навигационна лента</string>
+    <string name="navigation_drawer_close">Затвори навигационна лента</string>
+    <string name="new_folder">Нова Папка</string>
+    <string name="untitled">Неозаглавен</string>
+    <string name="renamed_to">Преименуван в %1$s</string>
+    <string name="moved_to">Преместен в %1$s</string>
+    <string name="copied_to">Копиран в %1$s</string>
+    <string name="no">Не</string>
+    <string name="yes">Да</string>
+    <string name="search">Търсене</string>
+    <string name="confirm_delete_xfiles">Искате ли да изтриете %1$d файлове</string>
+    <string name="sort_by">Сортиране като</string>
+    <string name="sort_name">Име</string>
+    <string name="sort_extension">Части</string>
+    <string name="sort_size_lowhigh">Размер, от нисък към висок</string>
+    <string name="sort_size_highlow">Размер, от висок към нисък</string>
+    <string name="deleting">Изтриване…</string>
+    <string name="extracting">Извличане на…</string>
+    <string name="archiving">Архивиране на…</string>
+    <string name="moving">Преместване…</string>
+    <string name="copying">Копиране…</string>
+    <string name="failed_delete_file">Не може да се изтрие този файл: %1$s</string>
+    <string name="failed_make_directory">Не може да се направи нова папка: %1$s</string>
+    <string name="failed_rename_file">Неуспех при преименуване/преместите този файл: %1$s</string>
+    <string name="failed_extract_file">Неуспешно извличане на този файл: %1$s</string>
+    <string name="failed_archive_files">Неуспешно архивиране на файл(е): %1$s</string>
+    <string name="error">Грешка</string>
+    <string name="activity_not_found">Не беше намерено приложението за да отворите този файл</string>
+    <string name="no_apps_for_sharing">Няма налични приложения за споделяне от този тип файл</string>
+    <string name="copy_x"><![CDATA[<b>Копирай:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="move_x"><![CDATA[        <b>Премести:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Търсене на файлове …</string>
+    <string name="search_x"><![CDATA[<b>Търсене:</b>&nbsp;%1$s]]></string>
+    <string name="support_dev">Подкрепа за развитие на приложението</string>
+    <string name="thank_you">Благодарим ви много!</string>
+    <string name="rate">Гласувай</string>
+    <string name="later">По-късно</string>
+    <string name="rate_desc">Искате ли да оцените Cabinet на Google Play? Добрите оценки са оценени!</string>
+    <string name="sure">Разбира се!</string>
+    <string name="no_thanks">Не благодаря</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="text">Текст</string>
+    <string name="image">Изображение</string>
+    <string name="audio">Звуков файл</string>
+    <string name="video">Видео файл</string>
+    <string name="other">Друго</string>
+    <string name="hidden_files">Скрити Файлове</string>
+    <string name="settings">Настройки</string>
+    <string name="details_body_file"><![CDATA[
+        <b>Име:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>Път:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>Размер:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>Променено:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>Разрешения:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Нов Файл</string>
+    <string name="pick_a_file">Изберете файл…</string>
+    <string name="cabinet_text_editor">Cabinet Редактор на Текст</string>
+    <string name="save">Запази</string>
+    <string name="unsaved_changes">Незапазени Промени</string>
+    <string name="unsaved_changes_desc">Имате незапазени промени, искате ли да ги запазите, преди да излезете?</string>
+    <string name="loading">Зарежда се…</string>
+    <string name="unsupported_extension">Спиране на Поддръжката</string>
+    <string name="unsupported_extension_desc">Не можете да отворите този тип файл за редактиране на текст.</string>
+    <string name="extract_to">Извличане на…</string>
+    <string name="filter">Филтър</string>
+    <string name="none">Нищо</string>
+    <string name="archives">Архиви</string>
+    <string name="extension">Разширение</string>
+    <string name="superuser_not_available">Суперпотребител не наличен</string>
+    <string name="filter_active">Филтър активен: %1$s</string>
+    <string name="base_theme">Основна Тема</string>
+    <string-array name="base_themes">
+        <item>Светла</item>
+        <item>Тъмна</item>
+        <item>Черна (AMOLED)</item>
+    </string-array>
+    <string name="owner">Собственик</string>
+    <string name="group">Група</string>
+    <string name="applying_permissions">Прилагане на разрешения…</string>
+    <string name="find_and_replace">Търсене и Заместване</string>
+    <string name="find">Намери</string>
+    <string name="replace">Замени</string>
+    <string name="replace_all">Замени Всичко</string>
+    <string name="match_case">Съвпадение</string>
+    <string name="no_occurences">Не се Появява</string>
+    <string name="no_occurences_desc">Не се появява това което търситe</string>
+    <string name="slash_name_invalid">Вие не може да се включите / в името.</string>
+    <string name="directory">Директория</string>
+    <string name="theming">Теми</string>
+    <string name="behavior">Режим на работа</string>
+    <string name="changelog">Промяна</string>
+    <string name="folders_first">Първо папките</string>
+    <string name="grid_size">Формат Решетка</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Текущ Път</string>
+    <string name="one_file_x_folders">1 файл, %1$d папки</string>
+    <string name="x_files_one_folder">%1$d файла, 1 папка</string>
+    <string name="one_file_one_folder">1 файл, 1 папка</string>
+    <string name="x_files_x_folders">%1$d файла, %2$d папки</string>
+    <string name="empty">Празно</string>
+    <string name="one_folder">1 папка</string>
+    <string name="x_folders">%1$d папки</string>
+    <string name="nickname">Прякор</string>
+    <string name="choose_destination">Изберете път…</string>
+    <string name="external_storage">Външна Памет</string>
+    <string name="sdcard_write_warning">Внимание: Изглежда Cabinet не успя да напише достъп до вашата SD карта, вие няма да можете да променяте файлове на него, освен ако не са rooted.</string>
+    <string name="dont_show_again">Да не се показва отново</string>
+    <string name="pick_ringtone">Изберете аудио файл…</string>
+    <string name="not_audio_file">Трябва да изберете аудио файл.</string>
+    <string name="cabinet_audio_preview">Cabinet Предварителен Аудио Преглед</string>
+    <string name="add_homescreen_shortcut">Добави към началния екран</string>
+    <string name="shortcut_added">Пряк път към %1$s създаден!</string>
+    <string name="shortcut_nickname">Пряк Път прякор</string>
+    <string name="add">Добави</string>
+    <string name="x_free_of_x">%1$s свободно от %2$s</string>
+    <string name="helpandfeedback_title">Помощ &amp; Обратна връзка</string>
+    <string name="help_and_feedback_body"><![CDATA[
+<b>Cabinet %1$s</b>. Минималистичен, интуитивен, красив файлов мениджър за Аndroid 4.0 и по-нова с Material Design на Google. Преведено от Bogomil Todorov.<br/><br/>
+Програмирано от <b>Aidan Follestad</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+Подпомогнете превода на Cabinet на родния си език: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+Съобщете за грешки и бъгове или заявка за предложения: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">Формат Архив</string>
+    <string name="auto_extract_prompt">Само ZIP, TAR, и JAR архиви могат да бъдат гледани. Би ли желал?
+за извличане на този архив?</string>
+    <string name="auto_extract">Auto Extract</string>
+    <string name="add_document_tree_path">Добави външна памет…</string>
+    <string name="external_storage_hint">Забележка: Може да се наложи да изберете \"Show SD Card\" в менюто.</string>
+    <string name="nav_drawer">Navigation Drawer</string>
+    <string name="save_to">Запази в…</string>
+    <string name="failed_open_plugin_file">Неуспех при отваряне на този плъгин файл:%1$s</string>
+    <string name="connecting">Свързване…</string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Запомни Последната Папка</string>
+    <string name="directory_count_list">Показване броя на файловете в директорията</string>
+    <string name="directory_count_appbar">App Bar Directory Count</string>
+    <string name="collapsing_appbar">Collapsing App Bar</string>
+    <string name="show_root_bookmark">Покажи Root Bookmark</string>
+    <string name="show_add_external_bookmark">Покажи Добавена Външна Памет</string>
+    <string name="show_free_space">Покажи Свободно Място</string>
+    <string name="colored_navbar">Оцвети Навигационната Лента</string>
+    <string name="primary_color">Основен Цвят</string>
+    <string name="accent_color">Цвят Акцент</string>
+    <string name="thumbnail_color">Цвят на миниатюри</string>
+</resources>

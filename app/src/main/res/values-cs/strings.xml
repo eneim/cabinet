@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet prohlížeč archivů</string>
+    <string name="open_as">Otevřít jako…</string>
+    <string name="bookmark">Záložka</string>
+    <string name="copy">Kopírovat</string>
+    <string name="move">Přesunout</string>
+    <string name="rename">Přejmenovat</string>
+    <string name="delete">Smazat</string>
+    <string name="share">Sdílet</string>
+    <string name="archive">Archivovat</string>
+    <string name="selectAll">Vybrat vše</string>
+    <string name="details">Podrobnosti</string>
+    <string name="no_files">Žádné soubory</string>
+    <string name="storage">Úložiště</string>
+    <string name="internal_storage">Vnitřní úložiště</string>
+    <string name="root">Root</string>
+    <string name="go_up">Nahoru</string>
+    <string name="one_file">1 soubor</string>
+    <string name="x_files">%1$d souborů</string>
+    <string name="x_dirs">%1$d adresářů</string>
+    <string name="done">Hotovo</string>
+    <string name="remove_bookmark">Odstranit záložku</string>
+    <string name="sort_modified">Poslední změna</string>
+    <string name="modified_x">Změněno %1$s</string>
+    <string name="navigation_drawer_open">Otevřít navigační lištu</string>
+    <string name="navigation_drawer_close">Zavřít navigační lištu</string>
+    <string name="new_folder">Nová složka</string>
+    <string name="untitled">Bez názvu</string>
+    <string name="renamed_to">Přejmenováno na %1$s</string>
+    <string name="moved_to">Přesunuto do %1$s</string>
+    <string name="copied_to">Zkopírováno do %1$s</string>
+    <string name="no">Ne</string>
+    <string name="yes">Ano</string>
+    <string name="search">Hledat</string>
+    <string name="confirm_delete_xfiles">Opravdu chcete smazat %1$d souborů?</string>
+    <string name="sort_by">Seřadit podle</string>
+    <string name="sort_name">Jméno</string>
+    <string name="sort_extension">Přípona</string>
+    <string name="sort_size_lowhigh">Od nejmenší</string>
+    <string name="sort_size_highlow">Od největší</string>
+    <string name="deleting">Odstraňování…</string>
+    <string name="extracting">Extrahuji…</string>
+    <string name="archiving">Archivuji…</string>
+    <string name="moving">Přesouvání…</string>
+    <string name="copying">Kopírování…</string>
+    <string name="failed_delete_file">Tento soubor se nepovedlo odstranit: %1$s</string>
+    <string name="failed_make_directory">Nepovedlo se vytvořit novou složku: %1$s</string>
+    <string name="failed_rename_file">Nepovedlo se přejmenovat/přesunout tento soubor: %1$s</string>
+    <string name="failed_extract_file">Selhalo extrahování souboru: %1$s</string>
+    <string name="failed_archive_files">Selhalo archivování souborů: %1$s</string>
+    <string name="error">Chyba</string>
+    <string name="activity_not_found">Pro otevření tohoto souboru není k dispozici žádná aplikace</string>
+    <string name="no_apps_for_sharing">Není k dispozici žádná aplikace pro sdílení tohoto typu souboru</string>
+    <string name="copy_x"><![CDATA[
+        <b>Kopírovat:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[ <b>Přesunout:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Hledat soubory…</string>
+    <string name="search_x"><![CDATA[
+        <b>Hledat:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Podpořte vývoj</string>
+    <string name="thank_you">Mockrát děkuji!</string>
+    <string name="rate">Ohodnotit</string>
+    <string name="later">Později</string>
+    <string name="rate_desc">Chcete Cabinet ohodnotit na Google Play? Dobrá hodnocení jsou vítána!</string>
+    <string name="sure">Určitě!</string>
+    <string name="no_thanks">Ne, díky</string>
+    <string name="file">Soubor</string>
+    <string name="folder">Složka</string>
+    <string name="text">Text</string>
+    <string name="image">Obrázek</string>
+    <string name="audio">Zvuk</string>
+    <string name="video">Video</string>
+    <string name="other">Ostatní</string>
+    <string name="hidden_files">Skryté soubory</string>
+    <string name="settings">Nastavení</string>
+    <string name="details_body_file"><![CDATA[
+        <b>Jméno:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>Umístění:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>Velikost:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>Změněno:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>Oprávnění:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Nový soubor</string>
+    <string name="pick_a_file">Vyberte soubor…</string>
+    <string name="cabinet_text_editor">Cabinet textový editor</string>
+    <string name="save">Uložit</string>
+    <string name="unsaved_changes">Neuložené změny</string>
+    <string name="unsaved_changes_desc">Máte neuložené změny, chcete je před ukončením uložit?</string>
+    <string name="loading">Načítání…</string>
+    <string name="unsupported_extension">Nepodporovaná přípona</string>
+    <string name="unsupported_extension_desc">Nemůžete otevřít tento typ souboru pro editaci textu.</string>
+    <string name="extract_to">Extrahovat do…</string>
+    <string name="filter">Filtrovat</string>
+    <string name="none">Žádný</string>
+    <string name="archives">Archivy</string>
+    <string name="extension">Přípona</string>
+    <string name="superuser_not_available">Superuser není povolen</string>
+    <string name="filter_active">Aktivní filtr: %1$s</string>
+    <string name="base_theme">Základní téma</string>
+    <string-array name="base_themes">
+        <item>Světlé</item>
+        <item>Tmavé</item>
+        <item>Černé (AMOLED)</item>
+    </string-array>
+    <string name="owner">Vlastník</string>
+    <string name="group">Skupina</string>
+    <string name="applying_permissions">Nastavuji oprávnění…</string>
+    <string name="find_and_replace">Najít a Přepsat</string>
+    <string name="find">Najít</string>
+    <string name="replace">Přepsat</string>
+    <string name="replace_all">Přepsat vše</string>
+    <string name="match_case">Případ shody</string>
+    <string name="no_occurences">Žádné výskyty</string>
+    <string name="no_occurences_desc">Nebyl nalezen žádný výsledek zadaného dotazu.</string>
+    <string name="slash_name_invalid">Název nesmí obsahovat /</string>
+    <string name="directory">Adresář</string>
+    <string name="theming">Vzhled</string>
+    <string name="behavior">Chování</string>
+    <string name="changelog">Seznam změn</string>
+    <string name="folders_first">Jméno, složky první</string>
+    <string name="grid_size">Velikost mřížky</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Aktuální cesta</string>
+    <string name="one_file_x_folders">1 soubor, %1$d složek</string>
+    <string name="x_files_one_folder">%1$d souborů, 1 složka</string>
+    <string name="one_file_one_folder">1 soubor, 1 složka</string>
+    <string name="x_files_x_folders">%1$d souborů, %2$d složek</string>
+    <string name="empty">Prázdný</string>
+    <string name="one_folder">1 složka</string>
+    <string name="x_folders">%1$d složek</string>
+    <string name="nickname">Přezdívka</string>
+    <string name="choose_destination">Vybrat umístění…</string>
+    <string name="external_storage">Externí úložiště</string>
+    <string name="sdcard_write_warning">Varování: zdá se, že Cabinet nemohl získat přístup pro zápis na SD kartu, takže nebudeš upravovat soubory na ní, pokud nemáš root přístup.</string>
+    <string name="dont_show_again">Znovu nezobrazovat</string>
+    <string name="pick_ringtone">Vyberte soubor audio…</string>
+    <string name="not_audio_file">Musíte vybrat audio soubor.</string>
+    <string name="cabinet_audio_preview">Cabinet audio přehrávač</string>
+    <string name="add_homescreen_shortcut">Přidat na domovskou obrazovku</string>
+    <string name="shortcut_added">Záložka na %1$s byla vytvořena!</string>
+    <string name="shortcut_nickname">Pojmenovat záložku</string>
+    <string name="add">Přidat</string>
+    <string name="x_free_of_x">%1$s volných ze %2$s</string>
+    <string name="helpandfeedback_title">Pomoc a zpětná vazba</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>. Minimalistický, intuitivní, krásný správce souborů pro Android 4.0 a novější.<br/><br/>
+        Navrhl <b>Aidan Follestad</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Web vývojáře</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+        Pomozte překládat Cabinet do vašeho jazyka: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+        Hlášení chyb nebo žádosti o nové funkce: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">Formát archivu</string>
+    <string name="auto_extract_prompt">Je možné prohlížet pouze ZIP,  TAR a JAR archivy. Chcete
+extrahovat tento archiv?</string>
+    <string name="auto_extract">Automaticky extrahovat</string>
+    <string name="add_document_tree_path">Přidat externí úložiště…</string>
+    <string name="external_storage_hint">Poznámka: Bude třeba vybrat \'Zobrazit SD kartu\' v místní nabídce.</string>
+    <string name="connecting">Připojování…</string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Zapamatovat poslední složku</string>
+    <string name="directory_count_list">Počet adresářů v seznamu</string>
+    <string name="collapsing_appbar">Skrývající se lišta</string>
+    <string name="show_root_bookmark">Zobrazit záložku Root</string>
+    <string name="show_add_external_bookmark">Zobrazit Přidat externí úložiště</string>
+    <string name="show_free_space">Ukázat volné místo</string>
+    <string name="colored_navbar">Barevná navigační lišta</string>
+    <string name="primary_color">Primární barva</string>
+    <string name="accent_color">Barva zvýraznění</string>
+    <string name="thumbnail_color">Barva ikon</string>
+</resources>

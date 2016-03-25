@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Vizualizator arhive</string>
+    <string name="open_as">Deschide Sub Formӑ…</string>
+    <string name="bookmark">Marcaj</string>
+    <string name="copy">Copiazӑ</string>
+    <string name="move">Mutare</string>
+    <string name="rename">Redenumește</string>
+    <string name="delete">Șterge</string>
+    <string name="share">Distribuie</string>
+    <string name="archive">Arhivare</string>
+    <string name="selectAll">Selecteazӑ Tot</string>
+    <string name="details">Detalii</string>
+    <string name="no_files">Nici un fișier</string>
+    <string name="storage">Memorie Internӑ</string>
+    <string name="internal_storage">Stocare internă</string>
+    <string name="root">Root</string>
+    <string name="go_up">Sus un nivel</string>
+    <string name="one_file">1 fişier</string>
+    <string name="x_files">%1$d fișiere</string>
+    <string name="x_dirs">%1$d locaţii</string>
+    <string name="no_files_of_type"><![CDATA[
+        Nu sunt <b>%1$s</b> fişiere
+    ]]></string>
+    <string name="done">Gata</string>
+    <string name="remove_bookmark">Eliminaţi marcajul</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+  Eliminaţi marcajul <b>%1$s</b>?
+    ]]></string>
+    <string name="sort_modified">Ultima modificare</string>
+    <string name="modified_x">Modificat la %1$s</string>
+    <string name="navigation_drawer_open">Deschide meniul de navigare</string>
+    <string name="navigation_drawer_close">Inchide meniul de navigare</string>
+    <string name="new_folder">Folder Nou</string>
+    <string name="untitled">Neintitulat</string>
+    <string name="renamed_to">Redenumit în %1$s</string>
+    <string name="moved_to">Mutat în %1$s</string>
+    <string name="copied_to">Copiat în %1$s</string>
+    <string name="no">Nu</string>
+    <string name="yes">Da</string>
+    <string name="search">Cauta</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+        Ştergeţi <b>%1$s</b>?
+    ]]></string>
+    <string name="confirm_delete_xfiles">Ești sigur cӑ vrei sӑ ștergi cele %1$d fișiere?</string>
+    <string name="sort_by">Sorteazӑ Dupӑ</string>
+    <string name="sort_name">Nume</string>
+    <string name="sort_extension">Extensie</string>
+    <string name="sort_size_lowhigh">Mӑrime, de la mic spre mare</string>
+    <string name="sort_size_highlow">Mӑrime, de la mare spre mic</string>
+    <string name="deleting">Se șterge…</string>
+    <string name="extracting">Dezarhivare…</string>
+    <string name="extracting_file"><![CDATA[
+        Dezarhivare <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">Arhivare…</string>
+    <string name="moving">Se mutӑ…</string>
+    <string name="copying">Se copie…</string>
+    <string name="failed_delete_file">Ștergerea %1$s eșuatӑ</string>
+    <string name="failed_make_directory">Creare folderului nou %1$s eșuatӑ</string>
+    <string name="failed_rename_file">Redenumire eșuatӑ a: %1$s</string>
+    <string name="failed_extract_file">Nu s-a putut dezarhiva fişierul: %1$s</string>
+    <string name="error">Eroare</string>
+    <string name="activity_not_found">Nu a fost gӑsitӑ aplicaţia corespunzӑtoare pentru a deschide acest fișier</string>
+    <string name="failed_copy_x_error">Nu s-a putut copia %1$s: %2$s</string>
+    <string name="failed_move_x_error">Nu s-a putut muta %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">Nu s-au gӑsit aplicaţii care sӑ distribuie mai departe acest tip de fișier</string>
+    <string name="copy_x"><![CDATA[
+ <b>Copiazӑ:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[
+        <b>Mutare:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="search_files">Cautӑ fișiere…</string>
+    <string name="search_x"><![CDATA[
+ <b>Cautӑ</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Susţineţi dezvoltarea</string>
+    <string name="thank_you">Mulţumesc mult!</string>
+    <string name="rate">Evalueazӑ</string>
+    <string name="later">Mai târziu</string>
+    <string name="rate_desc">Apreciezi ce îţi ofera Cabinet? Lasӑ o evaluare pe Google Play.</string>
+    <string name="sure">Desigur!</string>
+    <string name="no_thanks">Nu, mersi</string>
+    <string name="file">Fișier</string>
+    <string name="folder">Folder</string>
+    <string name="text">Text</string>
+    <string name="image">Imagine</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="other">Altele</string>
+    <string name="settings">Setӑri</string>
+    <string name="details_body_file"><![CDATA[
+ <b>Nume:</b>&nbsp;&nbsp;%1$s<br/>
+ <b>Locaţie:</b>&nbsp;&nbsp;%2$s<br/>
+ <b>Mӑrime</b>&nbsp;&nbsp;%3$s<br/>
+ <b>Modificat:</b>&nbsp;&nbsp;%4$s<br/>
+ <b>Privilegii:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Fișier Nou</string>
+    <string name="pick_a_file">Alege un fișier…</string>
+    <string name="cabinet_text_editor">Editor Text Cabinet</string>
+    <string name="save">Salveazӑ</string>
+    <string name="unsaved_changes">Schimbӑri nesalvate</string>
+    <string name="unsaved_changes_desc">Ai schimbӑri nesalvate, vrei sӑ le salvez inainte de a ieși?</string>
+    <string name="loading">Se incarcӑ…</string>
+    <string name="unsupported_extension">Extensie Necunoscutӑ</string>
+    <string name="unsupported_extension_desc">Nu poţi accesa acest tip de fișier pentru editare text.</string>
+    <string name="extract_to">Dezarhivaţi în…</string>
+    <string name="filter">Filtreazӑ</string>
+    <string name="none">Niciunul</string>
+    <string name="archives">Arhive</string>
+    <string name="extension">Extensie</string>
+    <string name="no_filter_files"><![CDATA[
+        Niciun fişier pentru filtrul: <b>%1$s</b>
+    ]]></string>
+    <string name="superuser_not_available">Superuser nu este valabil</string>
+    <string name="filter_active">Filtru activ: %1$s</string>
+    <string name="base_theme">Temă de bază</string>
+    <string-array name="base_themes">
+        <item>Deschisă</item>
+        <item>Întunecată</item>
+        <item>Neagră (AMOLED)</item>
+    </string-array>
+    <string name="owner">Proprietar</string>
+    <string name="group">Grup</string>
+    <string name="applying_permissions">Aplicând privilegii…</string>
+    <string name="find_and_replace">Căutare şi înlocuire</string>
+    <string name="find">Căutare</string>
+    <string name="replace">Înlocuire</string>
+    <string name="replace_all">Se înlocuieşte tot</string>
+    <string name="directory">Destinaţie</string>
+    <string name="connecting">Se conecteazӑ…</string>
+    <!-- Settings -->
+</resources>

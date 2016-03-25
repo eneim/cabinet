@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appbar_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:elevation="@dimen/toolbar_elevation"
+    app:contentInsetStart="@dimen/content_inset"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="UnusedAttribute"
+    tools:background="@color/cabinet_color" />
+
+    <!-- Elevation is also set via code (in setStatus() of directory fragment --><!-- The shadow has to be removed from here and added to the filter textview when on -->

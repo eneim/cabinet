@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="remember_last_folder"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/remember_lastfolder_setting"
+        android:title="@string/remember_last_folder"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="directory_count"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/directory_count_list_setting"
+        android:title="@string/directory_count_list"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="directory_count_toolbar"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/directory_count_appbar_setting"
+        android:title="@string/directory_count_appbar"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="collapsing_appbar"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/collapsing_appbar_setting"
+        android:title="@string/collapsing_appbar"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="load_thumbnails"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/load_thumbnails_setting"
+        android:title="@string/load_thumbnails"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+</PreferenceScreen>

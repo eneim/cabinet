@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Cabinet</string>
+    <string name="cabinet_archive_viewer">Cabinet Archive Viewer</string>
+
+    <string name="open_as">Open As…</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="copy">Copy</string>
+    <string name="move">Move</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="archive">Archive</string>
+    <string name="selectAll">Select All</string>
+    <string name="details">Details</string>
+
+    <string name="no_files">No files</string>
+    <string name="storage">Storage</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="root">Root</string>
+    <string name="go_up">Go Up</string>
+    <string name="one_file">1 file</string>
+    <string name="x_files">%1$d files</string>
+    <string name="x_dirs">%1$d directories</string>
+    <string name="no_files_of_type"><![CDATA[
+        No <b>%1$s</b> files
+    ]]></string>
+    <string name="done">Done</string>
+    <string name="remove_bookmark">Remove Bookmark</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+        Are you sure you want to remove your bookmark <b>%1$s</b>?
+    ]]></string>
+    <string name="sort_modified">Last modified</string>
+    <string name="modified_x">Modified %1$s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="new_folder">New Folder</string>
+    <string name="untitled">Untitled</string>
+    <string name="renamed_to">Renamed to %1$s</string>
+    <string name="moved_to">Moved to %1$s</string>
+    <string name="copied_to">Copied to %1$s</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="search">Search</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+        Are you sure you want to delete <b>%1$s</b>?
+    ]]></string>
+    <string name="confirm_delete_xfiles">Are you sure you want to delete %1$d files?</string>
+
+    <string name="sort_by">Sort By</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_extension">Extension</string>
+    <string name="sort_size_lowhigh">Size, low to high</string>
+    <string name="sort_size_highlow">Size, high to low</string>
+
+    <string name="deleting">Deleting…</string>
+    <string name="extracting">Extracting…</string>
+    <string name="extracting_file"><![CDATA[
+        Extracting <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">Archiving…</string>
+    <string name="moving">Moving…</string>
+    <string name="copying">Copying…</string>
+
+    <string name="failed_delete_file">Failed to delete this file: %1$s</string>
+    <string name="failed_make_directory">Failed to make a new folder: %1$s</string>
+    <string name="failed_rename_file">Failed to rename/move this file: %1$s</string>
+    <string name="failed_extract_file">Failed to extract this file: %1$s</string>
+    <string name="failed_archive_files">Failed to archive file(s): %1$s</string>
+    <string name="error">Error</string>
+    <string name="activity_not_found">No app was found to open this file</string>
+    <string name="failed_copy_x_error">Failed to copy %1$s: %2$s</string>
+    <string name="failed_move_x_error">Failed to move %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">No apps are available for sharing this type of file</string>
+
+    <string name="copy_x">
+    <![CDATA[
+        <b>Copy:</b>&nbsp;&nbsp;%1$s
+    ]]>
+    </string>
+    <string name="move_x">
+    <![CDATA[
+        <b>Move:</b>&nbsp;&nbsp;%1$s
+    ]]>
+    </string>
+    <string name="search_files">Search files…</string>
+    <string name="search_x">
+    <![CDATA[
+        <b>Search:</b>&nbsp;%1$s
+    ]]>
+    </string>
+
+    <string name="support_dev">Support Development</string>
+    <string-array name="donation_options" translatable="false">
+        <item>$1.00</item>
+        <item>$3.00</item>
+        <item>$5.00</item>
+        <item>$10.00</item>
+        <item>$20.00</item>
+    </string-array>
+    <string-array name="donation_ids" translatable="false">
+        <item>donation1</item>
+        <item>donation5</item>
+        <item>donation2</item>
+        <item>donation3</item>
+        <item>donation4</item>
+    </string-array>
+    <string name="thank_you">Thank you very much!</string>
+
+    <string name="rate">Rate</string>
+    <string name="later">Later</string>
+    <string name="rate_desc">Do you want to rate Cabinet on Google Play? Good ratings are appreciated!</string>
+    <string name="sure">Sure!</string>
+    <string name="no_thanks">No thanks</string>
+
+    <string-array name="open_as_array" translatable="false">
+        <item>@string/text</item>
+        <item>@string/image</item>
+        <item>@string/audio</item>
+        <item>@string/video</item>
+        <item>@string/folder</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="text">Text</string>
+    <string name="image">Image</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="other">Other</string>
+
+    <string name="compact_mode">Compact View</string>
+    <string name="hidden_files">Hidden Files</string>
+    <string name="settings">Settings</string>
+
+    <string name="details_body_file"><![CDATA[
+        <b>Name:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>Path:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>Size:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>Modified:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>Permissions:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+
+    <string-array name="code_extensions" translatable="false">
+        <item>java</item>
+        <item>js</item>
+        <item>py</item>
+        <item>c</item>
+        <item>cpp</item>
+        <item>css</item>
+        <item>html</item>
+        <item>xml</item>
+        <item>fs</item>
+        <item>lua</item>
+        <item>pl</item>
+        <item>h</item>
+        <item>less</item>
+        <item>jade</item>
+        <item>swift</item>
+        <item>lsp</item>
+        <item>m</item>
+        <item>rb</item>
+        <item>coffee</item>
+        <item>actionscript</item>
+        <item>fla</item>
+        <item>class</item>
+    </string-array>
+
+    <string-array name="supported_archive_extensions" translatable="false">
+        <item>zip</item>
+        <item>tar.gz</item>
+        <item>7z</item>
+        <item>gzip</item>
+        <item>jar</item>
+    </string-array>
+    <string-array name="supported_archive_extensions_sd" translatable="false">
+        <item>zip</item>
+        <item>tar.gz</item>
+        <item>gzip</item>
+        <item>jar</item>
+    </string-array>
+    <string-array name="viewable_archive_extensions" translatable="false">
+        <item>zip</item>
+        <item>tar</item>
+        <item>tar.gz</item>
+        <item>jar</item>
+    </string-array>
+
+    <string-array name="viewable_application_extensions" translatable="false">
+        <item>apk</item>
+    </string-array>
+
+    <string-array name="other_text_extensions" translatable="false">
+        <item>json</item>
+        <item>prop</item>
+        <item>md</item>
+    </string-array>
+
+    <string name="new_file">New File</string>
+    <string name="pick_a_file">Pick a file…</string>
+    <string name="cabinet_text_editor">Cabinet Text Editor</string>
+    <string name="save">Save</string>
+    <string name="unsaved_changes">Unsaved Changes</string>
+    <string name="unsaved_changes_desc">You have unsaved changes, do you want to save them before exiting?</string>
+    <string name="loading">Loading…</string>
+    <string name="unsupported_extension">Unsupported Extension</string>
+    <string name="unsupported_extension_desc">You cannot open this type of file for text editing.</string>
+    <string name="extract_to">Extract to…</string>
+
+    <string name="filter">Filter</string>
+    <string name="none">None</string>
+    <string name="archives">Archives</string>
+    <string name="extension">Extension</string>
+    <string name="extension_hint" translatable="false">.txt</string>
+    <string name="no_filter_files"><![CDATA[
+        No files for filter: <b>%1$s</b>
+    ]]></string>
+
+    <string name="superuser_not_available">Superuser not available</string>
+    <string name="filter_active">Filter active: %1$s</string>
+
+    <string name="base_theme">Base Theme</string>
+    <string-array name="base_themes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Black (AMOLED)</item>
+    </string-array>
+
+    <string name="owner">Owner</string>
+    <string name="group">Group</string>
+    <string name="r" translatable="false">R</string>
+    <string name="w" translatable="false">W</string>
+    <string name="x" translatable="false">X</string>
+    <string name="applying_permissions">Applying permissions…</string>
+
+    <string name="find_and_replace">Find and Replace</string>
+    <string name="find">Find</string>
+    <string name="replace">Replace</string>
+    <string name="replace_all">Replace All</string>
+    <string name="match_case">Match case</string>
+    <string name="no_occurences">No Occurrences</string>
+    <string name="no_occurences_desc">No occurrences of your find query were found.</string>
+
+    <string name="text_editor_read_only">Read-only (due to file permissions)</string>
+
+    <string name="slash_name_invalid">You cannot include / in the name.</string>
+    <string name="directory">Directory</string>
+
+    <string name="theming">Theming</string>
+    <string name="behavior">Behavior</string>
+    <string name="changelog">Changelog</string>
+    <string name="folders_first">Folders first</string>
+
+    <string name="grid_size">Grid Size</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+
+    <string name="current_path">Current Path</string>
+
+    <string name="one_file_x_folders">1 file, %1$d folders</string>
+    <string name="x_files_one_folder">%1$d files, 1 folder</string>
+    <string name="one_file_one_folder">1 file, 1 folder</string>
+    <string name="x_files_x_folders">%1$d files, %2$d folders</string>
+    <string name="empty">Empty</string>
+    <string name="one_folder">1 folder</string>
+    <string name="x_folders">%1$d folders</string>
+
+    <string-array name="bookmark_edit_options" translatable="false">
+        <item>@string/rename</item>
+        <item>@string/remove</item>
+    </string-array>
+    <string name="nickname">Nickname</string>
+
+    <string name="choose_destination">Choose a destination…</string>
+    <string name="external_storage">External Storage</string>
+
+    <string name="sdcard_write_warning">Warning: it appears Cabinet couldn\'t get write access to your SD card, you will not be able to modify files on it unless you are rooted.</string>
+    <string name="dont_show_again">Don\'t show again</string>
+    <string name="pick_ringtone">Pick an audio file…</string>
+    <string name="not_audio_file">You must select an audio file.</string>
+    <string name="cabinet_audio_preview">Cabinet Audio Preview</string>
+
+    <string name="add_homescreen_shortcut">Add to Homescreen</string>
+    <string name="shortcut_added">Shortcut to %1$s created!</string>
+    <string name="shortcut_nickname">Shortcut Nickname</string>
+    <string name="add">Add</string>
+    <string name="x_free_of_x">%1$s free of %2$s</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+        Do you want to hide the <b>Add external storage</b> option? You can unhide it from settings later.
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+        Do you want to hide the <b>Root</b> bookmark? You can unhide it from settings later.
+    ]]></string>
+
+    <string name="helpandfeedback_title">Help &amp; Feedback</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>. A minimalist, intuitive, beautiful file manager for Android 4.0 and above.<br/><br/>
+        Designed by <b>Aidan Follestad</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+        A big thanks to <a href=\'https://github.com/plusCubed\'>Daniel Ciao</a> for all of his contributions.<br/><br/>
+        Translate Cabinet into your native language: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+        Report bugs or request features: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+
+    <string name="archive_format">Archive Format</string>
+    <string-array name="archive_formats" translatable="false">
+        <item>ZIP</item>
+        <item>TAR.GZ</item>
+    </string-array>
+    <string name="auto_extract_prompt">Only ZIP, TAR, and JAR archives can be viewed. Would you like
+    to extract this archive?</string>
+    <string name="auto_extract">Auto Extract</string>
+    <string name="add_document_tree_path">Add external storage…</string>
+    <string name="external_storage_hint">Note: you may need to select \'Show SD Card\' in the overflow menu.</string>
+    <string name="nav_drawer">Navigation Drawer</string>
+    <string name="save_to">Save to…</string>
+    <string name="failed_open_plugin_file">Failed to open this plugin file: %1$s</string>
+    <string name="saved_x">Saved %1$s</string>
+    <string name="failed_chmod_file">Failed to chmod this file: %1$s</string>
+    <string name="failed_upload_plugin_archive">Failed to upload the newly created plugin archive: %1$s</string>
+
+    <string name="connecting">Connecting…</string>
+    <string name="downloading_file"><![CDATA[
+        Downloading <b>%1$s</b>…
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+        Failed to read <b>%1$s</b>: %2$s
+    ]]></string>
+
+    <string name="switcher_add_account">Add Account</string>
+    <string name="uninstall_plugin">Uninstall Plugin</string>
+    <string name="remove_account">Remove Account</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+        Do you want to remove <b>%1$s</b> from <b>%2$s</b>?
+    ]]></string>
+    <string name="contacting_plugin">Contacting plugin…</string>
+    <string name="switch_accounts">Switch Accounts</string>
+    <string name="switching_to_x"><![CDATA[
+        Switching to <b>%1$s</b>…
+    ]]></string>
+
+    <string-array name="settings_categories" translatable="false">
+        <item>@string/behavior</item>
+        <item>@string/nav_drawer</item>
+        <item>@string/theming</item>
+    </string-array>
+
+    <string name="plugin_settings">Plugin Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="no_accounts">No Accounts</string>
+    <string name="no_accounts_prompt"><![CDATA[
+        No accounts have been added for <b>%1$s</b>. Would you like to add one now?
+    ]]></string>
+
+    <!-- Settings -->
+
+    <string name="remember_last_folder">Remember Last Folder</string>
+    <string name="remember_lastfolder_setting">Remember the last folder that was open when Cabinet starts</string>
+
+    <string name="directory_count_list">List Directory Count</string>
+    <string name="directory_count_list_setting">Display the number of files and folders within folders in lists</string>
+
+    <string name="directory_count_appbar">App Bar Directory Count</string>
+    <string name="directory_count_appbar_setting">Display the number of files and folders within the current folder in the app bar</string>
+
+    <string name="collapsing_appbar">Collapsing App Bar</string>
+    <string name="collapsing_appbar_setting">Collapse the app bar when you scroll down</string>
+
+    <string name="show_root_bookmark">Show Root Bookmark</string>
+    <string name="show_root_bookmark_setting">Display the Root bookmark at the top of the navigation drawer.</string>
+
+    <string name="show_add_external_bookmark">Show Add External Storage</string>
+    <string name="show_add_external_bookmark_setting">Display the \'Add external storage…\' option in the navigation drawer</string>
+
+    <string name="show_free_space">Show Free Space</string>
+    <string name="show_free_space_setting">Display free space within storage devices in the navigation drawer</string>
+
+    <string name="colored_navbar">Colored Navigation Bar</string>
+    <string name="colored_navbar_setting">Apply the primary theme color to the navigation bar</string>
+
+    <string name="load_thumbnails">Load Thumbnails</string>
+    <string name="load_thumbnails_setting">Display thumbnails for images, videos, and APKs</string>
+
+    <string name="primary_color">Primary Color</string>
+    <string name="primary_color_settingdesc">Apply a primary theme color</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="accent_color_settingdesc">Apply an accent theme color</string>
+    <string name="thumbnail_color">Thumbnail Color</string>
+    <string name="thumbnail_color_settingdesc">Apply a color to file and folder thumbnails</string>
+    <string name="only_available_api21">This feature is only available on Android Lollipop and above</string>
+    <string name="symlink">Symlink</string>
+    <string name="back">Back</string>
+    <string name="permission_needed">Permission Needed</string>
+    <string name="permission_needed_desc">Cabinet needs permission to access your phone\'s storage in order to be a file manager! Cabinet will now close.</string>
+    <string name="remove">Remove</string>
+
+</resources>

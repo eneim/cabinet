@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet Archívum Néző</string>
+    <string name="open_as">Megnyitás Mint…</string>
+    <string name="bookmark">Könyvjelzőkhöz</string>
+    <string name="copy">Másolás</string>
+    <string name="move">Mozgatás</string>
+    <string name="rename">Átnevezés</string>
+    <string name="delete">Törlés</string>
+    <string name="share">Küldés</string>
+    <string name="archive">Becsomagolás</string>
+    <string name="selectAll">Összes Kiválasztása</string>
+    <string name="details">Adatok</string>
+    <string name="no_files">Üres Könyvtár</string>
+    <string name="storage">Belső Tárhely</string>
+    <string name="internal_storage">Belső Tárhely</string>
+    <string name="root">Gyökér</string>
+    <string name="go_up">Ugrás Fel</string>
+    <string name="one_file">1 Fájl</string>
+    <string name="x_files">%1$d fájl</string>
+    <string name="x_dirs">%1$d könyvtár(ak)</string>
+    <string name="done">Kész</string>
+    <string name="remove_bookmark">Könyvjelző Eltávolítása</string>
+    <string name="sort_modified">Legutóbb Módosítva</string>
+    <string name="modified_x">Módosítva %1$s</string>
+    <string name="navigation_drawer_open">Navigációs Fiók megnyitása</string>
+    <string name="navigation_drawer_close">Navigációs Fiók bezárása</string>
+    <string name="new_folder">Új Mappa</string>
+    <string name="untitled">Névtelen</string>
+    <string name="renamed_to">Átnevezve %1$s</string>
+    <string name="moved_to">Áthelyezve %1$s</string>
+    <string name="copied_to">Másolva %1$s</string>
+    <string name="no">Nem</string>
+    <string name="yes">Igen</string>
+    <string name="search">Keresés</string>
+    <string name="confirm_delete_xfiles">Biztos hogy törli a %1$d fájlokat?</string>
+    <string name="sort_by">Rendezés</string>
+    <string name="sort_name">Név</string>
+    <string name="sort_extension">Kiterjesztés</string>
+    <string name="sort_size_lowhigh">Növekvő</string>
+    <string name="sort_size_highlow">Csökkenő</string>
+    <string name="deleting">Törlés…</string>
+    <string name="extracting">Kibontás…</string>
+    <string name="archiving">Archiválás</string>
+    <string name="moving">Áthelyezés…</string>
+    <string name="copying">Másolás…</string>
+    <string name="failed_delete_file">Sikertelen a(z): %1$s törlése</string>
+    <string name="failed_make_directory">Sikertelen a(z): %1$s mappa létrehozása</string>
+    <string name="failed_rename_file">Sikertelen a(z): %1$s fájl átnevezése/mozgatása</string>
+    <string name="failed_extract_file">Nem sikerült kicsomagolni ezt a fájlt: %1$s</string>
+    <string name="failed_archive_files">Nem sikerült kicsomagolni ezt a fájlt(okat): %1$s</string>
+    <string name="error">Hiba</string>
+    <string name="activity_not_found">Nincs használható alkalmazás a fájl megnyitására</string>
+    <string name="failed_copy_x_error">Nem sikerült másolni %1$s:%2$s</string>
+    <string name="failed_move_x_error">Nem sikerült mozgatni %1$s:%2$s</string>
+    <string name="no_apps_for_sharing">Nincs használható alkalmazás a fájl küldésére</string>
+    <string name="copy_x"><![CDATA[
+ <b>Másolás:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[ <b>Mozgatás:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Fájlok keresése…</string>
+    <string name="search_x"><![CDATA[
+ <b>Keresés:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Fejlesztés Támogatása</string>
+    <string name="thank_you">Köszönjük!</string>
+    <string name="rate">Értékelés</string>
+    <string name="later">Később</string>
+    <string name="rate_desc">Szeretné értékelni az alkalmazást?</string>
+    <string name="sure">Persze!</string>
+    <string name="no_thanks">Nem, köszönöm</string>
+    <string name="file">Fájl</string>
+    <string name="folder">Mappa</string>
+    <string name="text">Szöveg</string>
+    <string name="image">Kép</string>
+    <string name="audio">Hang</string>
+    <string name="video">Videó</string>
+    <string name="other">Egyéb</string>
+    <string name="hidden_files">Rejtett Fájlok</string>
+    <string name="settings">Beállítások</string>
+    <string name="details_body_file"><![CDATA[
+ <b>Név:</b>&nbsp;&nbsp;%1$s<br/>
+ <b>Elérési Út:</b>&nbsp;&nbsp;%2$s<br/>
+ <b>Méret:</b>&nbsp;&nbsp;%3$s<br/>
+ <b>Módosítva:</b>&nbsp;&nbsp;%4$s<br/>
+ <b>Jogosultság:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Új Fájl</string>
+    <string name="pick_a_file">Válasszon egy fájlt…</string>
+    <string name="cabinet_text_editor">Szöveg Szerkesztő</string>
+    <string name="save">Mentés</string>
+    <string name="unsaved_changes">Nem mentett változtatások</string>
+    <string name="unsaved_changes_desc">Változtatások mentése kilépés előtt?</string>
+    <string name="loading">Betöltés…</string>
+    <string name="unsupported_extension">Nem Támogatott Kiterjesztés</string>
+    <string name="unsupported_extension_desc">Ezt a fájltipust nem lehet szerkezteni.</string>
+    <string name="extract_to">Kibontás ide…</string>
+    <string name="filter">Fájl Szűrő</string>
+    <string name="none">Nincs</string>
+    <string name="archives">Archívumok</string>
+    <string name="extension">Kiterjesztés</string>
+    <string name="superuser_not_available">Superuser nem elérhető</string>
+    <string name="filter_active">A Fájl Szűrő Aktív: %1$s</string>
+    <string name="base_theme">Témák</string>
+    <string-array name="base_themes">
+        <item>Világos</item>
+        <item>Sötét</item>
+        <item>Fekete</item>
+    </string-array>
+    <string name="owner">Tulajdonos</string>
+    <string name="group">Csoport</string>
+    <string name="applying_permissions">Engedélyek alkalmazása…</string>
+    <string name="find_and_replace">Keresés és Csere</string>
+    <string name="find">Megkeresés</string>
+    <string name="replace">Cserélje</string>
+    <string name="replace_all">Az összes cseréje</string>
+    <string name="match_case">Találat esetén</string>
+    <string name="no_occurences">Nincsenek események</string>
+    <string name="no_occurences_desc">Nincs előfordulása a keresett query találatnak.</string>
+    <string name="slash_name_invalid">Nem tartalmazhatja / a nevet.</string>
+    <string name="directory">Könyvtár</string>
+    <string name="theming">Testreszabás</string>
+    <string name="behavior">Működés</string>
+    <string name="changelog">Változások</string>
+    <string name="folders_first">Mappák Előre</string>
+    <string name="grid_size">Sorok Száma</string>
+    <string name="grid_size_one">Egy</string>
+    <string name="grid_size_two">Kettő</string>
+    <string name="grid_size_three">Három</string>
+    <string name="grid_size_four">Négy</string>
+    <string name="grid_size_five">Öt</string>
+    <string name="grid_size_six">Hat</string>
+    <string name="current_path">Aktuális Útvonal</string>
+    <string name="one_file_x_folders">1 fájl, %1$d mappa</string>
+    <string name="x_files_one_folder">%1$d fàjl, 1 mappa</string>
+    <string name="one_file_one_folder">1 fájl, 1 mappa</string>
+    <string name="x_files_x_folders">%1$d fájl, %2$d mappa</string>
+    <string name="empty">Üres</string>
+    <string name="one_folder">1 mappa</string>
+    <string name="x_folders">%1$d mappa</string>
+    <string name="nickname">Nicknév</string>
+    <string name="choose_destination">Válasszon egy helyet…</string>
+    <string name="external_storage">Külső Tárhely</string>
+    <string name="sdcard_write_warning">Figyelem: Az alkalmazás nem tud írni az SD kártyára, nem tudja módosítani a fájljait root hozzáférés nélkül.</string>
+    <string name="dont_show_again">Ne jelenjen meg többet</string>
+    <string name="pick_ringtone">Hangfájl kiválasztása…</string>
+    <string name="not_audio_file">Ki kell választani egy hangfájlt.</string>
+    <string name="cabinet_audio_preview">Cabinet Hanglejátszó</string>
+    <string name="add_homescreen_shortcut">Kezdőképernyőhöz</string>
+    <string name="shortcut_added">Parancsikon létrehozva ide: %1$s</string>
+    <string name="shortcut_nickname">Parancsikon Név</string>
+    <string name="add">Hozzáad</string>
+    <string name="x_free_of_x">%1$s szabad a %2$s-ból</string>
+    <string name="helpandfeedback_title">Súgó &amp; Visszajelzés</string>
+    <string name="help_and_feedback_body"><![CDATA[ <b>Cabinet %1$s</b>. Minimalista intuitív és gyönyörű fájlkezelő androidra.<br/><br/>
+ Fejlesztő <b>Aidan Follestad</b>.<br/>
+ <a href=\'http://aidanfollestad.com\'>Weboldal</a>&nbsp;&nbsp;
+ <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+ <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+ <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+ <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+ Fordítsa le az alkalmazást a saját nyelvére:<a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a><br/><br/>
+ Hibajelentések és kérések:<a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a> ]]></string>
+    <string name="archive_format">Archívum Formátum</string>
+    <string name="auto_extract_prompt">Csak ZIP, TAR, és JAR archívumok nézhetőek meg. Szeretné
+ kibontani az archívumot?</string>
+    <string name="auto_extract">Automata Kicsomagolás</string>
+    <string name="add_document_tree_path">Külső tárhely hozzáadása…</string>
+    <string name="external_storage_hint">Megjegyzés: előfordulhat, hogy ki kell választania az \'SD Kártya Mutatása\' opciót a legördülő menüben.</string>
+    <string name="nav_drawer">Navigációs Fiók</string>
+    <string name="save_to">Mentés…</string>
+    <string name="failed_open_plugin_file">Nem sikerült megnyitni ezt a bővítmény fájlt: %1$s</string>
+    <string name="saved_x">Mentve %1$s</string>
+    <string name="failed_chmod_file">Nem sikekerült a fájl: %1$s chmod-olása</string>
+    <string name="failed_upload_plugin_archive">Nem sikerült feltölteni az újonnan létrehozott plugin archívumot: %1$s</string>
+    <string name="connecting">Csatlakozás…</string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Mappa Megjegyzése</string>
+    <string name="directory_count_list">Sorjegyzék Számláló</string>
+    <string name="directory_count_appbar">Alkalmazás Sáv Könyvtár Számláló</string>
+    <string name="collapsing_appbar">Összecsukódó Alkalmazás Sáv</string>
+    <string name="show_root_bookmark">Gyökér Könyvtár Engedélyezése</string>
+    <string name="show_add_external_bookmark">Külső Tárhely Hozzáadása Mutatása</string>
+    <string name="show_free_space">Szabad Hely Jelzése</string>
+    <string name="colored_navbar">Szinezett Navigációs Sáv</string>
+    <string name="primary_color">Elsődleges Szín</string>
+    <string name="accent_color">Másodlagos Szín</string>
+    <string name="thumbnail_color">Indexkép Szín</string>
+</resources>

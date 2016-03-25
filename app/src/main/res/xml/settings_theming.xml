@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="base_theme"
+        android:layout="@layout/preference_custom"
+        android:persistent="false"
+        android:title="@string/base_theme" />
+
+    <com.afollestad.cabinet.views.ColorChooserPreference
+        android:key="primary_color"
+        android:summary="@string/primary_color_settingdesc"
+        android:title="@string/primary_color" />
+
+    <com.afollestad.cabinet.views.ColorChooserPreference
+        android:key="accent_color"
+        android:summary="@string/accent_color_settingdesc"
+        android:title="@string/accent_color" />
+
+    <com.afollestad.cabinet.views.ColorChooserPreference
+        android:key="thumbnail_color"
+        android:summary="@string/thumbnail_color_settingdesc"
+        android:title="@string/thumbnail_color" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="colored_navbar"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/colored_navbar_setting"
+        android:title="@string/colored_navbar"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+</PreferenceScreen>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Просмотр архивов в Cabinet</string>
+    <string name="open_as">Открыть как…</string>
+    <string name="bookmark">Закладка</string>
+    <string name="copy">Копировать</string>
+    <string name="move">Переместить</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="share">Отправить</string>
+    <string name="archive">Архив</string>
+    <string name="selectAll">Выбрать всё</string>
+    <string name="details">Свойства</string>
+    <string name="no_files">Файлов нет</string>
+    <string name="storage">Хранилище</string>
+    <string name="internal_storage">Внутренняя память</string>
+    <string name="root">Система</string>
+    <string name="go_up">Выше</string>
+    <string name="one_file">1 файл</string>
+    <string name="x_files">%1$d файлов</string>
+    <string name="x_dirs">%1$d папок</string>
+    <string name="no_files_of_type"><![CDATA[
+Нет <b>%1$s</b> файлов
+    ]]></string>
+    <string name="done">Готово</string>
+    <string name="remove_bookmark">Удалить закладку</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+ Вы уверены, что хотите удалить закладку <b>%1$s</b>? 
+    ]]></string>
+    <string name="sort_modified">Последние изменения</string>
+    <string name="modified_x">Изменён %1$s</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="new_folder">Новая папка</string>
+    <string name="untitled">Безымянный</string>
+    <string name="renamed_to">Переименовано в %1$s</string>
+    <string name="moved_to">Перемещено в %1$s</string>
+    <string name="copied_to">Копировано в %1$s</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="search">Поиск</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+Вы уверены, что хотите удалить <b>%1$s</b>?
+    ]]></string>
+    <string name="confirm_delete_xfiles">Вы уверены, что хотите удалить %1$d файлов?</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="sort_name">По имени</string>
+    <string name="sort_extension">По типу</string>
+    <string name="sort_size_lowhigh">По размеру (по возрастанию)</string>
+    <string name="sort_size_highlow">По размеру (по убыванию)</string>
+    <string name="deleting">Удаление…</string>
+    <string name="extracting">Извлечение…</string>
+    <string name="extracting_file"><![CDATA[
+Извлечение <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">Архивация…</string>
+    <string name="moving">Перемещение…</string>
+    <string name="copying">Копирование…</string>
+    <string name="failed_delete_file">Ошибка при удалении файла: %1$s</string>
+    <string name="failed_make_directory">Ошибка при создании новой папки: %1$s</string>
+    <string name="failed_rename_file">Ошибка при переименовании/перемещении файла: %1$s</string>
+    <string name="failed_extract_file">Ошибка извлечения файла: %1$s</string>
+    <string name="failed_archive_files">Ошибка архивации файла(ов): %1$s</string>
+    <string name="error">Ошибка</string>
+    <string name="activity_not_found">Нет нужного приложения для открытия этого файла</string>
+    <string name="failed_copy_x_error">Не удалось скопировать %1$s: %2$s</string>
+    <string name="failed_move_x_error">Не удалось переместить %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">Нет нужного приложения для отправки файлов этого формата</string>
+    <string name="copy_x"><![CDATA[
+ <b>Копировать:</b>%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[        <b>Переместить:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Искать файлы…</string>
+    <string name="search_x"><![CDATA[
+ <b>Искать:</b>%1$s
+    ]]></string>
+    <string name="support_dev">Поддержать разработку</string>
+    <string name="thank_you">Большое спасибо!</string>
+    <string name="rate">Оценить</string>
+    <string name="later">Позже</string>
+    <string name="rate_desc">Вы хотите оценить Cabinet в Google Play? Хорошие оценки ценны для нас!</string>
+    <string name="sure">Конечно!</string>
+    <string name="no_thanks">Нет, спасибо</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="text">Текст</string>
+    <string name="image">Изображение</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="other">Другое</string>
+    <string name="hidden_files">Скрытые файлы</string>
+    <string name="settings">Настройки</string>
+    <string name="details_body_file"><![CDATA[
+ <b>Имя:</b>&nbsp;&nbsp;%1$s<br/>
+ <b>Расположение:</b>&nbsp;&nbsp;%2$s<br/>
+ <b>Размер:</b>&nbsp;&nbsp;%3$s<br/>
+ <b>Изменён:</b>&nbsp;&nbsp;%4$s<br/>
+ <b>Разрешения:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Новый файл</string>
+    <string name="pick_a_file">Выбрать файл…</string>
+    <string name="cabinet_text_editor">Текстовый редактор Cabinet</string>
+    <string name="save">Сохранить</string>
+    <string name="unsaved_changes">Несохраненные изменения</string>
+    <string name="unsaved_changes_desc">У вас есть несохраненные изменения, вы хотите сохранить их прежде чем выйти?</string>
+    <string name="loading">Загрузка…</string>
+    <string name="unsupported_extension">Расширение не поддерживается</string>
+    <string name="unsupported_extension_desc">Редактирование файла невозможно.</string>
+    <string name="extract_to">Извлечь в…</string>
+    <string name="filter">Отбор по типу файла</string>
+    <string name="none">Без отбора</string>
+    <string name="archives">Архивы</string>
+    <string name="extension">Тип файла</string>
+    <string name="no_filter_files"><![CDATA[
+Нет файлов соответствующих отбору: <b>%1$s</b>
+    ]]></string>
+    <string name="superuser_not_available">Права Суперпользователя недоступны</string>
+    <string name="filter_active">Отбор по: %1$s</string>
+    <string name="base_theme">Основная тема</string>
+    <string-array name="base_themes">
+        <item>Светлая</item>
+        <item>Темная</item>
+        <item>Черный (AMOLED)</item>
+    </string-array>
+    <string name="owner">Владелец</string>
+    <string name="group">Группа</string>
+    <string name="applying_permissions">Применение разрешений…</string>
+    <string name="find_and_replace">Найти и заменить</string>
+    <string name="find">Найти</string>
+    <string name="replace">Заменить</string>
+    <string name="replace_all">Заменить все</string>
+    <string name="match_case">Учитывать регистр</string>
+    <string name="no_occurences">Без результатов</string>
+    <string name="no_occurences_desc">По вашему запросу ничего не найдено.</string>
+    <string name="text_editor_read_only">Только для чтения (из-за разрешений файла)</string>
+    <string name="slash_name_invalid">Добавление невозможно / в имени.</string>
+    <string name="directory">Каталог</string>
+    <string name="theming">Оформление</string>
+    <string name="behavior">Поведение</string>
+    <string name="changelog">Изменения</string>
+    <string name="folders_first">Сначала папки</string>
+    <string name="grid_size">Размер сетки</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Текущий путь</string>
+    <string name="one_file_x_folders">1 файл, %1$d папок</string>
+    <string name="x_files_one_folder">%1$d файлов, 1 папка</string>
+    <string name="one_file_one_folder">1 файл, 1 папка</string>
+    <string name="x_files_x_folders">%1$d файлов, %2$d папок</string>
+    <string name="empty">Пусто</string>
+    <string name="one_folder">1 папка</string>
+    <string name="x_folders">%1$d папок</string>
+    <string name="nickname">Название</string>
+    <string name="choose_destination">Выбрать расположение…</string>
+    <string name="external_storage">Внешняя память</string>
+    <string name="sdcard_write_warning">Внимание: Cabinet не сможет получить доступ к записи на карту памяти, вы не сможете изменять файлы если не доступен рут.</string>
+    <string name="dont_show_again">Не показывать снова</string>
+    <string name="pick_ringtone">Выбрать звуковой файл…</string>
+    <string name="not_audio_file">Вы должны выбрать звуковой файл.</string>
+    <string name="cabinet_audio_preview">Музыкальный Плеер Cabinet</string>
+    <string name="add_homescreen_shortcut">Добавить на главный экран</string>
+    <string name="shortcut_added">Ярлык создан в %1$s</string>
+    <string name="shortcut_nickname">Название ярлыка</string>
+    <string name="add">Добавить</string>
+    <string name="x_free_of_x">%1$ss свободно из %2$s</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+Вы хотите скрыть опцию <b>Добавить внешнюю память</b>? Вы можете включить опцию обратно в меню настроек.
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+Вы действительно хотите скрыть закладку <b>Cистема</b>? Вы можете включить ее отображение в настройках позже.
+    ]]></string>
+    <string name="helpandfeedback_title">Справка и отзывы</string>
+    <string name="help_and_feedback_body"><![CDATA[
+<b>Cabinet %1$s</b>. Минималистичный, интуитивно понятный, красивый файловый менеджер для Android 4.0 и выше.<br/><br/>
+Разработан <b>Эйданом Фоллестэдом</b>.<br/>
+<a href=\'http://aidanfollestad.com\'>Веб-сайт</a>&nbsp;&nbsp;
+<a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+<a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+<a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+<a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+Большое спасибо <a href=\'https://github.com/plusCubed\'>Даниилу Чао</a> за все его заслуги.<br/><br/>
+Переведите Cabinet на ваш родной язык: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+Сообщите об ошибках или предложите новые функции: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>
+    ]]></string>
+    <string name="archive_format">Формат архива</string>
+    <string name="auto_extract_prompt">Можно просматривать только ZIP-, TAR- и JAR-архивы. Хотели бы вы
+ извлечь этот архив?</string>
+    <string name="auto_extract">Автораспаковка</string>
+    <string name="add_document_tree_path">Добавить внешнюю память…</string>
+    <string name="external_storage_hint">Обратите внимание: возможно вам потребуется выбрать \"Показывать карту памяти\" во всплывающем меню.</string>
+    <string name="nav_drawer">Боковое меню</string>
+    <string name="save_to">Сохранить в…</string>
+    <string name="failed_open_plugin_file">Не удалось открыть этот файл плагина: %1$s</string>
+    <string name="saved_x">Сохраняется %1$s</string>
+    <string name="failed_chmod_file">Не удалось изменить права доступа к этому файлу: %1$s</string>
+    <string name="failed_upload_plugin_archive">Не удалось загрузить недавно созданный архив плагина: %1$s</string>
+    <string name="connecting">Соединение…</string>
+    <string name="downloading_file"><![CDATA[
+Загрузка <b>%1$s</b>…
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+Не удалось прочитать <b>%1$s</b>: %2$s
+    ]]></string>
+    <string name="switcher_add_account">Добавить учетную запись</string>
+    <string name="uninstall_plugin">Удалить плагин</string>
+    <string name="remove_account">Удалить учетную запись</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+Вы действительно хотите удалить <b>%1$s</b> из <b>%2$s</b>?
+    ]]></string>
+    <string name="contacting_plugin">Включение плагина…</string>
+    <string name="switch_accounts">Переключить учетную запись</string>
+    <string name="switching_to_x"><![CDATA[
+Переключение на <b>%1$s</b>…
+    ]]></string>
+    <string name="plugin_settings">Настройки плагина</string>
+    <string name="account_settings">Настройки учетной записи</string>
+    <string name="no_accounts">Нет учетных записей</string>
+    <string name="no_accounts_prompt"><![CDATA[
+Учетные записи не были добавлены для <b>%1$s</b>. Хотите добавить одну прямо сейчас?
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Запомнить последнюю использованную папку</string>
+    <string name="remember_lastfolder_setting">Запомнить последнюю папку, которая была открыта при запуске Cabinet</string>
+    <string name="directory_count_list">Отображать количество файлов и папок</string>
+    <string name="directory_count_list_setting">Отображение количества файлов и папок в виде списков</string>
+    <string name="directory_count_appbar">Счётчик файлов и папок в панели приложения</string>
+    <string name="directory_count_appbar_setting">Отображение количества файлов и папок в текущей папке в панели приложения</string>
+    <string name="collapsing_appbar">Сворачивать панель приложения</string>
+    <string name="collapsing_appbar_setting">Сворачивание панели приложения при скроллинге вниз</string>
+    <string name="show_root_bookmark">Показывать закладку /Система</string>
+    <string name="show_root_bookmark_setting">Отображение закладки \"Система\" в верхней части бокового меню.</string>
+    <string name="show_add_external_bookmark">Внешняя память</string>
+    <string name="show_add_external_bookmark_setting">Отображение опции \"Добавить внешнюю память\" в боковом меню.</string>
+    <string name="show_free_space">Показывать свободное место</string>
+    <string name="show_free_space_setting">Отображение объема свободного места в хранилище устройства в боковом меню.</string>
+    <string name="colored_navbar">Цветная панель навигации</string>
+    <string name="colored_navbar_setting">Примените основной цвет темы для панели навигации</string>
+    <string name="load_thumbnails">Загрузить миниатюры</string>
+    <string name="load_thumbnails_setting">Отображение миниатюр для изображений, видео и APK-файлов</string>
+    <string name="primary_color">Основной цвет</string>
+    <string name="primary_color_settingdesc">Примените основной цвет темы</string>
+    <string name="accent_color">Цвет акцента</string>
+    <string name="accent_color_settingdesc">Примените цвет акцента темы</string>
+    <string name="thumbnail_color">Цвет миниатюр</string>
+    <string name="thumbnail_color_settingdesc">Примените цвет миниатюр файлов и папок</string>
+    <string name="only_available_api21">Эта функция доступна только на Android Lollipop и выше</string>
+    <string name="symlink">Симлинк</string>
+    <string name="back">Назад</string>
+    <string name="permission_needed">Требуется разрешение</string>
+    <string name="permission_needed_desc">Cabinet необходимо получить разрешение для доступа к памяти телефона, чтобы быть файловым менеджером! Cabinet будет закрыт.</string>
+    <string name="remove">Удалить</string>
+</resources>

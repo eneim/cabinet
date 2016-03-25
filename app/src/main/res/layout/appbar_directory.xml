@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_directory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/toolbar_elevation"
+    android:orientation="vertical"
+    tools:ignore="UnusedAttribute,NewApi">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/appbar_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentInsetStart="@dimen/content_inset"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ViewStub
+            android:id="@+id/cab_attacher"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/hideArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.afollestad.cabinet.views.BreadCrumbLayout
+            android:id="@+id/breadCrumbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:paddingEnd="@dimen/breadcrumb_arrow_margin"
+            android:paddingLeft="@dimen/breadcrumb_layout_margin"
+            android:paddingRight="@dimen/breadcrumb_arrow_margin"
+            android:paddingStart="@dimen/breadcrumb_layout_margin"
+            android:paddingTop="-48dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:paddingStart="72dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:ignore="NewApi" />
+
+    </LinearLayout>
+
+</LinearLayout>

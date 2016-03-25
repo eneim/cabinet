@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afollestad.cabinet.ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/nav_drawer_frame"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:clickable="true"
+            android:fitsSystemWindows="true">
+
+            <!--suppress AndroidElementNotAllowed -->
+            <fragment
+                android:id="@+id/navigation_drawer"
+                android:name="com.afollestad.cabinet.fragments.NavigationDrawerFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="NAV_DRAWER"
+                tools:layout="@layout/fragment_drawer" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/vertical_shadow"
+                android:layout_width="6dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/vertical_shadow" />
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/appbar_directory" />
+
+                <View
+                    android:id="@+id/appbar_shadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="?appbar_shadow" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/outerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?fab_overlay_color"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="invisible"
+        tools:ignore="RtlSymmetry" />
+
+    <include layout="@layout/fab_menu" />
+
+</FrameLayout>

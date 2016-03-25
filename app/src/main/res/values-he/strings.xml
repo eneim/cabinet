@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_as">פתח כ…</string>
+    <string name="copy">העתק</string>
+    <string name="rename">שנה שם</string>
+    <string name="delete">מחק</string>
+    <string name="share">שתף</string>
+    <string name="selectAll">סמן הכל</string>
+    <string name="details">פרטים</string>
+    <string name="no_files">אין קבצים</string>
+    <string name="storage">אחסון</string>
+    <string name="root">מערכת</string>
+    <string name="go_up">עלה למעלה</string>
+    <string name="x_files">קבצי %1$d</string>
+    <string name="x_dirs">%1$d מיקומים</string>
+    <string name="done">גמור</string>
+    <string name="sort_modified">שונה לאחרונה</string>
+    <string name="modified_x">%1$s שונה</string>
+    <string name="navigation_drawer_open">פתח את חלון הניווט</string>
+    <string name="navigation_drawer_close">סגור את חלון הניווט</string>
+    <string name="new_folder">תיקייה חדשה</string>
+    <string name="untitled">ללא שם</string>
+    <string name="renamed_to">השם שונה ל-%1$s</string>
+    <string name="moved_to">הוזז ל-%1$s</string>
+    <string name="copied_to">הועתק ל-%1$s</string>
+    <string name="no">לא</string>
+    <string name="yes">כן</string>
+    <string name="search">חיפוש</string>
+    <string name="confirm_delete_xfiles">האם אתה בטוח שאתה רוצה למחוק %1$d קבצים?</string>
+    <string name="sort_by">מיין לפי</string>
+    <string name="sort_name">שם</string>
+    <string name="sort_extension">סוג קובץ</string>
+    <string name="sort_size_lowhigh">משקל, מקל לכבד</string>
+    <string name="sort_size_highlow">משקל, מכבד לקל</string>
+    <string name="deleting">מוחק…</string>
+    <string name="moving">מזיז…</string>
+    <string name="copying">מעתיק…</string>
+    <string name="failed_delete_file">נכשלה מחיקת הקובץ: %1$s</string>
+    <string name="failed_make_directory">נכשלה יצירת התיקייה: %1$s</string>
+    <string name="failed_rename_file">נכשלה הזזה/שינוי שם של הקובץ: %1$s</string>
+    <string name="error">תקלה</string>
+    <string name="activity_not_found">לא נמצא ישום הפותח קובץ זה:</string>
+    <string name="no_apps_for_sharing">אין ישומים זמינים לשיתוף סוג הקובץ הזה</string>
+    <string name="copy_x"><![CDATA[
+        <b>העתק:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="search_files">חפש קבצים…</string>
+    <string name="search_x"><![CDATA[
+        <b>חפש:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="thank_you">אנו מודים לך מאוד!</string>
+    <string name="rate">דרג</string>
+    <string name="later">מאוחר יותר</string>
+    <string name="rate_desc">האם תרצה לדרג את Cabinet בגוגל פליי? אנו מעריכים דירוגים טובים!</string>
+    <string name="sure">ברור!</string>
+    <string name="no_thanks">לא תודה</string>
+    <string name="file">קובץ</string>
+    <string name="folder">תיקיה</string>
+    <string name="text">טקסט</string>
+    <string name="image">תמונה</string>
+    <string name="audio">קול</string>
+    <string name="video">וידאו</string>
+    <string name="other">אחר</string>
+    <string name="settings">הגדרות</string>
+    <string name="details_body_file"><![CDATA[
+        <b>שם:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>מיקום:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>משקל:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>נערך:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>הרשאות:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">קובץ חדש</string>
+    <string name="pick_a_file">בחר קובץ…</string>
+    <string name="cabinet_text_editor">עורך הטקסט של Cabinet</string>
+    <string name="save">שמור</string>
+    <string name="unsaved_changes">שינויים לא נשמרו</string>
+    <string name="unsaved_changes_desc">יש לך שינויים לא שמורים, האם תרצה לשמור אותם לפני שאתה יוצא?</string>
+    <string name="loading">טוען…</string>
+    <string name="unsupported_extension">אין תמיכה בסוג קובץ זה.</string>
+    <string name="unsupported_extension_desc">אתה לא יכול לפתוח קובץ מסוג זה על מנת לערוך טקסט.</string>
+    <string name="filter">מסנן</string>
+    <string name="none">אף אחד</string>
+    <string name="archives">ארכיון</string>
+    <string name="extension">הארכה</string>
+    <string name="superuser_not_available">משתמש על לא זמין</string>
+    <string name="filter_active">לסנן פעיל:</string>
+    <string name="directory">מיקום</string>
+    <string name="connecting">מתחבר…</string>
+    <!-- Settings -->
+</resources>

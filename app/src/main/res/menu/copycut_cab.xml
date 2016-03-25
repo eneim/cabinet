@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:title="@string/new_folder"
+        android:icon="@drawable/ic_cab_add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/goUp"
+        android:title="@string/go_up"
+        android:icon="@drawable/ic_cab_goup"
+        app:showAsAction="ifRoom" />
+
+</menu>

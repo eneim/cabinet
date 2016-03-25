@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="_SelectorParent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="list_selector">@drawable/list_ripple_selector</item>
+        <item name="menu_selector">@drawable/menu_ripple_selector</item>
+
+        <item name="actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+
+        <item name="appbar_shadow">@null</item>
+    </style>
+
+    <style name="_SelectorParentDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="list_selector">@drawable/list_ripple_selector_dark</item>
+        <item name="menu_selector">@drawable/menu_ripple_selector</item>
+
+        <item name="actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+
+        <item name="fab_overlay_color">#60ffffff</item>
+        <item name="appbar_shadow">@null</item>
+    </style>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/sort_by"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sortName"
+                    android:title="@string/sort_name" />
+                <item
+                    android:id="@+id/sortExtension"
+                    android:title="@string/sort_extension" />
+                <item
+                    android:id="@+id/sortSizeLowHigh"
+                    android:title="@string/sort_size_lowhigh" />
+                <item
+                    android:id="@+id/sortSizeHighLow"
+                    android:title="@string/sort_size_highlow" />
+                <item
+                    android:id="@+id/sortLastModified"
+                    android:title="@string/sort_modified" />
+            </group>
+            <item
+                android:id="@+id/foldersFirstCheck"
+                android:checkable="true"
+                android:title="@string/folders_first" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/ic_overflow_filter"
+        android:title="@string/filter"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/filterNone"
+                    android:title="@string/none" />
+                <item
+                    android:id="@+id/filterText"
+                    android:title="@string/text" />
+                <item
+                    android:id="@+id/filterImage"
+                    android:title="@string/image" />
+                <item
+                    android:id="@+id/filterAudio"
+                    android:title="@string/audio" />
+                <item
+                    android:id="@+id/filterVideo"
+                    android:title="@string/video" />
+                <item
+                    android:id="@+id/filterArchives"
+                    android:title="@string/archives" />
+                <item
+                    android:id="@+id/filterOther"
+                    android:title="@string/other" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/gridSize"
+        android:icon="@drawable/ic_overflow_gridsize"
+        android:title="@string/grid_size"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/gridSizeOne"
+                    android:title="@string/grid_size_one" />
+                <item
+                    android:id="@+id/gridSizeTwo"
+                    android:title="@string/grid_size_two" />
+                <item
+                    android:id="@+id/gridSizeThree"
+                    android:title="@string/grid_size_three" />
+                <item
+                    android:id="@+id/gridSizeFour"
+                    android:title="@string/grid_size_four" />
+                <item
+                    android:id="@+id/gridSizeFive"
+                    android:title="@string/grid_size_five" />
+                <item
+                    android:id="@+id/gridSizeSix"
+                    android:title="@string/grid_size_six" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/goUp"
+        android:icon="@drawable/ic_overflow_goup"
+        android:title="@string/go_up"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addHomescreenShortcut"
+        android:icon="@drawable/ic_overflow_home"
+        android:title="@string/add_homescreen_shortcut"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/showHidden"
+        android:checkable="true"
+        android:title="@string/hidden_files"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/compactMode"
+        android:checkable="true"
+        android:title="@string/compact_mode"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/showCurrentPath"
+        android:checkable="true"
+        android:title="@string/current_path"
+        app:showAsAction="never" />
+
+</menu>

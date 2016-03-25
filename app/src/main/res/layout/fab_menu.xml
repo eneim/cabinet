@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.clans.fab.FloatingActionMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fab_actions"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_marginBottom="@dimen/fab_margin_ver"
+    android:layout_marginEnd="@dimen/fab_margin_hor"
+    android:layout_marginRight="@dimen/fab_margin_hor"
+    fab:menu_buttonSpacing="8dp"
+    fab:menu_icon="@drawable/fab_add"
+    fab:menu_labels_margin="4dp"
+    fab:menu_labels_paddingBottom="8dp"
+    fab:menu_labels_paddingLeft="12dp"
+    fab:menu_labels_paddingRight="12dp"
+    fab:menu_labels_paddingTop="8dp"
+    fab:menu_labels_textSize="@dimen/content_textsize"
+    fab:menu_openDirection="up">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionNewFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fab_file"
+        fab:fab_label="@string/file"
+        fab:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/actionNewFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fab_folder"
+        fab:fab_label="@string/folder"
+        fab:fab_size="mini" />
+
+</com.github.clans.fab.FloatingActionMenu>

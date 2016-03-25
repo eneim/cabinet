@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Cabinet" parent="@style/CabinetParent" />
+
+    <style name="Theme.Cabinet.WithNavDrawer" parent="Theme.Cabinet" />
+
+    <style name="Theme.CabinetDark" parent="@style/CabinetDarkParent" />
+
+    <style name="Theme.CabinetDark.WithNavDrawer" parent="Theme.CabinetDark" />
+
+    <style name="Theme.CabinetTrueBlack" parent="@style/CabinetTrueBlackParent" />
+
+    <style name="Theme.CabinetTrueBlack.WithNavDrawer" parent="Theme.CabinetTrueBlack" />
+
+
+    <style name="ButtonCabinet" parent="android:Widget.Holo.Light.Button">
+        <item name="android:textColor">@color/button_text_selector</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">64dp</item>
+    </style>
+
+    <style name="ButtonCabinetDark" parent="android:Widget.Holo.Button">
+        <item name="android:textColor">@color/button_text_selector_dark</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">64dp</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left|start</item>
+        <item name="android:layout_gravity">left|start</item>
+    </style>
+
+    <style name="DirectoryToolbarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="DirectoryToolbarSubtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Pengecek Arsip Kabinet</string>
+    <string name="open_as">Buka sebagai…</string>
+    <string name="bookmark">Marka buku</string>
+    <string name="copy">Salin</string>
+    <string name="move">Pindahkan</string>
+    <string name="rename">Ubah nama</string>
+    <string name="delete">Hapus</string>
+    <string name="share">Bagikan</string>
+    <string name="archive">Arsip</string>
+    <string name="selectAll">Pilih Semua</string>
+    <string name="details">Rincian</string>
+    <string name="no_files">Tidak ada berkas</string>
+    <string name="storage">Penyimpanan</string>
+    <string name="internal_storage">Penyimpanan Internal</string>
+    <string name="root">Akar</string>
+    <string name="go_up">Pergi ke awal</string>
+    <string name="one_file">1 berkas</string>
+    <string name="x_files">{%1$d} berkas</string>
+    <string name="x_dirs">%1$d direktori</string>
+    <string name="no_files_of_type"><![CDATA[Tidak ada berkas <b>%1$s</b>]]></string>
+    <string name="done">Selesai</string>
+    <string name="remove_bookmark">Hapus Marka buku</string>
+    <string name="sort_modified">Modifikasi terakhir</string>
+    <string name="modified_x">%1$s Termodifikasi</string>
+    <string name="navigation_drawer_open">Buka lemari navigasi</string>
+    <string name="navigation_drawer_close">Tutup lemari navigasi</string>
+    <string name="new_folder">Folder Baru</string>
+    <string name="untitled">Tanpa judul</string>
+    <string name="renamed_to">Dinamai menjadi %1$s</string>
+    <string name="moved_to">Dipindahkan ke %1$s</string>
+    <string name="copied_to">Disalin ke %1$s</string>
+    <string name="no">Tidak</string>
+    <string name="yes">Iya</string>
+    <string name="search">Cari</string>
+    <string name="confirm_delete_prompt"><![CDATA[Apakah anda yakin ingin menghapus <b>%1$s</b>?]]></string>
+    <string name="confirm_delete_xfiles">Apakah anda yakin ingin menghapus berkas %1$d?</string>
+    <string name="sort_by">Urutkan berdasarkan</string>
+    <string name="sort_name">Nama</string>
+    <string name="sort_extension">Ekstensi</string>
+    <string name="sort_size_lowhigh">Ukuran, rendah ke tinggi</string>
+    <string name="sort_size_highlow">Ukuran, tinggi ke rendah</string>
+    <string name="deleting">Menghapus…</string>
+    <string name="extracting">Mengekstrak…</string>
+    <string name="extracting_file"><![CDATA[Mengekstrak<b>%1$s</b>…]]></string>
+    <string name="archiving">Mengarsipkan…</string>
+    <string name="moving">Memindahkan…</string>
+    <string name="copying">Mengkopi…</string>
+    <string name="failed_delete_file">Gagal menghapus file ini: %1$s</string>
+    <string name="failed_make_directory">Gagal membuat folder baru: %1$s</string>
+    <string name="failed_rename_file">Gagal menamai/memindahkan file ini: %1$s</string>
+    <string name="failed_extract_file">Gagal mengekstrak file ini: %1$s</string>
+    <string name="failed_archive_files">Gagal mengarsipkan berkas: %1$s</string>
+    <string name="error">Kesalahan</string>
+    <string name="activity_not_found">Tidak ditemukan aplikasi untuk membuka berkas ini</string>
+    <string name="failed_copy_x_error">Gagal menyalin %1$s: %2$s</string>
+    <string name="failed_move_x_error">Gagal memindahkan %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">Tidak tersedia aplikasi untuk membagikan berkas tipe ini</string>
+    <string name="copy_x"><![CDATA[<b>salin:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="move_x"><![CDATA[<b>Pindahkan:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Cari berkas…</string>
+    <string name="search_x"><![CDATA[<b>Cari:</b>&nbsp;%1$s]]></string>
+    <string name="support_dev">Dukung Pengembangan</string>
+    <string name="thank_you">Terimakasih Banyak!</string>
+    <string name="rate">Nilai</string>
+    <string name="later">Nanti</string>
+    <string name="rate_desc">Apakah anda ingin menilai Cabinet di Google Play? Pemberian nilai bagus sangat diapresiasi!</string>
+    <string name="sure">Pasti!</string>
+    <string name="no_thanks">Tidak</string>
+    <string name="file">Berkas</string>
+    <string name="folder">Folder</string>
+    <string name="text">Teks</string>
+    <string name="image">Gambar</string>
+    <string name="audio">Suara</string>
+    <string name="video">Video</string>
+    <string name="other">Lain-lain</string>
+    <string name="hidden_files">Berkas tersembunyi</string>
+    <string name="settings">Pengaturan</string>
+    <string name="details_body_file"><![CDATA[<b>Nama:</b>&nbsp;&nbsp;%1$s<br/>
+<b>Letak:</b>&nbsp;&nbsp;%2$s<br/>
+<b>Ukuran:</b>&nbsp;&nbsp;%3$s<br/>
+<b>Termodifikasi:</b>&nbsp;&nbsp;%4$s<br/>
+<b>Perijinan:</b>;&nbsp;&nbsp;%5$s
+]]></string>
+    <string name="new_file">Berkas Baru</string>
+    <string name="pick_a_file">Pilih berkas…</string>
+    <string name="cabinet_text_editor">Teks Editor Cabinet</string>
+    <string name="save">Simpan</string>
+    <string name="unsaved_changes">Perubahan Belum tersimpan</string>
+    <string name="unsaved_changes_desc">Anda memiliki pengubahan belum tersimpan, apakah anda ingin menyimpannya sebelum keluar?</string>
+    <string name="loading">Memuat…</string>
+    <string name="unsupported_extension">Ekstensi tidak terdukung</string>
+    <string name="unsupported_extension_desc">Anda tidak dapat membuka berkas jenis ini untuk pengeditan teks</string>
+    <string name="extract_to">Ekstrak ke…</string>
+    <string name="filter">Filter</string>
+    <string name="none">Tidak ada</string>
+    <string name="archives">Arsip</string>
+    <string name="extension">Ekstensi</string>
+    <string name="no_filter_files"><![CDATA[Tidak ada berkas untuk filter:<b>%1$s</b>]]></string>
+    <string name="superuser_not_available">Superuser tidak tersedia</string>
+    <string name="filter_active">Filter aktif: %1$s</string>
+    <string name="base_theme">Tema dasar</string>
+    <string-array name="base_themes">
+        <item>Terang</item>
+        <item>Gelap</item>
+        <item>Hitam (AMOLED)</item>
+    </string-array>
+    <string name="owner">Pemilik</string>
+    <string name="group">Grup</string>
+    <string name="applying_permissions">Menerapkan perizinan…</string>
+    <string name="find_and_replace">Temukan dan Gantikan</string>
+    <string name="find">Temukan</string>
+    <string name="replace">Gantikan</string>
+    <string name="replace_all">Gantikan semua</string>
+    <string name="match_case">Kasus Persis</string>
+    <string name="directory">Direktori</string>
+    <string name="folders_first">Folder lebih dulu</string>
+    <string name="grid_size">Ukuran Grid</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="empty">Kosong</string>
+    <string name="nickname">Nama Panggilan</string>
+    <string name="external_storage">Penyimpanan Eksternal</string>
+    <string name="cabinet_audio_preview">Pratinjau Audio Kabinet</string>
+    <string name="shortcut_added">Pintasan ke %1$s dibuat!</string>
+    <string name="shortcut_nickname">Nama Panggilan Pintasan</string>
+    <string name="add">Tambahkan</string>
+    <string name="x_free_of_x">%1$s bebas dari %2$s</string>
+    <string name="add_document_tree_path">Tambahkan penyimpanan eksternal…</string>
+    <string name="save_to">Simpan ke…</string>
+    <string name="saved_x">Disimpan %1$s</string>
+    <!-- Settings -->
+    <string name="show_add_external_bookmark">Tampilkan Tambahkan Penyimpanan Eksternal</string>
+    <string name="show_free_space">Tampilkan Ruang Bebas</string>
+    <string name="colored_navbar">Bar Navigasi Berwarna</string>
+    <string name="primary_color">Warna Primer</string>
+    <string name="accent_color">Warna Aksen</string>
+    <string name="only_available_api21">Fitur ini hanya tersedia di Android Lollipop dan di atas nya</string>
+</resources>

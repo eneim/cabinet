@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="nav_drawer_width_limit">326dp</dimen>
+    <dimen name="recyclerview_side_padding">7dp</dimen>
+    <dimen name="content_inset">64dp</dimen>
+    <dimen name="breadcrumb_layout_margin">52dp</dimen>
+    <dimen name="empty_text_size">28sp</dimen>
+
+    <dimen name="fab_margin_ver">24dp</dimen>
+    <dimen name="fab_margin_hor">18dp</dimen>
+
+</resources>

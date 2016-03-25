@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet 封存總管</string>
+    <string name="open_as">開啓爲</string>
+    <string name="bookmark">書籤</string>
+    <string name="copy">複製</string>
+    <string name="move">移動</string>
+    <string name="rename">重新命名</string>
+    <string name="delete">刪除</string>
+    <string name="share">共用</string>
+    <string name="archive">封存</string>
+    <string name="selectAll">全部選擇</string>
+    <string name="details">詳細</string>
+    <string name="no_files">無檔案</string>
+    <string name="storage">儲存</string>
+    <string name="internal_storage">內部儲存</string>
+    <string name="root">Root</string>
+    <string name="go_up">向上</string>
+    <string name="one_file">一個檔案</string>
+    <string name="x_files">%1$d 檔案</string>
+    <string name="x_dirs">%1$d 目錄</string>
+    <string name="done">完畢</string>
+    <string name="remove_bookmark">移除書籤</string>
+    <string name="sort_modified">修改時間</string>
+    <string name="modified_x">修改時間 %1$s</string>
+    <string name="navigation_drawer_open">打開導航欄</string>
+    <string name="navigation_drawer_close">關閉導航欄</string>
+    <string name="new_folder">新資料夾</string>
+    <string name="untitled">未命名</string>
+    <string name="renamed_to">重新命名到  %1$s</string>
+    <string name="moved_to">移動到 %1$s</string>
+    <string name="copied_to">複製到 %1$s</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="search">搜尋</string>
+    <string name="confirm_delete_xfiles">確認要刪除 %1$d 檔案？</string>
+    <string name="sort_by">排序</string>
+    <string name="sort_name">名稱</string>
+    <string name="sort_extension">類型</string>
+    <string name="sort_size_lowhigh">大小，從小到大</string>
+    <string name="sort_size_highlow">大小，從大到小</string>
+    <string name="deleting">正在刪除……</string>
+    <string name="extracting">解壓中…</string>
+    <string name="archiving">壓縮中…</string>
+    <string name="moving">正在移動……</string>
+    <string name="copying">正在複製……</string>
+    <string name="failed_delete_file">刪除檔案 %1$s 失敗</string>
+    <string name="failed_make_directory">新增資料夾 %1$s 失敗</string>
+    <string name="failed_rename_file">重新命名/移動檔案 %1$s 失敗</string>
+    <string name="failed_extract_file">未能解壓檔案︰%1$s</string>
+    <string name="failed_archive_files">未能解縮檔案︰%1$s</string>
+    <string name="error">錯誤</string>
+    <string name="activity_not_found">沒有找到可以打開這個檔案的程式</string>
+    <string name="no_apps_for_sharing">沒有可以共享此類型文檔的程式</string>
+    <string name="copy_x"><![CDATA[
+        <b>複製：</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[        <b>移動︰</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">搜尋文檔……</string>
+    <string name="search_x"><![CDATA[
+        <b>搜尋：</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">支持開發者</string>
+    <string name="thank_you">非常感謝！</string>
+    <string name="rate">打分</string>
+    <string name="later">稍後</string>
+    <string name="rate_desc">您想要在 Google Play 上給 Cabinet 打分麼？非常期待您的認可！</string>
+    <string name="sure">當然！</string>
+    <string name="no_thanks">不，謝謝！</string>
+    <string name="file">檔案</string>
+    <string name="folder">資料夾</string>
+    <string name="text">文本</string>
+    <string name="image">映像</string>
+    <string name="audio">音訊</string>
+    <string name="video">視訊</string>
+    <string name="other">其他</string>
+    <string name="hidden_files">隱藏檔案</string>
+    <string name="settings">設定</string>
+    <string name="details_body_file"><![CDATA[
+        <b>名稱：</b>&nbsp;&nbsp;%1$s<br/>
+        <b>路徑：</b>&nbsp;&nbsp;%2$s<br/>
+        <b>大小：</b>&nbsp;&nbsp;%3$s<br/>
+        <b>修改時間：</b>&nbsp;&nbsp;%4$s<br/>
+        <b>許可權：</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">新增檔案</string>
+    <string name="pick_a_file">提取檔案……</string>
+    <string name="cabinet_text_editor">Cabinet 文本編輯器</string>
+    <string name="save">保存</string>
+    <string name="unsaved_changes">未保存修改</string>
+    <string name="unsaved_changes_desc">您仍有修改尚未保存，是否在退出前保存？</string>
+    <string name="loading">載入中……</string>
+    <string name="unsupported_extension">不支持的檔案類型</string>
+    <string name="unsupported_extension_desc">您無法將此類型檔案以文本編輯方式打開。</string>
+    <string name="extract_to">解壓縮到…</string>
+    <string name="filter">篩選</string>
+    <string name="none">無</string>
+    <string name="archives">壓縮檔案</string>
+    <string name="extension">類型</string>
+    <string name="superuser_not_available">Superuser 不可用</string>
+    <string name="filter_active">" 篩選條件： %1$s"</string>
+    <string name="base_theme">主題背景</string>
+    <string-array name="base_themes">
+        <item>淺灰色背景</item>
+        <item>深灰色背景</item>
+        <item>黑色背景（AMOLED)</item>
+    </string-array>
+    <string name="owner">擁有者</string>
+    <string name="group">群組</string>
+    <string name="applying_permissions">申請權限中……</string>
+    <string name="find_and_replace">尋找與取代</string>
+    <string name="find">尋找</string>
+    <string name="replace">取代</string>
+    <string name="replace_all">全部取代</string>
+    <string name="match_case">大小寫相符</string>
+    <string name="no_occurences">沒有結果</string>
+    <string name="no_occurences_desc">找不到有相關的結果。</string>
+    <string name="slash_name_invalid">你不能包含 / 在名字裡。</string>
+    <string name="directory">目錄</string>
+    <string name="theming">主題化</string>
+    <string name="changelog">更新日誌</string>
+    <string name="folders_first">文件夾在前</string>
+    <string name="grid_size">網格數量</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">現在路徑</string>
+    <string name="one_file_x_folders">一個檔案，%1$d個資料夾</string>
+    <string name="x_files_one_folder">%1$d個檔案，一個資料夾</string>
+    <string name="one_file_one_folder">一個檔案，一個資料夾</string>
+    <string name="x_files_x_folders">%1$d個檔案，%2$d個資料夾</string>
+    <string name="empty">空的</string>
+    <string name="one_folder">一個資料夾</string>
+    <string name="x_folders">%1$d個資料夾</string>
+    <string name="nickname">別名</string>
+    <string name="choose_destination">選取目的地…</string>
+    <string name="external_storage">外部儲存</string>
+    <string name="sdcard_write_warning">警告︰Cabinet未能存取您的 SD 咭。除非您已取得 root 權限，否則您不可以修改 SD 咭的檔案。</string>
+    <string name="dont_show_again">不要再顯示</string>
+    <string name="pick_ringtone">選取音效檔…</string>
+    <string name="not_audio_file">您必須要選取一個音效檔。</string>
+    <string name="cabinet_audio_preview">Cabinet音效預覽功能</string>
+    <string name="add">加入</string>
+    <string name="connecting">正在連接……</string>
+    <!-- Settings -->
+    <string name="remember_last_folder">記下最後的資料夾</string>
+    <string name="directory_count_list">顯示文件夾數目</string>
+    <string name="show_root_bookmark">顯示根目錄書籤</string>
+    <string name="colored_navbar">主色調導航欄</string>
+    <string name="primary_color">主色調（Primary顏色）</string>
+    <string name="accent_color">強調色調（Accent顏色）</string>
+    <string name="thumbnail_color">縮圖色調（Thumbnail顏色）</string>
+</resources>

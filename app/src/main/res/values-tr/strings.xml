@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet Arşiv Görüntüleyici</string>
+    <string name="open_as">Birlikte Aç</string>
+    <string name="bookmark">Yer İmi</string>
+    <string name="copy">Kopyala</string>
+    <string name="move">Taşı</string>
+    <string name="rename">Yeniden adlandır</string>
+    <string name="delete">Sil</string>
+    <string name="share">Paylaş</string>
+    <string name="archive">Arşivle</string>
+    <string name="selectAll">Hepsini seç</string>
+    <string name="details">Ayrıntılar</string>
+    <string name="no_files">Dosya yok</string>
+    <string name="storage">Depolama</string>
+    <string name="internal_storage">Dahili Depolama</string>
+    <string name="root">Ana Dizin</string>
+    <string name="go_up">Yukarı git</string>
+    <string name="one_file">1 Dosya</string>
+    <string name="x_files">%1$d dosya</string>
+    <string name="x_dirs">%1$d dizin</string>
+    <string name="no_files_of_type"><![CDATA[
+ <b>%1$s</b> dosyası bulunamadı
+    ]]></string>
+    <string name="done">Bitti</string>
+    <string name="remove_bookmark">Yer İmini Sil</string>
+    <string name="sort_modified">En son değiştirilme</string>
+    <string name="modified_x">%1$s saatinde değiştirildi</string>
+    <string name="navigation_drawer_open">Gezinti bölmesini aç</string>
+    <string name="navigation_drawer_close">Gezinti bölmesini kapat</string>
+    <string name="new_folder">Yeni klasör</string>
+    <string name="untitled">Başlıksız</string>
+    <string name="renamed_to">%1$s olarak yeniden adlandırıldı</string>
+    <string name="moved_to">%1$s konumuna taşındı</string>
+    <string name="copied_to">%1$s konumuna kopyalandı</string>
+    <string name="no">Hayır</string>
+    <string name="yes">Evet</string>
+    <string name="search">Ara</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+ <b>%1$s</b> dosyasını silmek istediğinizden emin misiniz? 
+    ]]></string>
+    <string name="confirm_delete_xfiles">%1$d dosyayı silmek istediğinizden emin misiniz?</string>
+    <string name="sort_by">Sırala</string>
+    <string name="sort_name">İsim</string>
+    <string name="sort_extension">Uzantı</string>
+    <string name="sort_size_lowhigh">Boyut, küçükten büyüğe</string>
+    <string name="sort_size_highlow">Boyut, büyükten küçüğe</string>
+    <string name="deleting">Siliniyor…</string>
+    <string name="extracting">Çıkartılıyor..</string>
+    <string name="extracting_file"><![CDATA[
+        <b>%1$s</b> çıkarılıyor…
+    ]]></string>
+    <string name="archiving">Arşivleniyor</string>
+    <string name="moving">Taşınıyor…</string>
+    <string name="copying">Kopyalanıyor…</string>
+    <string name="failed_delete_file">%1$s dosyası silinemedi</string>
+    <string name="failed_make_directory">%1$s klasörü oluşturulamadı.</string>
+    <string name="failed_rename_file">%1$s dosyası yeniden adlandırılamadı/taşınamadı</string>
+    <string name="failed_extract_file">%1$s dosyasının çıkartılmasında hata oluştu.</string>
+    <string name="failed_archive_files">%1$s dosyası arşivlenirken hata oluştu.</string>
+    <string name="error">Hata</string>
+    <string name="activity_not_found">Dosyayı açacak bir uygulama bulunamadı</string>
+    <string name="failed_copy_x_error">%1$s kopyalanırken hata oluştu: %2$s</string>
+    <string name="failed_move_x_error">%1$s taşınırken hata oluştu: %2$s</string>
+    <string name="no_apps_for_sharing">Bu dosya türünü paylaşabilecek uygun bir uygulama bulunamadı</string>
+    <string name="copy_x"><![CDATA[
+<b>Kopyala:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[        <b>Taşı:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">Dosyaları ara…</string>
+    <string name="search_x"><![CDATA[
+<b>Ara:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Uygulamayı Geliştirmeyi Destekle</string>
+    <string name="thank_you">Çok teşekkürler!</string>
+    <string name="rate">Oyla</string>
+    <string name="later">Sonra</string>
+    <string name="rate_desc">Cabinet\'i Google Play\'de oylamak ister misiniz? Tutarlı oylar memnuniyet verecektir.</string>
+    <string name="sure">Elbette!</string>
+    <string name="no_thanks">Hayır teşekkürler</string>
+    <string name="file">Dosya</string>
+    <string name="folder">Klasör</string>
+    <string name="text">Metin</string>
+    <string name="image">Resim</string>
+    <string name="audio">Ses</string>
+    <string name="video">Video</string>
+    <string name="other">Diğer</string>
+    <string name="hidden_files">Gizli Dosyalar</string>
+    <string name="settings">Ayarlar</string>
+    <string name="details_body_file"><![CDATA[
+<b>Dosya Adı:</b>&nbsp;&nbsp;%1$s<br/>
+<b>Konum:</b>&nbsp;&nbsp;%2$s<br/>
+<b>Boyut:</b>&nbsp;&nbsp;%3$s<br/>
+<b>En Son Değiştirilme:</b>&nbsp;&nbsp;%4$s<br/>
+<b>İzinler:</b>&nbsp;&nbsp;%5$s<br/>
+    ]]></string>
+    <string name="new_file">Yeni Dosya</string>
+    <string name="pick_a_file">Bir dosya seçin…</string>
+    <string name="cabinet_text_editor">Cabinet Metin Editörü</string>
+    <string name="save">Kaydet</string>
+    <string name="unsaved_changes">Kaydedilmemiş Değişiklikler</string>
+    <string name="unsaved_changes_desc">Kaydedilmemiş değişiklikleriniz var, çıkmadan önce onları kaydetmek ister misiniz?</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="unsupported_extension">Desteklenmeyen Uzantı</string>
+    <string name="unsupported_extension_desc">Bu tür bir dosyayı metin olarak düzenlemek için açamazsınız.</string>
+    <string name="extract_to">Buraya Çıkart</string>
+    <string name="filter">Filtre</string>
+    <string name="none">Hiçbiri</string>
+    <string name="archives">Arşivler</string>
+    <string name="extension">Uzantı</string>
+    <string name="no_filter_files"><![CDATA[
+        Filtrelenecek klasör yok: <b>%1$s</b> 
+    ]]></string>
+    <string name="superuser_not_available">Superuser kullanılamıyor</string>
+    <string name="filter_active">%1$s filtresi aktif</string>
+    <string name="base_theme">Ana Tema</string>
+    <string-array name="base_themes">
+        <item>Açık</item>
+        <item>Koyu</item>
+        <item>Siyah (AMOLED)</item>
+    </string-array>
+    <string name="owner">Sahibi</string>
+    <string name="group">Grup</string>
+    <string name="applying_permissions">İzinler uygulanıyor…</string>
+    <string name="find_and_replace">Bul ve Değiştir</string>
+    <string name="find">Bul</string>
+    <string name="replace">Değiştir</string>
+    <string name="replace_all">Hepsini Değiştir</string>
+    <string name="match_case">Eşleştirme durumu</string>
+    <string name="no_occurences">Olay Yok</string>
+    <string name="no_occurences_desc">Hiçbir olay bulunamadı.</string>
+    <string name="text_editor_read_only">Salt okunur(dosya izinine göre)</string>
+    <string name="slash_name_invalid">Dosya isminde / işaretini kullanamazsınız.</string>
+    <string name="directory">Dizin</string>
+    <string name="theming">Tema</string>
+    <string name="behavior">Davranış</string>
+    <string name="changelog">Değişiklik Listesi</string>
+    <string name="folders_first">Önce klasörler</string>
+    <string name="grid_size">Izgara Boyutu</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Güncel Yol</string>
+    <string name="one_file_x_folders">1 dosya, %1$d klasör</string>
+    <string name="x_files_one_folder">%1$d dosya, 1 klasör</string>
+    <string name="one_file_one_folder">1 dosya; 1 klasör</string>
+    <string name="x_files_x_folders">%1$d dosya, %2$d klasör</string>
+    <string name="empty">Boş</string>
+    <string name="one_folder">1 klasör</string>
+    <string name="x_folders">%1$d klasör</string>
+    <string name="nickname">Nickname</string>
+    <string name="choose_destination">Bir hedef seçin …</string>
+    <string name="external_storage">Harici Depolama</string>
+    <string name="sdcard_write_warning">Uyarı: Cabinet SD Kart\'a yazma izni alamadı. Eğer cihazınız rootlu değilse bu işlemi yapamazsınız.</string>
+    <string name="dont_show_again">Tekrar Gösterme</string>
+    <string name="pick_ringtone">Ses dosyası seç</string>
+    <string name="not_audio_file">Ses dosyası seçmelisin</string>
+    <string name="cabinet_audio_preview">Cabinet Ses Önizlemesi</string>
+    <string name="add_homescreen_shortcut">Ana Ekrana Ekle</string>
+    <string name="shortcut_added">%1$s\'e kısayol eklendi!</string>
+    <string name="shortcut_nickname">Kısayol Adı</string>
+    <string name="add">Ekle</string>
+    <string name="x_free_of_x">%2$s alanın %1$s kısmı boş.</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+        <b>Harici hafıza ekle</b> seçeneğini gizlemek istiyor musunuz? Bunu daha sonra ayarlardan değiştirebilirsiniz. 
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+        <b>Ana Dizin</b> seçeneğini gizlemek istiyor musunuz? Bunu daha sonra ayarlardan değiştirebilirsiniz. 
+    ]]></string>
+    <string name="helpandfeedback_title">Yardım &amp; Geri Bildirim</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>. Android 4.0 üzerini destekleyen milimalistik, sezgisel, güzel dosya yöneticisidir.<br/><br/>
+        Aidan Follestad <b> Tarafından tasarlanmıştır</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Websitesi</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+        Bütün katkıları için <a href=\'https://github.com/plusCubed\'>Daniel Ciao</a> a teşekkürler..<br/><br/>
+        Cabineti kendi yerel dilinize çevirin: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+        Hataları belirtin veya yeniliklerden bahsedin: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">Arşiv Türü</string>
+    <string name="auto_extract_prompt">Yalnızca ZIP, TAR ve JAR arşivleri görüntülenebilir. Bu arşivi
+ çıkarmak istiyor musunuz?</string>
+    <string name="auto_extract">Otomatik çıkar</string>
+    <string name="add_document_tree_path">Harici hafıza ekle</string>
+    <string name="external_storage_hint">Not: Taşan menüde \'SD kart\'ı göter\' seçeneğini seçmelisiniz.</string>
+    <string name="nav_drawer">Gezinti çubuğu</string>
+    <string name="save_to">Buraya kaydet…</string>
+    <string name="failed_open_plugin_file">bu eklenti dosyası açılırken hata oluştu:  %1$s</string>
+    <string name="saved_x">%1$s Kaydedildi</string>
+    <string name="failed_chmod_file">%1$s : Bu dosyaya chmod yapılamadı</string>
+    <string name="failed_upload_plugin_archive">Yeni oluşturulan eklenti arşivi karşıya yüklenirken hata oluştu: %1$s</string>
+    <string name="connecting">Bağlanılıyor…</string>
+    <string name="downloading_file"><![CDATA[
+        İndiriliyor <b>%1$s</b>… 
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+        Okunurken hata oluştu <b>%1$s</b>: %2$s 
+    ]]></string>
+    <string name="switcher_add_account">Hesap ekle</string>
+    <string name="uninstall_plugin">Eklenti kaldır</string>
+    <string name="remove_account">Hesap kaldır</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+         <b>%2$s</b>\'dan <b>%1$s</b> dosyasını silmek istiyor musunuz? 
+    ]]></string>
+    <string name="contacting_plugin">Eklentiye bağlanılıyor…</string>
+    <string name="switch_accounts">Hesaplar arasında geçiş yap</string>
+    <string name="switching_to_x"><![CDATA[
+        Geçiş yapılıyor <b>%1$s</b>… 
+    ]]></string>
+    <string name="plugin_settings">Eklenti ayarları</string>
+    <string name="account_settings">Hesap ayarları</string>
+    <string name="no_accounts">Hesap yok</string>
+    <string name="no_accounts_prompt"><![CDATA[
+        <b>%1$s</b> için eklenmiş bir hesap yok. Bir tane eklemek ister misiniz? 
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Son Klasörü Hatırla</string>
+    <string name="remember_lastfolder_setting">Cabinet başlatıldığında son kalınan klasörü hatırla</string>
+    <string name="directory_count_list">Dizin Sayısı Listesi</string>
+    <string name="directory_count_list_setting">Klasör listesinde dosya ve klasör sayısını göster</string>
+    <string name="directory_count_appbar">Uygulama başlık çubuğu yol sayacı</string>
+    <string name="directory_count_appbar_setting">Bulunulan klasörün klasör ve dosya sayısını uygulama başlık çubuğunda göster</string>
+    <string name="collapsing_appbar">Daralan uygulama başlık çubuğu</string>
+    <string name="collapsing_appbar_setting">Aşağı kaydırırken uygulama başlık çubuğu daralsın</string>
+    <string name="show_root_bookmark">Root Yer İmlerini Göster</string>
+    <string name="show_root_bookmark_setting">Gezinti çekmecesinin başında Ana dizini göster.</string>
+    <string name="show_add_external_bookmark">\"Harici Depolama Ekle\"yi göster.</string>
+    <string name="show_add_external_bookmark_setting">\'Harici hafıza ekle\' seçeneğini gezinti çekmecesinde göster</string>
+    <string name="show_free_space">Boş Alanı Göster</string>
+    <string name="show_free_space_setting">Gezinti çekmecesinde depolama birimindeki boş yeri göster</string>
+    <string name="colored_navbar">Renklendirilmiş Gezinti Çubuğu</string>
+    <string name="colored_navbar_setting">Gezinti çubuğuna ana tema rengini uygula</string>
+    <string name="load_thumbnails">Thumbnailleri yükle</string>
+    <string name="load_thumbnails_setting">Resim, video ve apk ler için thumbnailleri göster.</string>
+    <string name="primary_color">Ana Renk</string>
+    <string name="primary_color_settingdesc">Ana rengi Uygula</string>
+    <string name="accent_color">Vurgu Rengi</string>
+    <string name="accent_color_settingdesc">Vurgu rengini uygula</string>
+    <string name="thumbnail_color">Küçük Resim Rengi</string>
+    <string name="thumbnail_color_settingdesc">Klasör thumbnail kısmına rengi uygula</string>
+    <string name="only_available_api21">Bu özellik Android Lollipop ve üzeri için kullanılabilir</string>
+    <string name="symlink">Sembolik bağ</string>
+    <string name="back">Geri</string>
+    <string name="permission_needed">İzin gerekiyor</string>
+    <string name="permission_needed_desc">Cabinet dosya yöneticisi olarak telefon hafızasına erişmek için izin ister! Cabinet şimdi kapatılıyor.</string>
+</resources>

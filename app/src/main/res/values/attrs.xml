@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="drawer_background" format="color" />
+    <attr name="empty_text" format="color" />
+    <attr name="inset_divider" format="color" />
+    <attr name="inset_color" format="color" />
+    <attr name="nav_drawer_icontext" format="color" />
+
+    <attr name="menu_selector" format="reference" />
+    <attr name="list_selector" format="reference" />
+    <attr name="overflow" format="reference" />
+    <attr name="empty_image" format="reference" />
+    <attr name="empty_image_error" format="reference" />
+
+    <attr name="appbar_shadow" format="reference" />
+    <attr name="fab_overlay_color" format="color" />
+    <attr name="fastscroll_handle_pressed" format="color" />
+
+</resources>

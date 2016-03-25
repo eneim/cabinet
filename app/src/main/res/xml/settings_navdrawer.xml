@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_root_bookmark"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/show_root_bookmark_setting"
+        android:title="@string/show_root_bookmark"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_add_external"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/show_add_external_bookmark_setting"
+        android:title="@string/show_add_external_bookmark"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_free_space"
+        android:layout="@layout/preference_custom"
+        android:persistent="true"
+        android:summary="@string/show_free_space_setting"
+        android:title="@string/show_free_space"
+        android:widgetLayout="@layout/preference_dynamiccheckbox" />
+
+</PreferenceScreen>

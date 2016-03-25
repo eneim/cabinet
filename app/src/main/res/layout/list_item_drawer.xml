@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="UnusedAttribute">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="?inset_divider"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?list_selector"
+        android:minHeight="@dimen/drawer_item_minheight"
+        android:paddingEnd="@dimen/nav_drawer_item_hor_pad_half"
+        android:paddingLeft="@dimen/nav_drawer_item_hor_pad"
+        android:paddingRight="@dimen/nav_drawer_item_hor_pad_half"
+        android:paddingStart="@dimen/nav_drawer_item_hor_pad"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/nav_drawer_item_iconrightmargin"
+            android:layout_marginRight="@dimen/nav_drawer_item_iconrightmargin"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_drawer_settings"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/contentFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toLeftOf="@+id/expand"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toStartOf="@+id/expand"
+            android:orientation="vertical"
+            tools:ignore="RtlCompat">
+
+            <!--suppress AndroidDomInspection -->
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_fontFamily_medium"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/nav_drawer_textsize"
+                android:textStyle="@integer/font_textStyle_medium"
+                android:singleLine="true"
+                tools:text="Title"
+                tools:textColor="?android:textColorPrimary" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/nav_drawer_textsize_sub"
+                android:singleLine="true"
+                tools:text="Sub-title"
+                tools:textColor="?android:textColorSecondary" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/expand"
+            android:layout_width="@dimen/drawer_item_minheight"
+            android:layout_height="@dimen/drawer_item_minheight"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="?menu_selector"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_menu_horizontal"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</LinearLayout>

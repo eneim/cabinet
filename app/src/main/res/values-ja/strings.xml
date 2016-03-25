@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinetアーカイブビューワー</string>
+    <string name="open_as">…として開く</string>
+    <string name="bookmark">ブックマーク</string>
+    <string name="copy">コピー</string>
+    <string name="move">移動</string>
+    <string name="rename">名前の変更</string>
+    <string name="delete">削除</string>
+    <string name="share">共有</string>
+    <string name="archive">圧縮</string>
+    <string name="selectAll">全て選択</string>
+    <string name="details">詳細</string>
+    <string name="no_files">ファイルなし</string>
+    <string name="storage">ストレージ</string>
+    <string name="internal_storage">内蔵ストレージ</string>
+    <string name="root">ルート</string>
+    <string name="go_up">上の階層</string>
+    <string name="one_file">1ファイル</string>
+    <string name="x_files">%1$d ファイル</string>
+    <string name="x_dirs">%1$d ディレクトリ</string>
+    <string name="done">完了</string>
+    <string name="remove_bookmark">ブックマークを削除</string>
+    <string name="sort_modified">最終更新日</string>
+    <string name="modified_x">%1$s 更新</string>
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+    <string name="new_folder">新規フォルダ</string>
+    <string name="untitled">名称未設定</string>
+    <string name="renamed_to">%1$s へ名前変更</string>
+    <string name="moved_to">%1$s へ移動しました</string>
+    <string name="copied_to">%1$s へコピーしました</string>
+    <string name="no">いいえ</string>
+    <string name="yes">はい</string>
+    <string name="search">検索</string>
+    <string name="confirm_delete_xfiles">%1$d 個のファイルを削除しますか？</string>
+    <string name="sort_by">並べ替え</string>
+    <string name="sort_name">名前順</string>
+    <string name="sort_extension">拡張子順</string>
+    <string name="sort_size_lowhigh">サイズ、小さい順</string>
+    <string name="sort_size_highlow">サイズ、大きい順</string>
+    <string name="deleting">削除中…</string>
+    <string name="extracting">解凍中…</string>
+    <string name="archiving">圧縮中…</string>
+    <string name="moving">移動中…</string>
+    <string name="copying">コピー中…</string>
+    <string name="failed_delete_file">%1$s を削除できませんでした</string>
+    <string name="failed_make_directory">新規フォルダ %1$s を作成できませんでした</string>
+    <string name="failed_rename_file">%1$s の名前の変更/削除ができませんでした</string>
+    <string name="failed_extract_file">%1$sの解凍に失敗しました</string>
+    <string name="failed_archive_files">%1$sのアーカイブに失敗しました</string>
+    <string name="error">エラー</string>
+    <string name="activity_not_found">このファイルを開くことができるアプリが見つかりません</string>
+    <string name="no_apps_for_sharing">このタイプのファイルを共有できるアプリが見つかりません</string>
+    <string name="copy_x"><![CDATA[
+        <b>コピー：</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[
+<b>移動:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="search_files">ファイルの検索…</string>
+    <string name="search_x"><![CDATA[
+        <b>検索：</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">開発者のサポート</string>
+    <string name="thank_you">ありがとうございます！</string>
+    <string name="rate">評価</string>
+    <string name="later">後で</string>
+    <string name="rate_desc">Google PlayでCabinetの評価をお願いします！</string>
+    <string name="sure">はい！</string>
+    <string name="no_thanks">結構です</string>
+    <string name="file">ファイル</string>
+    <string name="folder">フォルダ</string>
+    <string name="text">テキスト</string>
+    <string name="image">画像</string>
+    <string name="audio">オーディオ</string>
+    <string name="video">ビデオ</string>
+    <string name="other">その他</string>
+    <string name="hidden_files">隠しファイル</string>
+    <string name="settings">設定</string>
+    <string name="details_body_file"><![CDATA[
+        <b>名前：</b>&nbsp;&nbsp;%1$s<br/>
+        <b>パス：</b>&nbsp;&nbsp;%2$s<br/>
+        <b>サイズ：</b>&nbsp;&nbsp;%3$s<br/>
+        <b>更新日：</b>&nbsp;&nbsp;%4$s<br/>
+        <b>パーミッション</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">新規ファイル</string>
+    <string name="pick_a_file">ファイルを選択…</string>
+    <string name="cabinet_text_editor">Cabinet テキストエディタ</string>
+    <string name="save">保存</string>
+    <string name="unsaved_changes">未保存の変更</string>
+    <string name="unsaved_changes_desc">未保存の変更があります。終了前に保存しますか？</string>
+    <string name="loading">読み込み中…</string>
+    <string name="unsupported_extension">サポートされていない拡張子</string>
+    <string name="unsupported_extension_desc">このタイプのファイルはテキスト編集できません。</string>
+    <string name="extract_to">解凍先フォルダ…</string>
+    <string name="filter">フィルタ</string>
+    <string name="none">なし</string>
+    <string name="archives">アーカイブ</string>
+    <string name="extension">拡張子</string>
+    <string name="superuser_not_available">Superuserが利用できません</string>
+    <string name="filter_active">アクティブフィルタ：%1$s</string>
+    <string name="base_theme">ベーステーマ</string>
+    <string-array name="base_themes">
+        <item>ライト</item>
+        <item>ダーク</item>
+        <item>ブラック (AMOLED)</item>
+    </string-array>
+    <string name="owner">オーナー</string>
+    <string name="group">グループ</string>
+    <string name="applying_permissions">パーミッションを適用中…</string>
+    <string name="find_and_replace">検索して置き換え</string>
+    <string name="find">検索</string>
+    <string name="replace">置き換え</string>
+    <string name="replace_all">すべて置き換え</string>
+    <string name="match_case">大文字小文字を区別</string>
+    <string name="no_occurences">見つかりません</string>
+    <string name="no_occurences_desc">検索語句が見つかりません。</string>
+    <string name="slash_name_invalid">名前に / を含めることはできません。</string>
+    <string name="directory">ディレクトリ</string>
+    <string name="theming">テーマ</string>
+    <string name="behavior">動作</string>
+    <string name="changelog">チェンジログ</string>
+    <string name="folders_first">フォルダを優先</string>
+    <string name="grid_size">グリッドサイズ</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">現在のパス</string>
+    <string name="one_file_x_folders">1 ファイル、 %1$d フォルダ</string>
+    <string name="x_files_one_folder">%1$d ファイル、 1 フォルダ</string>
+    <string name="one_file_one_folder">1 ファイル、 1 フォルダ</string>
+    <string name="x_files_x_folders">%1$d ファイル、 %2$d フォルダ</string>
+    <string name="empty">空</string>
+    <string name="one_folder">1 フォルダ</string>
+    <string name="x_folders">%1$d フォルダ</string>
+    <string name="nickname">ニックネーム</string>
+    <string name="choose_destination">宛先フォルダを選択…</string>
+    <string name="external_storage">外部ストレージ</string>
+    <string name="sdcard_write_warning">警告:CabinetにはSDカードへの書き込み権限がありません。root権限を取得している場合以外はファイルに変更を加えることはできません。</string>
+    <string name="dont_show_again">二度と表示しない</string>
+    <string name="pick_ringtone">オーディオファイルを選択…</string>
+    <string name="not_audio_file">オーディオファイルを選択してください</string>
+    <string name="cabinet_audio_preview">Cabinetオーディオプレビュー</string>
+    <string name="add_homescreen_shortcut">ホーム画面に追加</string>
+    <string name="shortcut_added">ショートカット%1$sを作成しました！</string>
+    <string name="shortcut_nickname">ショートカットの名前</string>
+    <string name="add">追加</string>
+    <string name="helpandfeedback_title">ヘルプとフィードバック</string>
+    <string name="help_and_feedback_body"><![CDATA[
+<b>Cabinet %1$s</b> Android4.0以上で動作する最小限で直感的な、美しいファイルマネージャー。<br/><br/>
+設計:<b>Aidan Follestad</b><br/>
+<a href=\'http://aidanfollestad.com\'>ウェブサイト</a>&nbsp;&nbsp;
+<a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+<a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+<a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+<a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+Cabinetをあなたの母国語に翻訳してください:<a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a><br/><br/>
+バグの報告や要望はこちらへ:<a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>
+    ]]></string>
+    <string name="archive_format">圧縮フォーマット</string>
+    <string name="auto_extract_prompt">ZIP,TAR,JAR形式の圧縮ファイルは中身を見ることができます。
+この圧縮ファイルを解凍しますか？</string>
+    <string name="auto_extract">自動解凍</string>
+    <string name="add_document_tree_path">外部ストレージを追加…</string>
+    <string name="external_storage_hint">注：オーバーフローメニューの「SDカードを表示」を選択することを推奨します。</string>
+    <string name="nav_drawer">ナビゲーションドロワー</string>
+    <string name="save_to">保存…</string>
+    <string name="connecting">接続中…</string>
+    <!-- Settings -->
+    <string name="remember_last_folder">最後のフォルダを記憶する</string>
+    <string name="directory_count_list">リスト内ディレクトリ数表示</string>
+    <string name="directory_count_appbar">アプリバーに表示するディレクトリ数</string>
+    <string name="collapsing_appbar">アプリバーを折りたたむ</string>
+    <string name="show_root_bookmark">ルートのブックマークを表示</string>
+    <string name="show_add_external_bookmark">外部ストレージの表示を追加する</string>
+    <string name="show_free_space">空きスペースを表示</string>
+    <string name="colored_navbar">ナビゲーションバーの装飾</string>
+    <string name="primary_color">メイン色</string>
+    <string name="accent_color">アクセント色</string>
+    <string name="thumbnail_color">サムネイルの色</string>
+</resources>

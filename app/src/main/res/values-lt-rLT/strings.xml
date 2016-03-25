@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet archyvų peržiūra</string>
+    <string name="open_as">Atidaryti kaip</string>
+    <string name="bookmark">Žymėti</string>
+    <string name="copy">Kopijuoti</string>
+    <string name="move">Perkelti</string>
+    <string name="rename">Pervadinti</string>
+    <string name="delete">Trinti</string>
+    <string name="share">Bendrinti</string>
+    <string name="archive">Archyvuoti</string>
+    <string name="selectAll">Pažymėti visus</string>
+    <string name="details">Išsamiau</string>
+    <string name="no_files">Failų nėra</string>
+    <string name="storage">Talpykla</string>
+    <string name="internal_storage">Vidinė atmintis</string>
+    <string name="root">Root</string>
+    <string name="go_up">Į viršų</string>
+    <string name="one_file">1 failas</string>
+    <string name="x_files">%1$d failai(-ų)</string>
+    <string name="x_dirs">%1$d direktorijos(-ų)</string>
+    <string name="done">Baigta</string>
+    <string name="remove_bookmark">Šalinti žymą</string>
+    <string name="new_folder">Naujas katalogas</string>
+    <string name="untitled">Be pavadinimo</string>
+    <string name="renamed_to">Pervadinta į %1$s</string>
+    <string name="moved_to">Perkelta į %1$s</string>
+    <string name="copied_to">Nukopijuota į %1$s</string>
+    <string name="no">Ne</string>
+    <string name="yes">Taip</string>
+    <string name="search">Ieškoti</string>
+    <string name="sort_by">Rūšiuoti pagal</string>
+    <string name="sort_name">Vardas</string>
+    <string name="sort_extension">Plėtinys</string>
+    <string name="sort_size_lowhigh">Dydis, didėjančia tvarka</string>
+    <string name="sort_size_highlow">Dydis, mažėjančia tvarka</string>
+    <string name="deleting">Trinama…</string>
+    <string name="extracting">Išpakuojama…</string>
+    <string name="extracting_file"><![CDATA[
+ Išpakuojama <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">Archyvuojama…</string>
+    <string name="moving">Perkeliama…</string>
+    <string name="copying">Kopijuojama…</string>
+    <string name="error">Klaida</string>
+    <string name="failed_copy_x_error">Klaida kopijuojant %1$s: %2$s</string>
+    <string name="copy_x"><![CDATA[
+ <b>Kopijuoti:</b>&nbsp;&nbsp;%1$s 
+    ]]></string>
+    <string name="move_x"><![CDATA[
+ <b>Perkelti:</b>&nbsp;&nbsp;%1$s 
+    ]]></string>
+    <string name="search_x"><![CDATA[
+ <b>Ieškoti:</b>&nbsp;%1$s 
+    ]]></string>
+    <string name="thank_you">Ačiū labai!</string>
+    <string name="rate">Įvertinti</string>
+    <string name="later">Vėliau</string>
+    <string name="sure">Žinoma!</string>
+    <string name="no_thanks">Ne, ačiū</string>
+    <string name="file">Failas</string>
+    <string name="folder">Katalogas</string>
+    <string name="text">Tekstas</string>
+    <string name="image">Paveikslėlis</string>
+    <string name="audio">Garsas</string>
+    <string name="video">Vaizdas</string>
+    <string name="other">Kita</string>
+    <string name="hidden_files">Paslėpti failai</string>
+    <string name="settings">Nustatymai</string>
+    <string name="details_body_file"><![CDATA[
+ <b>Vardas:</b>&nbsp;&nbsp;%1$s<br/> 
+ <b>Kelias:</b>&nbsp;&nbsp;%2$s<br/> 
+ <b>Dydis:</b>&nbsp;&nbsp;%3$s<br/>
+ <b>Modifikuota:</b>&nbsp;&nbsp;%4$s<br/> 
+ <b>Leidimai:</b>&nbsp;&nbsp;%5$s 
+    ]]></string>
+    <string name="new_file">Naujas failas</string>
+    <string name="pick_a_file">Pasirinkti failą…</string>
+    <string name="cabinet_text_editor">Cabinet tekstų redaktorius</string>
+    <string name="save">Išsaugoti</string>
+    <string name="loading">Kraunasi…</string>
+    <string name="unsupported_extension">Nepalaikomas plėtinys</string>
+    <string name="extract_to">Išskleisti į…</string>
+    <string name="extension">Plėtinys</string>
+    <string name="superuser_not_available">Super vartotojas negalimas</string>
+    <string-array name="base_themes">
+        <item>Šviesi</item>
+        <item>Tamsi</item>
+        <item>Juoda (AMOLED)</item>
+    </string-array>
+    <string name="owner">Sąvininkas</string>
+    <string name="group">Grupė</string>
+    <string name="replace">Pakeisti</string>
+    <string name="replace_all">Pakeisti visus</string>
+    <string name="directory">Direktorija</string>
+    <string name="changelog">Pakeitimų sąrašas</string>
+    <string name="folders_first">Pirma katalogai</string>
+    <string name="grid_size">Tinklelio dydis</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="empty">Tuščia</string>
+    <string name="external_storage">Išorinė laikmena</string>
+    <string name="dont_show_again">Daugiau neberodyti</string>
+    <string name="archive_format">Archyvo formatas</string>
+    <string name="auto_extract">Automatinis išskleidimas</string>
+    <string name="add_document_tree_path">Pridėti išorinę laikmeną</string>
+    <string name="connecting">Jungiamasi…</string>
+    <string name="failed_read_file_error"><![CDATA[
+ Nepavyko nuskaityti <b>%1$s</b>: %2$s 
+    ]]></string>
+    <string name="switcher_add_account">Pridėti paskyrą</string>
+    <string name="uninstall_plugin">Išdiegti įskiepį</string>
+    <string name="remove_account">Pašalinti paskyrą</string>
+    <string name="switch_accounts">Perjunti paskyras</string>
+    <string name="switching_to_x"><![CDATA[
+ Perjungiama į <b>%1$s</b>…
+    ]]></string>
+    <string name="plugin_settings">Įskiepio nustatymai</string>
+    <string name="account_settings">Paskyros nustatymai</string>
+    <string name="no_accounts">Paskyrų nėra</string>
+    <!-- Settings -->
+    <string name="load_thumbnails">Rodyti miniatiūras</string>
+    <string name="thumbnail_color">Miniatiūros spalva</string>
+    <string name="only_available_api21">Ši funkcija prieinama tik Android Lollipop ir aukštesnėse versijose</string>
+</resources>

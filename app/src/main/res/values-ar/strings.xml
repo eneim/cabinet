@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet مستعرض الملفات المضغوطة</string>
+    <string name="open_as">افتحه باعتباره…</string>
+    <string name="bookmark">اشارة مرجعية</string>
+    <string name="copy">نسخ</string>
+    <string name="move">نقل</string>
+    <string name="rename">إعادة التسمية</string>
+    <string name="delete">حذف</string>
+    <string name="share">مشاركة</string>
+    <string name="archive">ضغط</string>
+    <string name="selectAll">تحديد الكل</string>
+    <string name="details">تفاصيل</string>
+    <string name="no_files">لا يوجد ملفات</string>
+    <string name="storage">التخزين</string>
+    <string name="internal_storage">سعة التخزين الداخلي</string>
+    <string name="root">الجذر (روت)</string>
+    <string name="go_up">انتقل لأعلى</string>
+    <string name="one_file">" ملف واحد"</string>
+    <string name="x_files">%1$d ملفات</string>
+    <string name="x_dirs">المجلدات: %1$d</string>
+    <string name="no_files_of_type"><![CDATA[
+ لا يوجد ملفات <b>%1$s</b> 
+    ]]></string>
+    <string name="done">تم</string>
+    <string name="remove_bookmark">حذف الاشارة المرجعية</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+هل انت متأكد انك تريد حذف اشارتك المرجعية <b>%1$s</b>؟
+    ]]></string>
+    <string name="sort_modified">أخر تعديل لـ</string>
+    <string name="modified_x">تعديل %1$s</string>
+    <string name="navigation_drawer_open">افتح قسم التّنقّل</string>
+    <string name="navigation_drawer_close">أغلِق قسم التنقّل</string>
+    <string name="new_folder">مجلّد جديد</string>
+    <string name="untitled">غير معنون</string>
+    <string name="renamed_to">أعيدت تسميته إلى %1$s</string>
+    <string name="moved_to">انتقل إلى %1$s</string>
+    <string name="copied_to">نُسخ إلى %1$s</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="search">ابحث</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+هل أنت متأكد أنك تريد حذف <b>%1$s</b>؟
+    ]]></string>
+    <string name="confirm_delete_xfiles">أتريد حقًّا حذف الملفّات (%1$d)؟</string>
+    <string name="sort_by">رتّب حسب</string>
+    <string name="sort_name">اسم</string>
+    <string name="sort_extension">اللاحقة</string>
+    <string name="sort_size_lowhigh">الحجم، تصاعديًّا</string>
+    <string name="sort_size_highlow">الحجم، تنازليًّا</string>
+    <string name="deleting">يحذف…</string>
+    <string name="extracting">استخراج..</string>
+    <string name="extracting_file"><![CDATA[
+جاري حذف <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">يتم الضغط…</string>
+    <string name="moving">ينقل…</string>
+    <string name="copying">ينسخ…</string>
+    <string name="failed_delete_file">فشل حذف هذا الملف: %1$s</string>
+    <string name="failed_make_directory">فشل إنشاء مجلّد جديد: %1$s</string>
+    <string name="failed_rename_file">فشل نقل هذا الملف أو إعادة تسميته: %1$s</string>
+    <string name="failed_extract_file">فشل إستخراج هذا الملف: %1$s</string>
+    <string name="failed_archive_files">فشل ضغط هذا الملف: %1$s</string>
+    <string name="error">خطأ</string>
+    <string name="activity_not_found">لم يُعثر على تطبيق يمكنه فتح هذا الملفّ</string>
+    <string name="failed_copy_x_error">فشل في نسخ %1$s: %2$s</string>
+    <string name="failed_move_x_error">فشل في نقل %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">لا تتوفّر تطبيقات يمكنها مشاركة هذا النّوع من الملفّات</string>
+    <string name="copy_x"><![CDATA[
+ <b>انسخ:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[
+<b>انقل:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="search_files">ابحث في الملفّات…</string>
+    <string name="search_x"><![CDATA[
+<b>بحث:</b>&nbsp;%1$s
+
+    ]]></string>
+    <string name="support_dev">دعم المطور</string>
+    <string name="thank_you">شكرًا جزيلاً!</string>
+    <string name="rate">قيّم</string>
+    <string name="later">فيما بعد</string>
+    <string name="rate_desc">أترغب بتقييم Cabinet على Google Play؟ نقدّر التقييمات الجيّدة!</string>
+    <string name="sure">طبعًا!</string>
+    <string name="no_thanks">لا شكرًا!</string>
+    <string name="file">ملفّ</string>
+    <string name="folder">مجلّد</string>
+    <string name="text">نص</string>
+    <string name="image">صورة</string>
+    <string name="audio">صوت</string>
+    <string name="video">فيديو</string>
+    <string name="other">نوع آخر</string>
+    <string name="hidden_files">ملفات مخفية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="details_body_file"><![CDATA[
+        <b>الاسم:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>المسار:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>الحجم:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>عُدِّل:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>الأذونات:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">ملف جديد</string>
+    <string name="pick_a_file">اختيار ملف …</string>
+    <string name="cabinet_text_editor">مُحرّر نصوص Cabinet</string>
+    <string name="save">احفظ</string>
+    <string name="unsaved_changes">لم تُحفَظ التغييرات</string>
+    <string name="unsaved_changes_desc">أجريت تغييرات لم تحفظها بعد، أتريد حفظها قبل الخروج؟</string>
+    <string name="loading">يُحمِّل…</string>
+    <string name="unsupported_extension">لاحقة غير مدعومة</string>
+    <string name="unsupported_extension_desc">لا يمكن فتح ملفات من هذا النوع في مُحرّر النصوص</string>
+    <string name="extract_to">إستخراج إلى…</string>
+    <string name="filter">صفِّ</string>
+    <string name="none">بلا تصفية</string>
+    <string name="archives">الأرشيفات</string>
+    <string name="extension">اللاحقة</string>
+    <string name="no_filter_files"><![CDATA[
+لا ملفات للتصنيف: <b>%1$s</b>
+    ]]></string>
+    <string name="superuser_not_available">المستخدم الخارق غير مُتاح</string>
+    <string name="filter_active">عامل التّصفية الحاليّ: %1$s</string>
+    <string name="base_theme">المظهر الإفتراضي</string>
+    <string-array name="base_themes">
+        <item>فاتح</item>
+        <item>مظلم</item>
+        <item>اسود (شاشات أموليد)</item>
+    </string-array>
+    <string name="owner">المالك</string>
+    <string name="group">المجموعة</string>
+    <string name="applying_permissions">يُطبِّق الأذونات…</string>
+    <string name="find_and_replace">بحث وإستبدال</string>
+    <string name="find">بحث</string>
+    <string name="replace">إستبدال</string>
+    <string name="replace_all">إستبدال الكل</string>
+    <string name="match_case">حالة التطابق</string>
+    <string name="no_occurences">الأحداث</string>
+    <string name="no_occurences_desc">لم يتم إيجاد أحداث تطابق طلب بحثك</string>
+    <string name="text_editor_read_only">"للقراءة فقط(بسبب أذونات الملف) "</string>
+    <string name="slash_name_invalid">لا يمكنك تضمين / في الإسم</string>
+    <string name="directory">المسار</string>
+    <string name="theming">تغيير المظهر</string>
+    <string name="behavior">السلوك</string>
+    <string name="changelog">سجل التغييرات</string>
+    <string name="folders_first">الملفات أولاً</string>
+    <string name="grid_size">حجم الشبكة</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">المسار الحالي</string>
+    <string name="one_file_x_folders">ملف واحد، %1$d مجلد</string>
+    <string name="x_files_one_folder">%1$d ملف، مجلد واحد</string>
+    <string name="one_file_one_folder">مجلد واحد، ملف واحد</string>
+    <string name="x_files_x_folders">%1$d ملف، %2$d مجلد</string>
+    <string name="empty">فارغ</string>
+    <string name="one_folder">مجلد واحد</string>
+    <string name="x_folders">%1$d مجلد</string>
+    <string name="nickname">الإسم المستعار</string>
+    <string name="choose_destination">إختار وجهة…</string>
+    <string name="external_storage">الذاكرة الخارجية</string>
+    <string name="sdcard_write_warning">تحذير: يبدو ان Cabinet لم يستطتع الحصول على إمكانية الكتابة في الذاكرة الخارجية، لن تستطيع تعديل الملفات عليها إلا إذا كنت تحمل صلاحيات الروت.</string>
+    <string name="dont_show_again">لا تظهر مرة أخرى</string>
+    <string name="pick_ringtone">أختار ملف صوت…</string>
+    <string name="not_audio_file">يجب ان تختار ملف صوت.</string>
+    <string name="cabinet_audio_preview">إستعراض صوت Cabinet</string>
+    <string name="add_homescreen_shortcut">إضافة للشاشة الرئيسية</string>
+    <string name="shortcut_added">تم إنشاء الإختصار لـ %1$s !</string>
+    <string name="shortcut_nickname">الاسم المستعار للإختصار</string>
+    <string name="add">إضافة</string>
+    <string name="x_free_of_x">%1$s متاح من %2$s</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+هل تريد إخفاء خيار <b>إضافة ذاكرة خارجية</b>؟ يمكنك إظهاره من الإعدادات لاحقاً.
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+هل تريد إخفاء الإشارة المرجعية لـ <b>الجذر(روت)</b>؟ يمكنك إظهارها من الإعدادات لاحقاً.
+    ]]></string>
+    <string name="helpandfeedback_title">المساعدة وردود الفعل.</string>
+    <string name="help_and_feedback_body"><![CDATA[
+  <b>Cabinet %1$s</b>. متصفح ملفات بسيط، سهل الإستخدام، وجميل للأندرويد 4.0 فما فوق.
+تم تصميمه من قبل <b>Aidan Follestad</b>.<br/>
+<a href=\'http://aidanfollestad.com\'>الموقع</a>&nbsp;&nbsp;
+<a href=\'https://twitter.com/afollestad\'>تويتر</a>&nbsp;&nbsp;
+<a href=\'https://google.com/+AidanFollestad\'>جوجل بلس</a>&nbsp;&nbsp;
+<a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+<a href=\'https://www.linkedin.com/in/afollestad\'>لينكد إن</a><br/><br/>
+شكر كبير لـ<a href=\'https://github.com/plusCubed\'>Daniel Ciao</a> من أجل جميع مشاركاته.<br/><br/>
+ترجم Cabinet للغتك الأم: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+أبلغ عن الأخطاء أو أطلب الميزات: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">صيغة الضغط</string>
+    <string name="auto_extract_prompt">فقط الملفات المضغوطة من نوع ZIP، TAR، وJAR يمكن استعراضها. هل تريد
+استخراج هذا الملف المضغوط؟</string>
+    <string name="auto_extract">استخراج تلقائي</string>
+    <string name="add_document_tree_path">إضافة ذاكرة خارجية…</string>
+    <string name="external_storage_hint">ملاحظة: قد تحتاج لتحديد \'أظهر الذاكرة الخارجية\' في القائمة الجانبية.</string>
+    <string name="nav_drawer">قائمة التنقل</string>
+    <string name="save_to">احفظ لـ…</string>
+    <string name="connecting">يتّصل…</string>
+    <!-- Settings -->
+    <string name="primary_color">اللون الآساسي</string>
+</resources>

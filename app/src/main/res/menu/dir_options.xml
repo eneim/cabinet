@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"
+        android:icon="@drawable/ic_cab_pin" />
+    <item
+        android:id="@+id/copy"
+        android:title="@string/copy"
+        android:icon="@drawable/ic_cab_copy" />
+    <item
+        android:id="@+id/move"
+        android:title="@string/move"
+        android:icon="@drawable/ic_cab_cut" />
+    <item
+        android:id="@+id/rename"
+        android:title="@string/rename"
+        android:icon="@drawable/ic_cab_rename" />
+    <item
+        android:id="@+id/archive"
+        android:title="@string/archive"
+        android:icon="@drawable/ic_cab_archive" />
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_cab_delete" />
+    <item
+        android:id="@+id/details"
+        android:title="@string/details"
+        android:icon="@drawable/ic_cab_info" />
+
+    <item
+        android:id="@+id/addHomescreenShortcut"
+        android:title="@string/add_homescreen_shortcut"
+        android:icon="@drawable/ic_overflow_home" />
+
+</menu>

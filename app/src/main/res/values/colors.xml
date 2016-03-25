@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cabinet_color">#1976D2</color>
+    <color name="cabinet_accent_color">#e91e63</color>
+
+    <color name="drawer_background">#FAFAFA</color>
+
+    <color name="dark_background">#303030</color>
+
+    <color name="empty_text">#C7C7C7</color>
+    <color name="empty_text_dark">#575757</color>
+
+    <color name="dark_theme_gray">#1F1F1F</color>
+    <!--<color name="dark_theme_gray_lighter">#292929</color>-->
+    <color name="non_colored_folder">#424242</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+    <color name="crumb_active">#fff</color>
+    <color name="crumb_inactive">#73ffffff</color>
+
+    <color name="activated_selected_dark" type="color">#9affffff</color>
+    <color name="activated_selected_light" type="color">#3e000000</color>
+
+    <color name="fastscroll_handle_pressed_lighttheme">#878787</color>
+    <color name="fastscroll_handle_pressed_darktheme">#A0A0A0</color>
+
+</resources>

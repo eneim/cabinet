@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonCabinet" parent="android:Widget.Material.Light.Button">
+        <item name="android:textColor">@color/button_text_selector</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="ButtonCabinetDark" parent="android:Widget.Material.Button">
+        <item name="android:textColor">@color/button_text_selector_dark</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="Theme.Cabinet.WithNavDrawer" parent="Theme.Cabinet">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.CabinetDark.WithNavDrawer" parent="Theme.CabinetDark">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.CabinetTrueBlack.WithNavDrawer" parent="Theme.CabinetTrueBlack">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

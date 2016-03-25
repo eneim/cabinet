@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Visualizador de arquivos Cabinet</string>
+    <string name="open_as">Abrir Como…</string>
+    <string name="bookmark">Marcador</string>
+    <string name="copy">Copiar</string>
+    <string name="move">Mover</string>
+    <string name="rename">Renomear</string>
+    <string name="delete">Eliminar</string>
+    <string name="share">Partilhar</string>
+    <string name="archive">Arquivo</string>
+    <string name="selectAll">Selecionar Todos</string>
+    <string name="details">Detalhes</string>
+    <string name="no_files">Sem ficheiros</string>
+    <string name="storage">Armazenamento</string>
+    <string name="internal_storage">Armazenamento interno</string>
+    <string name="root">Raiz</string>
+    <string name="go_up">Ir para cima</string>
+    <string name="one_file">1 ficheiro</string>
+    <string name="x_files">%1$d ficheiros</string>
+    <string name="x_dirs">%1$d diretórios</string>
+    <string name="no_files_of_type"><![CDATA[
+        Nenhuns ficheiros <b>%1$s</b> 
+    ]]></string>
+    <string name="done">Concluído</string>
+    <string name="remove_bookmark">Remover marcador</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+ Tem a certeza de que deseja remover o marcador <b>%1$s</b>?      
+    ]]></string>
+    <string name="sort_modified">Último modificado</string>
+    <string name="modified_x">Modificado %1$s</string>
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="new_folder">Nova Pasta</string>
+    <string name="untitled">Sem Título</string>
+    <string name="renamed_to">Renomeado para %1$s</string>
+    <string name="moved_to">Movido para %1$s</string>
+    <string name="copied_to">Copiado para %1$s</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="search">Pesquisa</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+        Tem a certeza que deseja eliminar <b>%1$s</b>? 
+    ]]></string>
+    <string name="confirm_delete_xfiles">Tem a certeza que pretende eliminar %1$d ficheiros?</string>
+    <string name="sort_by">Ordenar por</string>
+    <string name="sort_name">Nome</string>
+    <string name="sort_extension">Extensão</string>
+    <string name="sort_size_lowhigh">Tamanho, crescente</string>
+    <string name="sort_size_highlow">Tamanho, decrescente</string>
+    <string name="deleting">A Eliminar…</string>
+    <string name="extracting">A extrair…</string>
+    <string name="extracting_file"><![CDATA[
+        A extrair <b>%1$s</b>… 
+    ]]></string>
+    <string name="archiving">A arquivar…</string>
+    <string name="moving">A Mover…</string>
+    <string name="copying">A Copiar…</string>
+    <string name="failed_delete_file">Falha ao eliminar este ficheiro: %1$s</string>
+    <string name="failed_make_directory">Falha ao criar uma nova pasta: %1$s</string>
+    <string name="failed_rename_file">Falha ao renomear/mover este ficheiro: %1$s</string>
+    <string name="failed_extract_file">Falha ao extrair o ficheiro: %1$s</string>
+    <string name="failed_archive_files">Falha ao arquivar o(s) ficheiro(s): %1$s</string>
+    <string name="error">Erro</string>
+    <string name="activity_not_found">Não foi encontrada nenhuma aplicação para abrir este ficheiro</string>
+    <string name="failed_copy_x_error">Falha ao copiar %1$s: %2$s</string>
+    <string name="failed_move_x_error">Falha ao mover %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">Não existem aplicações disponíveis para partilhar este tipo de ficheiro</string>
+    <string name="copy_x"><![CDATA[
+        <b>Copy:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[ <b>Mover:</b>&nbsp;&nbsp;%1$s ]]></string>
+    <string name="search_files">Pesquisar Ficheiros…</string>
+    <string name="search_x"><![CDATA[
+        <b>Search:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Ajude no desenvolvimento</string>
+    <string name="thank_you">Muito Obrigado!</string>
+    <string name="rate">Classificar</string>
+    <string name="later">Mais Tarde</string>
+    <string name="rate_desc">Deseja classificar o Cabinet no Google Play? Boas classificações são apreciadas!</string>
+    <string name="sure">Claro!</string>
+    <string name="no_thanks">Não, obrigado</string>
+    <string name="file">Ficheiro</string>
+    <string name="folder">Pasta</string>
+    <string name="text">Texto</string>
+    <string name="image">Imagem</string>
+    <string name="audio">Áudio</string>
+    <string name="video">Vídeo</string>
+    <string name="other">Outro</string>
+    <string name="hidden_files">Ficheiros ocultos</string>
+    <string name="settings">Definições</string>
+    <string name="details_body_file"><![CDATA[
+<b>Nome:</b>&nbsp;&nbsp;%1$s<br/><b>Caminho:</b>&nbsp;&nbsp;%2$s<br/><b>Tamanho:</b>&nbsp;&nbsp;%3$s<br/><b>Modificado:</b>&nbsp;&nbsp;%4$s<br/><b>Permissões:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Nova Ficheiro</string>
+    <string name="pick_a_file">Escolha um ficheiro…</string>
+    <string name="cabinet_text_editor">Editor de texto Cabinet</string>
+    <string name="save">Guardar</string>
+    <string name="unsaved_changes">Alterações não guardadas</string>
+    <string name="unsaved_changes_desc">Tem alterações não gravadas, deseja gravá-las antes de sair?</string>
+    <string name="loading">A carregar…</string>
+    <string name="unsupported_extension">Extensão não suportada</string>
+    <string name="unsupported_extension_desc">Não é possível abrir este tipo de ficheiro para editar texto.</string>
+    <string name="extract_to">Extrair para…</string>
+    <string name="filter">Filtrar</string>
+    <string name="none">Nenhum</string>
+    <string name="archives">Arquivos</string>
+    <string name="extension">Extensão</string>
+    <string name="no_filter_files"><![CDATA[
+        Sem ficheiros para o filtro: <b>%1$s</b> 
+    ]]></string>
+    <string name="superuser_not_available">Superuser indisponível</string>
+    <string name="filter_active">Filtro ativo: %1$s</string>
+    <string name="base_theme">Tema Base</string>
+    <string-array name="base_themes">
+        <item>Claro</item>
+        <item>Escuro</item>
+        <item>Preto (AMOLED)</item>
+    </string-array>
+    <string name="owner">Dono</string>
+    <string name="group">Grupo</string>
+    <string name="applying_permissions">Aplicando permissões…</string>
+    <string name="find_and_replace">Localizar e substituir</string>
+    <string name="find">Localizar</string>
+    <string name="replace">Substituir</string>
+    <string name="replace_all">Substituir tudo</string>
+    <string name="match_case">Maiúsculas/minúsculas</string>
+    <string name="no_occurences">Sem ocorrências</string>
+    <string name="no_occurences_desc">Não foram encontradas ocorrências.</string>
+    <string name="text_editor_read_only">Apenas leitura (devido a permissões de ficheiro)</string>
+    <string name="slash_name_invalid">Não pode incluir a barra (/) no nome.</string>
+    <string name="directory">Diretorio</string>
+    <string name="theming">Tema</string>
+    <string name="behavior">Comportamento</string>
+    <string name="changelog">Alterações</string>
+    <string name="folders_first">Pastas primeiro</string>
+    <string name="grid_size">Tamanho da grelha</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Caminho atual</string>
+    <string name="one_file_x_folders">1 ficheiro, %1$d pastas</string>
+    <string name="x_files_one_folder">%1$d ficheiros, 1 pasta</string>
+    <string name="one_file_one_folder">1 ficheiro, 1 pasta</string>
+    <string name="x_files_x_folders">%1$d ficheiros, %2$d pastas</string>
+    <string name="empty">Vazio</string>
+    <string name="one_folder">1 pasta</string>
+    <string name="x_folders">%1$d pastas</string>
+    <string name="nickname">Alcunha</string>
+    <string name="choose_destination">Escolha o destino…</string>
+    <string name="external_storage">Armazenamento externo</string>
+    <string name="sdcard_write_warning">Aviso: parece que o Cabinet não conseguiu obter acesso de escrita no cartão SD. Não será possível modificar os ficheiros as menos que tenha acesso root.</string>
+    <string name="dont_show_again">Não mostrar novamente</string>
+    <string name="pick_ringtone">Escolha o ficheiro áudio…</string>
+    <string name="not_audio_file">Tem de escolher um ficheiro áudio.</string>
+    <string name="cabinet_audio_preview">Antevisão áudio do Cabinet</string>
+    <string name="add_homescreen_shortcut">Adicionar ao ecrã</string>
+    <string name="shortcut_added">Criado um atalho para %1$s!</string>
+    <string name="shortcut_nickname">Nome do atalho</string>
+    <string name="add">Adicionar</string>
+    <string name="x_free_of_x">%1$s livres em %2$s</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+        Pretende ocultar a opção <b>Adicionar armazenamento externo</b>? Pode alterar esta opção nas definições. 
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+        Pretende ocultar o marcador <b>Root</b>? Pode alterar esta opção nas definições. 
+    ]]></string>
+    <string name="helpandfeedback_title">Ajuda e comentários</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>. Um gestor de ficheiros minimalista, intuitivo para Android 4.0 e superior.<br/><br/>
+        Criado por <b>Aidan Follestad</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Sítio web</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+        Ajude a traduzir o Cabinet em: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+        Reporte de erros e pedidos de funções: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">Formato do arquivo</string>
+    <string name="auto_extract_prompt">Apenas pode visualizar arquivos ZIP, TAR e JAR. Gostaria de
+ extrair este arquivo?</string>
+    <string name="auto_extract">Extração automática</string>
+    <string name="add_document_tree_path">Adicionar armazenamento externo…</string>
+    <string name="external_storage_hint">Nota: pode ser necessário selecionar \"Mostrar cartão SD\" no menu.</string>
+    <string name="nav_drawer">Menu de navegação</string>
+    <string name="save_to">Guardar em…</string>
+    <string name="failed_open_plugin_file">Falha ao abrir o ficheiro: %1$s</string>
+    <string name="saved_x">%1$s gravado</string>
+    <string name="failed_chmod_file">Falha ao fazer chmod do ficheiro: %1$s</string>
+    <string name="failed_upload_plugin_archive">Falha ao enviar o arquivo recentemente criado: %1$s</string>
+    <string name="connecting">A Ligar…</string>
+    <string name="downloading_file"><![CDATA[
+        A transferir <b>%1$s</b>… 
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+        Falha ao ler <b>%1$s</b>: %2$s 
+    ]]></string>
+    <string name="switcher_add_account">Adicionar conta</string>
+    <string name="uninstall_plugin">Desinstalar plugin</string>
+    <string name="remove_account">Remover conta</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+        Deseja remover <b>%1$s</b> de <b>%2$s</b>? 
+    ]]></string>
+    <string name="contacting_plugin">Contactando plugin…</string>
+    <string name="switch_accounts">Trocar de conta</string>
+    <string name="switching_to_x"><![CDATA[
+        A trocar para <b>%1$s</b>…
+    ]]></string>
+    <string name="plugin_settings">Definições do plugin</string>
+    <string name="account_settings">Definições da conta</string>
+    <string name="no_accounts">Sem contas</string>
+    <string name="no_accounts_prompt"><![CDATA[
+        Não existem contas para <b>%1$s</b>. Gostaria de adicionar uma conta agora?
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Memorizar última pasta</string>
+    <string name="remember_lastfolder_setting">Memorizar a última pasta aberta ao iniciar o Cabinet</string>
+    <string name="directory_count_list">N.º de diretórios na lista</string>
+    <string name="directory_count_list_setting">Mostrar número de ficheiros e pastas nas listas</string>
+    <string name="directory_count_appbar">Número de ficheiros e pastas na barra</string>
+    <string name="directory_count_appbar_setting">Mostrar o número de ficheiros e pastas da pasta atual na barra da aplicação</string>
+    <string name="collapsing_appbar">Recolher barra de aplicações</string>
+    <string name="collapsing_appbar_setting">Recolher barra da aplicação ao deslizar para baixo</string>
+    <string name="show_root_bookmark">Mostrar marcador Root</string>
+    <string name="show_root_bookmark_setting">Mostrar o marcador Root no topo do menu de navegação</string>
+    <string name="show_add_external_bookmark">Mostrar \"Adicionar armazenamento externo\"</string>
+    <string name="show_add_external_bookmark_setting">Mostrar \"Adicionar atmazenamento externo\" no menu de navegação</string>
+    <string name="show_free_space">Mostrar espaço livre</string>
+    <string name="show_free_space_setting">Mostrar espaço livre do armazenamento no menu de navegação</string>
+    <string name="colored_navbar">Barra de navegação colorida</string>
+    <string name="colored_navbar_setting">Aplicar a cor primária do tema à barra de navegação</string>
+    <string name="load_thumbnails">Carregar miniaturas</string>
+    <string name="load_thumbnails_setting">Mostrar miniaturas de imagens, vídeos e APK</string>
+    <string name="primary_color">Cor primária</string>
+    <string name="primary_color_settingdesc">Aplicar cor primária do tema</string>
+    <string name="accent_color">Cor do acento</string>
+    <string name="accent_color_settingdesc">Aplicar cor de acento do tema</string>
+    <string name="thumbnail_color">Cor da miniatura</string>
+    <string name="thumbnail_color_settingdesc">Aplicar uma cor às miniaturas de ficheiros e pastas</string>
+    <string name="only_available_api21">Esta funcionalidade apenas está disponível para Android Lollipop e superiores</string>
+    <string name="symlink">Lig. simbólica</string>
+    <string name="back">Recuar</string>
+    <string name="permission_needed">Requer permissão</string>
+    <string name="permission_needed_desc">O Cabinet precisa de ter permissão para aceder ao armazenamento interno e poder funcionar como gestor de ficheiros! O Cabinet será agora fechado.</string>
+    <string name="remove">Remover</string>
+</resources>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Cabinet 압축파일 뷰어</string>
+    <string name="open_as">…로 열기</string>
+    <string name="bookmark">즐겨찾기</string>
+    <string name="copy">복사</string>
+    <string name="move">이동</string>
+    <string name="rename">이름 바꾸기</string>
+    <string name="delete">삭제</string>
+    <string name="share">공유</string>
+    <string name="archive">압축하기</string>
+    <string name="selectAll">모두 선택</string>
+    <string name="details">속성</string>
+    <string name="no_files">파일 없음</string>
+    <string name="storage">저장소</string>
+    <string name="internal_storage">내부 저장소</string>
+    <string name="root">루트</string>
+    <string name="go_up">위로</string>
+    <string name="one_file">1 파일</string>
+    <string name="x_files">%1$d 파일</string>
+    <string name="x_dirs">%1$d 디렉토리</string>
+    <string name="no_files_of_type"><![CDATA[
+<b>%1$s</b> 파일 없음
+    ]]></string>
+    <string name="done">완료</string>
+    <string name="remove_bookmark">즐겨찾기 제거</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+<b>%1$s</b> 즐겨찾기를 지우는게 확실합니까?
+    ]]></string>
+    <string name="sort_modified">최근 수정</string>
+    <string name="modified_x">%1$s 에 수정 됨</string>
+    <string name="navigation_drawer_open">탐색 서랍 열기</string>
+    <string name="navigation_drawer_close">탐색 서랍 닫기</string>
+    <string name="new_folder">새 폴더</string>
+    <string name="untitled">제목 없음</string>
+    <string name="renamed_to">%1$s 이름 변경 됨</string>
+    <string name="moved_to">%1$s 이동 됨</string>
+    <string name="copied_to">%1$s 복사 됨</string>
+    <string name="no">아니오</string>
+    <string name="yes">네</string>
+    <string name="search">검색</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+<b>%1$s</b> 를 지우시겠습니까?
+    ]]></string>
+    <string name="confirm_delete_xfiles">%1$d 개의 파일을 삭제하겠습니까?</string>
+    <string name="sort_by">정렬 순서</string>
+    <string name="sort_name">파일명</string>
+    <string name="sort_extension">형식</string>
+    <string name="sort_size_lowhigh">파일 크기 작은 순서</string>
+    <string name="sort_size_highlow">파일 크기 큰 순서</string>
+    <string name="deleting">삭제 중…</string>
+    <string name="extracting">압축 푸는 중…</string>
+    <string name="extracting_file"><![CDATA[
+<b>%1$s</b> 압축풀기…
+    ]]></string>
+    <string name="archiving">압축 중…</string>
+    <string name="moving">이동 중…</string>
+    <string name="copying">복사 중…</string>
+    <string name="failed_delete_file">%1$s 파일 삭제 실패</string>
+    <string name="failed_make_directory">%1$s 새 폴더 만들기 실패</string>
+    <string name="failed_rename_file">%1$s 파일 이름 바꾸기/이동 실패</string>
+    <string name="failed_extract_file">%1$s 파일의 압축 풀기를 실패했습니다.</string>
+    <string name="failed_archive_files">%1$s 파일의 압축 풀기를 실패했습니다.</string>
+    <string name="error">오류</string>
+    <string name="activity_not_found">이 파일을 열 수 있는 앱이 없습니다</string>
+    <string name="failed_copy_x_error">복사 실패 %1$s: %2$s</string>
+    <string name="failed_move_x_error">이동 실패 %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">이 유형의 파일을 공유 할 수 있는 앱을 찾을 수 없습니다</string>
+    <string name="copy_x"><![CDATA[
+        <b>복사:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[        <b>이동:</b>&nbsp;&nbsp;%1$s]]></string>
+    <string name="search_files">파일 검색…</string>
+    <string name="search_x"><![CDATA[
+        <b>검색:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">개발 지원</string>
+    <string name="thank_you">감사합니다!</string>
+    <string name="rate">별점</string>
+    <string name="later">나중에</string>
+    <string name="rate_desc">구글 플레이에서 Cabinet의 평가를 부탁드립니다!</string>
+    <string name="sure">예!</string>
+    <string name="no_thanks">아니오…</string>
+    <string name="file">파일</string>
+    <string name="folder">폴더</string>
+    <string name="text">문서</string>
+    <string name="image">그림</string>
+    <string name="audio">오디오</string>
+    <string name="video">비디오</string>
+    <string name="other">기타</string>
+    <string name="hidden_files">숨김 파일</string>
+    <string name="settings">설정</string>
+    <string name="details_body_file"><![CDATA[
+        <b>이름:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>위치:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>크기:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>최종 수정:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>권한:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">새 파일</string>
+    <string name="pick_a_file">파일 선택…</string>
+    <string name="cabinet_text_editor">Cabinet 문서 편집기</string>
+    <string name="save">저장</string>
+    <string name="unsaved_changes">변경사항 저장되지 않음</string>
+    <string name="unsaved_changes_desc">변경사항이 저장되지 않았습니다. 나가기 전에 저장하시겠습니까?</string>
+    <string name="loading">불러오는 중…</string>
+    <string name="unsupported_extension">지원하지 않는 형식</string>
+    <string name="unsupported_extension_desc">문서 편집기로 열 수 없는 형식입니다.</string>
+    <string name="extract_to">…에 풀기</string>
+    <string name="filter">필터</string>
+    <string name="none">없음</string>
+    <string name="archives">압축파일</string>
+    <string name="extension">형식</string>
+    <string name="no_filter_files"><![CDATA[
+필터에 파일 없음: <b>%1$s</b>
+    ]]></string>
+    <string name="superuser_not_available">Superuser를 사용할 수 없습니다.</string>
+    <string name="filter_active">%1$s 필터 활성화 됨</string>
+    <string name="base_theme">기본 테마</string>
+    <string-array name="base_themes">
+        <item>밝은 테마</item>
+        <item>어두운 테마</item>
+        <item>검정 (아몰레드)</item>
+    </string-array>
+    <string name="owner">소유자</string>
+    <string name="group">그룹</string>
+    <string name="applying_permissions">권한 적용</string>
+    <string name="find_and_replace">찾기와 바꾸기</string>
+    <string name="find">찾기</string>
+    <string name="replace">바꾸기</string>
+    <string name="replace_all">모두 바꾸기</string>
+    <string name="match_case">일치하는 단어</string>
+    <string name="no_occurences">결과 없음</string>
+    <string name="no_occurences_desc">검색하신 내용에 대한 결과가 없습니다.</string>
+    <string name="text_editor_read_only">읽기 전용 (파일 권한 때문)</string>
+    <string name="slash_name_invalid">이름에 / 를 포함할 수 없습니다.</string>
+    <string name="directory">디렉토리</string>
+    <string name="theming">테마</string>
+    <string name="behavior">행동</string>
+    <string name="changelog">변경사항</string>
+    <string name="folders_first">폴더를 먼저</string>
+    <string name="grid_size">격자 크기</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">현재 경로</string>
+    <string name="one_file_x_folders">1 파일, %1$d 폴더</string>
+    <string name="x_files_one_folder">%1$d 파일, 1 폴더</string>
+    <string name="one_file_one_folder">1 파일, 1 폴더</string>
+    <string name="x_files_x_folders">%1$d 파일, %2$d 폴더</string>
+    <string name="empty">비어있음</string>
+    <string name="one_folder">1 폴더</string>
+    <string name="x_folders">%1$d 폴더</string>
+    <string name="nickname">별명</string>
+    <string name="choose_destination">대상을 선택하세요…</string>
+    <string name="external_storage">외부 저장소</string>
+    <string name="sdcard_write_warning">경고: Cabinet이 SD카드에 쓰기 권한을 얻을 수 없습니다. 루팅을 하지 않으면 파일을 변경할 수 없습니다.</string>
+    <string name="dont_show_again">다시 보지 않음</string>
+    <string name="pick_ringtone">오디오 파일 선택…</string>
+    <string name="not_audio_file">오디오 파일을 선택해야 합니다.</string>
+    <string name="cabinet_audio_preview">Cabinet 오디오 미리 듣기</string>
+    <string name="add_homescreen_shortcut">시작화면에 추가</string>
+    <string name="shortcut_added">%1$s에 바로가기 추가됨!</string>
+    <string name="shortcut_nickname">바로가기 별칭</string>
+    <string name="add">추가</string>
+    <string name="x_free_of_x">%2$s 중 %1$s 사용 가능</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+<b>외부 저장소 추가</b> 옵션을 숨기겠습니까? 나중에 설정에서 숨기기를 취소하실 수 있습니다.
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+<b>루트</b> 즐겨찾기를 숨기겠습니까? 나중에 설정에서 숨기기를 취소하실 수 있습니다.
+    ]]></string>
+    <string name="helpandfeedback_title">도움말 &amp; 피드백</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>은 안드로이드 4.0 이상을 위한 가장 작고 직관적이며 아름다운 파일관리자입니다.<br/><br/>
+        <b>Aidan Follestad</b> 디자인.<br/>
+        <a href=\'http://aidanfollestad.com\'>웹사이트</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+        A big thanks to <a href=\'https://github.com/plusCubed\'>Daniel Ciao</a> for all of his contributions.<br/><br/>
+        당신의 언어로 번역하려면 <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>를 방문하세요.<br/><br/>
+        버그 보고 또는 기능 제안: <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">압축 형식</string>
+    <string name="auto_extract_prompt">ZIP, TAR, JAR 형식만 볼 수 있습니다.
+압축해제 하시겠습니까?</string>
+    <string name="auto_extract">자동으로 풀기</string>
+    <string name="add_document_tree_path">외부 저장소 추가…</string>
+    <string name="external_storage_hint">노트: 흐르는 매뉴에서 \'SD Card 보기\'를 선택해 주세요.</string>
+    <string name="nav_drawer">탐색 서랍</string>
+    <string name="save_to">…에 저장</string>
+    <string name="failed_open_plugin_file">플러그인 파일 열기 실패: %1$s</string>
+    <string name="saved_x">저장됨 %1$s</string>
+    <string name="failed_chmod_file">chmod 실패: %1$s</string>
+    <string name="failed_upload_plugin_archive">새 플러그인 아카이브 업로드 실패: %1$s</string>
+    <string name="connecting">연결 중…</string>
+    <string name="downloading_file"><![CDATA[
+<b>%1$s</b> 내려받는 중…
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+<b>%1$s</b> 읽기 실패: %2$s
+    ]]></string>
+    <string name="switcher_add_account">계정 추가</string>
+    <string name="uninstall_plugin">플러그인 삭제</string>
+    <string name="remove_account">계정 삭제</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+<b>%2$s</b>에서 <b>%1$s</b> 즐겨찾기를 삭제하시겠습니까?
+    ]]></string>
+    <string name="contacting_plugin">플러그인 연결중…</string>
+    <string name="switch_accounts">계정 변경</string>
+    <string name="switching_to_x"><![CDATA[
+<b>%1$s</b> 전환 중…
+    ]]></string>
+    <string name="plugin_settings">플러그인 설정</string>
+    <string name="account_settings">계정 설정</string>
+    <string name="no_accounts">계정 없음</string>
+    <string name="no_accounts_prompt"><![CDATA[
+<b>%1$s</b>에 추가된 계정이 없습니다. 지금 만드시겠습니까?
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">마지막 폴더 기억</string>
+    <string name="remember_lastfolder_setting">Cabenet이 시작할 때 마지막으로 열었던 폴더 기억</string>
+    <string name="directory_count_list">목록에 디렉토리 개수 표시</string>
+    <string name="directory_count_list_setting">목록에 폴더 내의 파일 및 폴더의 수를 표시</string>
+    <string name="directory_count_appbar">앱 바 디렉토리 수</string>
+    <string name="directory_count_appbar_setting">현재 폴더의 파일과 폴더의 수를 앱 바에 표시합니다.</string>
+    <string name="collapsing_appbar">앱 바 숨기기</string>
+    <string name="collapsing_appbar_setting">아래로 스크롤하면 앱 바 축소</string>
+    <string name="show_root_bookmark">루트 북마크 보기</string>
+    <string name="show_root_bookmark_setting">루트 폴더의 즐겨찾기를 탐색 서랍에 표시</string>
+    <string name="show_add_external_bookmark">외부 저장소 추가 보기</string>
+    <string name="show_add_external_bookmark_setting">\'외부 저장소 추가…\' 옵션을 탐색 서랍에 표시</string>
+    <string name="show_free_space">여유 공간 표시</string>
+    <string name="show_free_space_setting">장치 저장소의 여유 공간을 탐색 서랍에 표시</string>
+    <string name="colored_navbar">네비게이션바 색상화</string>
+    <string name="colored_navbar_setting">첫번째 테마 색상을 탐색서랍에 적용</string>
+    <string name="load_thumbnails">썸네일 읽기</string>
+    <string name="load_thumbnails_setting">이미지, 비디오, APK 파일의 썸네일 표시</string>
+    <string name="primary_color">기본 색상</string>
+    <string name="primary_color_settingdesc">첫번째 테마 색상 적용</string>
+    <string name="accent_color">강조 색상</string>
+    <string name="accent_color_settingdesc">강조 테마 색상 적용</string>
+    <string name="thumbnail_color">썸네일 색상</string>
+    <string name="thumbnail_color_settingdesc">파일과 폴더 썸네일에 색상 적용</string>
+    <string name="only_available_api21">이 기능은 안드로이드 롤리팝 이상에서 사용할 수 있습니다.</string>
+    <string name="symlink">심볼릭 링크</string>
+    <string name="back">뒤로</string>
+    <string name="permission_needed">권한 필요</string>
+    <string name="permission_needed_desc">Cabinet은 파일관리자로 장치 저장소에 엑세스하기 위한 권한이 필요합니다.</string>
+    <string name="remove">제거</string>
+</resources>

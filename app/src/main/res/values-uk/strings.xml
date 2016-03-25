@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabinet_archive_viewer">Переглядач архівів</string>
+    <string name="open_as">ВІдкрити як…</string>
+    <string name="bookmark">Закладка</string>
+    <string name="copy">Копіювати</string>
+    <string name="move">Перемістити</string>
+    <string name="rename">Перейменувати</string>
+    <string name="delete">Видалити</string>
+    <string name="share">Поділитись</string>
+    <string name="archive">Архівувати</string>
+    <string name="selectAll">Вибрати все</string>
+    <string name="details">Детальніше</string>
+    <string name="no_files">Пуста тека</string>
+    <string name="storage">Сховище</string>
+    <string name="internal_storage">Внутрішнє сховище</string>
+    <string name="root">Пристрій</string>
+    <string name="go_up">Вверх</string>
+    <string name="one_file">1 файл</string>
+    <string name="x_files">%1$d файлів</string>
+    <string name="x_dirs">%1$d теки</string>
+    <string name="no_files_of_type"><![CDATA[
+        Нема <b>%1$s</b> файлів 
+    ]]></string>
+    <string name="done">Виконано</string>
+    <string name="remove_bookmark">Прибрати закладку</string>
+    <string name="remove_bookmark_desc"><![CDATA[
+Ви впевнені, що хочете прибрати закладку <b>%1$s</b>?      
+    ]]></string>
+    <string name="sort_modified">Востаннє змінено</string>
+    <string name="modified_x">Змінено %1$s</string>
+    <string name="navigation_drawer_open">Відкрити меню</string>
+    <string name="navigation_drawer_close">Закрити меню</string>
+    <string name="new_folder">Нова тека</string>
+    <string name="untitled">Не ідентифікований</string>
+    <string name="renamed_to">Перейменовано на %1$s</string>
+    <string name="moved_to">Переміщено до %1$s</string>
+    <string name="copied_to">Скопійовано до %1$s</string>
+    <string name="no">Ні</string>
+    <string name="yes">Так</string>
+    <string name="search">Пошук</string>
+    <string name="confirm_delete_prompt"><![CDATA[
+        Ви впевнені, що хочете видалити <b>%1$s</b>? 
+    ]]></string>
+    <string name="confirm_delete_xfiles">Ви впевнені, що хочете видалити %1$d файлів?</string>
+    <string name="sort_by">Сортувати за</string>
+    <string name="sort_name">Іменем</string>
+    <string name="sort_extension">Типом</string>
+    <string name="sort_size_lowhigh">Розміром, від меншого до більшого</string>
+    <string name="sort_size_highlow">Розміром, від більшого до меншого</string>
+    <string name="deleting">Видалення…</string>
+    <string name="extracting">Розархівування…</string>
+    <string name="extracting_file"><![CDATA[
+        Розархівування <b>%1$s</b>…
+    ]]></string>
+    <string name="archiving">Архівування…</string>
+    <string name="moving">Переміщення…</string>
+    <string name="copying">Копіювання…</string>
+    <string name="failed_delete_file">Помилка при видаленні цього файлу: %1$s</string>
+    <string name="failed_make_directory">Помилка при створенні нової теки: %1$s</string>
+    <string name="failed_rename_file">Помилка при перейменуванні/переміщенні цього файлу: %1$s</string>
+    <string name="failed_extract_file">Неможливо розархівувати цей файл: %1$s</string>
+    <string name="failed_archive_files">Неможливо розархівувати файл(и): %1$s</string>
+    <string name="error">Помилка</string>
+    <string name="activity_not_found">Не знайдено додатку для відкриття даного типу файлу</string>
+    <string name="failed_copy_x_error">Не вдалось скопіювати %1$s: %2$s</string>
+    <string name="failed_move_x_error">Не вдалось перемістити %1$s: %2$s</string>
+    <string name="no_apps_for_sharing">Не доступно жодного додатку, щоб поділитись даним типом файлу</string>
+    <string name="copy_x"><![CDATA[
+ <b>Скопіювати:</b>&nbsp;&nbsp;%1$s
+    ]]></string>
+    <string name="move_x"><![CDATA[ <b>Перемістити:</b>&nbsp;&nbsp;%1$s ]]></string>
+    <string name="search_files">Пошук файлів…</string>
+    <string name="search_x"><![CDATA[
+        <b>Пошук:</b>&nbsp;%1$s
+    ]]></string>
+    <string name="support_dev">Підтримати виробника</string>
+    <string name="thank_you">Дуже вам вдячні!</string>
+    <string name="rate">Оцінити</string>
+    <string name="later">Пізніше</string>
+    <string name="rate_desc">Ви хочете оцінити Cabinet в Google Play? Вітаються хороші відгуки!</string>
+    <string name="sure">Звичайно!</string>
+    <string name="no_thanks">Ні, дякую</string>
+    <string name="file">Файл</string>
+    <string name="folder">Тека</string>
+    <string name="text">Текст</string>
+    <string name="image">Зображення</string>
+    <string name="audio">Аудіо</string>
+    <string name="video">Відео</string>
+    <string name="other">Інше</string>
+    <string name="hidden_files">Сховані файли</string>
+    <string name="settings">Налаштування</string>
+    <string name="details_body_file"><![CDATA[
+        <b>Ім\'я:</b>&nbsp;&nbsp;%1$s<br/>
+        <b>Шлях:</b>&nbsp;&nbsp;%2$s<br/>
+        <b>Розмір:</b>&nbsp;&nbsp;%3$s<br/>
+        <b>Змінений:</b>&nbsp;&nbsp;%4$s<br/>
+        <b>Права:</b>&nbsp;&nbsp;%5$s
+    ]]></string>
+    <string name="new_file">Новий файл</string>
+    <string name="pick_a_file">Оберіть файл…</string>
+    <string name="cabinet_text_editor">Текстовий редактор Cabinet</string>
+    <string name="save">Зберегти</string>
+    <string name="unsaved_changes">Незбережені зміни</string>
+    <string name="unsaved_changes_desc">У Вас є незбережені зміни, бажаєте зберегти їх перед виходом?</string>
+    <string name="loading">Завантаження…</string>
+    <string name="unsupported_extension">Непідтримуване розширення</string>
+    <string name="unsupported_extension_desc">Ви не можете відкрити даний тип файлу для редагування тексту.</string>
+    <string name="extract_to">Розархівувати в…</string>
+    <string name="filter">Фільтр</string>
+    <string name="none">Жодного</string>
+    <string name="archives">Архіви</string>
+    <string name="extension">Розширення</string>
+    <string name="no_filter_files"><![CDATA[
+        Нема файлів за фільтром: <b>%1$s</b> 
+    ]]></string>
+    <string name="superuser_not_available">Суперкористувач не доступний</string>
+    <string name="filter_active">Активний відбір: %1$s</string>
+    <string name="base_theme">Базова тема</string>
+    <string-array name="base_themes">
+        <item>Світла</item>
+        <item>Темна</item>
+        <item>Чорна (AMOLED)</item>
+    </string-array>
+    <string name="owner">Власник</string>
+    <string name="group">Група</string>
+    <string name="applying_permissions">Застосування дозволів…</string>
+    <string name="find_and_replace">Знайти та замінити</string>
+    <string name="find">Знайти</string>
+    <string name="replace">Замінити</string>
+    <string name="replace_all">Перемістити все</string>
+    <string name="match_case">Врахувати регістр</string>
+    <string name="no_occurences">Нічого не знайдено</string>
+    <string name="no_occurences_desc">За вашим запитом нічого не знайдено.</string>
+    <string name="text_editor_read_only">Тільки для читання (згідно з правами доступу до файлів)</string>
+    <string name="slash_name_invalid">Додавання неможливе / в назві.</string>
+    <string name="directory">Тека</string>
+    <string name="theming">Оформлення</string>
+    <string name="behavior">Поведінка</string>
+    <string name="changelog">Зміни</string>
+    <string name="folders_first">Спершу папки</string>
+    <string name="grid_size">Розмір сітки</string>
+    <string name="grid_size_one">1</string>
+    <string name="grid_size_two">2</string>
+    <string name="grid_size_three">3</string>
+    <string name="grid_size_four">4</string>
+    <string name="grid_size_five">5</string>
+    <string name="grid_size_six">6</string>
+    <string name="current_path">Поточний шлях</string>
+    <string name="one_file_x_folders">1 файл, %1$d тек</string>
+    <string name="x_files_one_folder">%1$d файлів, 1 тека</string>
+    <string name="one_file_one_folder">1 файл, 1 тека</string>
+    <string name="x_files_x_folders">%1$d файлів, %2$d тек</string>
+    <string name="empty">Порожньо</string>
+    <string name="one_folder">1 тека</string>
+    <string name="x_folders">%1$d тек</string>
+    <string name="nickname">Ім\'я користувача</string>
+    <string name="choose_destination">Виберіть призначення…</string>
+    <string name="external_storage">Зовнішня пам\'ять</string>
+    <string name="sdcard_write_warning">Увага: Cabinet не зможе отримати доступ до запису на картку пам\'яті, вы не зможете змінювати файли, якщо не доступний рут.</string>
+    <string name="dont_show_again">Не показувати знову</string>
+    <string name="pick_ringtone">Обрати аудіофайл…</string>
+    <string name="not_audio_file">Ви повинні обрати аудіофайл.</string>
+    <string name="cabinet_audio_preview">Музичний Плеєр Cabinet</string>
+    <string name="add_homescreen_shortcut">Додати на робочий стіл</string>
+    <string name="shortcut_added">Ярлик створено в %1$s</string>
+    <string name="shortcut_nickname">Назва ярлика</string>
+    <string name="add">Додати</string>
+    <string name="x_free_of_x">%1$s вільно з %2$s</string>
+    <string name="hide_add_external_confirm"><![CDATA[
+        Ви хочете сховати опцію <b>Додати зовнішню пам\'ять</b>? Ви можете повернути її в налаштуваннях. 
+    ]]></string>
+    <string name="hide_root_confirm"><![CDATA[
+        Ви хочете сховати закладку  <b>Root</b>? Ви можете повернути її в налаштуваннях. 
+    ]]></string>
+    <string name="helpandfeedback_title">Допомога та відгук</string>
+    <string name="help_and_feedback_body"><![CDATA[
+        <b>Cabinet %1$s</b>. Мінімалістичний, інтуїтивно-зрозумілий та просто гарний файловий менеджер для Android 4.0 та вище.<br/><br/>
+        Розробник <b>Aidan Follestad</b>.<br/>
+        <a href=\'http://aidanfollestad.com\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+AidanFollestad\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a><br/><br/>
+       Перекладіть Cabinet на вашу рідну мову: <a href=\'http://cabinet.oneskyapp.com\'>http://cabinet.oneskyapp.com</a>.<br/><br/>
+      Повідомте про недоліки та запропонуйте нові функції : <a href=\'https://github.com/afollestad/cabinet-issue-tracker/issues\'>https://github.com/afollestad/cabinet-issue-tracker/issues</a>.
+    ]]></string>
+    <string name="archive_format">Формат архіву</string>
+    <string name="auto_extract_prompt">Можливо переглядати лише архіви формату ZIP, TAR та RAR. Чи бажаєте
+ видобути файли з цього архіву?</string>
+    <string name="auto_extract">Автоматичне видобування</string>
+    <string name="add_document_tree_path">Додати зовнішню пам\'ять…</string>
+    <string name="external_storage_hint">Примітка: можливо потрібно буде обрати опцію \"Відобразити карту SD\" у спливаючому  меню.</string>
+    <string name="nav_drawer">Бокове меню</string>
+    <string name="save_to">Зберегти до…</string>
+    <string name="failed_open_plugin_file">Не вдалось відкрити цей плагін: %1$s</string>
+    <string name="saved_x">%1$s збережено</string>
+    <string name="failed_chmod_file">Не вдалось змінити права на цей файл: %1$s</string>
+    <string name="failed_upload_plugin_archive">Не вдалось вивантажити новостворений архів плагіну: %1$s</string>
+    <string name="connecting">З\'єднання…</string>
+    <string name="downloading_file"><![CDATA[
+        Завантаження <b>%1$s</b>…
+    ]]></string>
+    <string name="failed_read_file_error"><![CDATA[
+        Помилка при читанні <b>%1$s</b>: %2$s 
+    ]]></string>
+    <string name="switcher_add_account">Додати аккаунт</string>
+    <string name="uninstall_plugin">Видалити плагін</string>
+    <string name="remove_account">Прибрати аккаунт</string>
+    <string name="remove_plugin_account_prompt"><![CDATA[
+        Ви хочете прибрати <b>%1$s</b> з <b>%2$s</b>? 
+    ]]></string>
+    <string name="contacting_plugin">Приєдную плагін…</string>
+    <string name="switch_accounts">Змінити аккаунт</string>
+    <string name="switching_to_x"><![CDATA[
+        Змінюю на <b>%1$s</b>…
+    ]]></string>
+    <string name="plugin_settings">Налаштування плагіна</string>
+    <string name="account_settings">Налаштування аккаунта</string>
+    <string name="no_accounts">Нема аккаунтів</string>
+    <string name="no_accounts_prompt"><![CDATA[
+        До <b>%1$s</b> не було додано аккаунтів. Ви хочете додати зараз? 
+    ]]></string>
+    <!-- Settings -->
+    <string name="remember_last_folder">Запам\'ятати останню папку</string>
+    <string name="remember_lastfolder_setting">Пам\'ятати останню відкриту папку</string>
+    <string name="directory_count_list">Відображення кількості файлів.</string>
+    <string name="directory_count_list_setting">Відображати кількість файлів і папок у списку</string>
+    <string name="directory_count_appbar">Число файлів каталогу в рядку стастусу</string>
+    <string name="directory_count_appbar_setting">Відображати кількість файлів і папок у відкритій папці</string>
+    <string name="collapsing_appbar">Рядок статусу, що приховується</string>
+    <string name="collapsing_appbar_setting">Згортати панель додатку при скролінгу вниз</string>
+    <string name="show_root_bookmark">Показувати Root закладку</string>
+    <string name="show_root_bookmark_setting">Відображати Root-закладку у верхній частині бокового меню</string>
+    <string name="show_add_external_bookmark">Відобразити опцію \"Додати зовнішню пам\'ять\"</string>
+    <string name="show_add_external_bookmark_setting">Відображати опцію \"Додати зовнішній пристрій\" у боковому меню.</string>
+    <string name="show_free_space">Показувати вільний місце</string>
+    <string name="show_free_space_setting">Відображати об\'єм вільної пам\'яті в боковому меню</string>
+    <string name="colored_navbar">Зафарбована Панель навігації</string>
+    <string name="colored_navbar_setting">Оберіть основний колір теми для панелі навігації</string>
+    <string name="load_thumbnails">Загрузити мініатюри.</string>
+    <string name="load_thumbnails_setting">Відображати ескізи зображень, відеофайлів та APK</string>
+    <string name="primary_color">Основний колір</string>
+    <string name="primary_color_settingdesc">Оберіть основний колір теми</string>
+    <string name="accent_color">Колір Акценту</string>
+    <string name="accent_color_settingdesc">Оберіть колір акценту</string>
+    <string name="thumbnail_color">Колір мініатюр</string>
+    <string name="thumbnail_color_settingdesc">Оберіть колір мініатюр файлів та папок</string>
+    <string name="only_available_api21">Ця функція працює лише на Android Lollipop та вище</string>
+    <string name="symlink">Посилання</string>
+    <string name="back">Назад</string>
+    <string name="permission_needed">Необхідні дозволи</string>
+    <string name="remove">Видалити</string>
+</resources>

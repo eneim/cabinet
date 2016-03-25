@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/listFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/list_fab_offset"
+            android:paddingLeft="@dimen/recyclerview_side_padding"
+            android:paddingRight="@dimen/recyclerview_side_padding"
+            android:scrollbars="none" />
+
+        <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
+            android:id="@+id/fastScroller"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            tools:visibility="gone" />
+
+        <LinearLayout
+            android:id="@android:id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            tools:ignore="RelativeOverlap">
+
+            <ImageView
+                android:id="@+id/emptyImage"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:scaleType="fitXY"
+                android:src="?empty_image"
+                tools:ignore="ContentDescription" />
+
+            <!--suppress AndroidDomInspection -->
+            <TextView
+                android:id="@+id/emptyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@string/font_fontFamily_medium"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:paddingBottom="16dp"
+                android:text="@string/no_files"
+                android:textColor="?empty_text"
+                android:textSize="@dimen/empty_text_size"
+                android:textStyle="@integer/font_textStyle_medium"
+                tools:ignore="UnusedAttribute" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@android:id/progress"
+        style="?android:progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateOnly="true" />
+
+</RelativeLayout>
